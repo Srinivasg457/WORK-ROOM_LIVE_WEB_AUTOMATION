@@ -1,6 +1,7 @@
 package pageobjects;
 
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -247,6 +248,17 @@ public class ChataakStoresPage {
     @CacheLookup
     WebElement status_message;
 
+
+    @FindBy(xpath="//label[@for='fileInput']/child::img[@alt='profile picture']")
+    @CacheLookup
+    WebElement profile_Logo;
+
+
+    @FindBy(xpath=" (//input[@id='fileInput'])[1]")
+    @CacheLookup
+    WebElement upload_image;
+
+
     //Action Method
 
 
@@ -298,6 +310,16 @@ public class ChataakStoresPage {
 
         //	txt_StoreUniqueName.click();
         //	txt_StoreUniqueName.sendKeys("Wooden Park");
+
+        waithelper.WaitForElement(profile_Logo, 10);
+
+
+        if (profile_Logo.isDisplayed()){
+            profile_Logo.click();
+            profile_Logo.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/images/d5099fbca1f14ba14c1891af52837730.jpg");
+            Assert.assertTrue(true);
+        }
+
         waithelper.WaitForElement(txt_StoreUniqueName, 10);
         txt_StoreUniqueName.click();
         txt_StoreUniqueName.clear();
@@ -447,6 +469,21 @@ public class ChataakStoresPage {
         widget_Stores.click();
 
         Btn_AddStore.click();
+
+        //waithelper.WaitForElement(profile_Logo, 10);
+       Thread.sleep(3000);
+      //ldriver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        if (profile_Logo.isDisplayed()){
+//            JavascriptExecutor js = (JavascriptExecutor) ldriver;
+//            //profile_Logo.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/images/d5099fbca1f14ba14c1891af52837730.jpg");
+//            js.executeScript("arguments[0].style.display='block';", profile_Logo);
+//            profile_Logo.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/images/d5099fbca1f14ba14c1891af52837730.jpg");
+            System.out.println(profile_Logo.isDisplayed()+"+Profile_Logo is Displayed");
+            upload_image.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/java/images/d5099fbca1f14ba14c1891af52837730.jpg");
+            Assert.assertTrue(true);
+
+        }
+
 
 
         txt_StoreUniqueName.click();

@@ -3,21 +3,38 @@ package stepDefinations;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import pageobjects.ChataakLoginPage;
+import pageobjects.ChataakSignUpPage;
 import pageobjects.ChataakStoresPage;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Chataaksteps {
 
     WebDriver driver;
     ChataakLoginPage lp;
     ChataakStoresPage sp;
+    ChataakSignUpPage signUppage;
     @Given("the user launches the Chrome browser")
     public void the_user_launches_the_chrome_browser() {
       System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver-linux64/chromedriver");
-        driver=new ChromeDriver(); //launches the Chrome Driver
+      ChromeOptions options=new ChromeOptions();
+        // Disable "Save Password" popup
+        Map<String, Object> prefs = new HashMap<>();
+        prefs.put("credentials_enable_service", false);
+        prefs.put("profile.password_manager_enabled", false);
+
+        options.setExperimentalOption("prefs", prefs);
+      options.addArguments("--remote-allow-origins=*");
+      options.setExperimentalOption("excludeSwitches",new String[]{"enable-automation"});
+      options.setExperimentalOption("useAutomationExtension",false);
+        driver=new ChromeDriver(options); //launches the Chrome Driver
         driver.manage().window().maximize();
         lp= new ChataakLoginPage(driver);
         sp=new ChataakStoresPage(driver);
+        signUppage=new ChataakSignUpPage(driver);
     }
 
     @Given("the user navigates to the login page with the URL {string}")
@@ -54,6 +71,61 @@ public class Chataaksteps {
         sp.Addstore();
         sp.status();
     }
+
+
+
+
+
+    //user Sign Up Page
+    @Given("the user navigates to the SignUp page with the URL {string}")
+    public void the_user_navigates_to_the_sign_up_page_with_the_url(String SignUpPageUrl) {
+      driver.get(SignUpPageUrl);
+    }
+    @Given("User Fills the Sign Up form")
+    public void user_fills_the_sign_up_form() {
+        signUppage.organizationName();
+        signUppage.YourName();
+        signUppage.YourEmail();
+        signUppage.ContactNumber();
+        signUppage.YourDesignation();
+        signUppage.OrganizationType();
+        signUppage.CountryDropDown();
+        signUppage.termsandConditions();
+    }
+    @Given("Click on the Submit Your Interest Form")
+    public void click_on_the_submit_your_interest_form() {
+        signUppage.SubmitYourInterest();
+
+    }
+    @Then("the SignUp Page Status message will be seen")
+    public void the_sign_up_page_status_message_will_be_seen() {
+       // signUppage.status();
+        signUppage.SignUpPageStatus();
+        signUppage.backtoLogin();
+    }
+
+    //here user Doest Click the Terms and Conditions Check Box
+    @Given("User fill the Sign Up form But Doest Click the privacy policy check box")
+    public void user_fill_the_sign_up_form_but_doest_click_the_privacy_policy_check_box() {
+        signUppage.organizationName();
+        signUppage.YourName();
+        signUppage.YourEmail();
+        signUppage.ContactNumber();
+        signUppage.YourDesignation();
+        signUppage.OrganizationType();
+        signUppage.CountryDropDown();
+    }
+
+    @Then("the SignUp Page Status message will be seen as Please agree to the privacy policy and terms.")
+    public void the_sign_up_page_status_message_will_be_seen_as_please_agree_to_the_privacy_policy_and_terms() {
+        signUppage.SignUpPageStatus();
+    }
+
+    @Then("the SignUp Page Status message will be seen as Organization already exists with email")
+    public void the_sign_up_page_status_message_will_be_seen_as_organization_already_exists_with_email() {
+        signUppage.SignUpPageStatus();
+    }
+
 
 
 
