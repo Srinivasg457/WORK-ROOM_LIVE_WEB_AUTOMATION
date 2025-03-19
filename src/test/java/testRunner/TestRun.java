@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "html:target/cucumber-reports.html", // HTML Report
                 "json:target/cucumber-reports/cucumber.json", // JSON Report
-//                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" // Extent Reports
+                  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" // Extent Reports
         },
         monochrome = true
 

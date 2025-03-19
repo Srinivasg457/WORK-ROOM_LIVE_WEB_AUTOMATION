@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.WaitHelper;
 
+import static stepDefinations.BaseClass.randomNumber;
 import static stepDefinations.BaseClass.randomString;
 
 public class ChataakSignUpPage {
@@ -121,7 +122,7 @@ ldriver=rdriver;
         waitHelper.WaitForElement(num_ContactNumber,10);
         num_ContactNumber.click();
         num_ContactNumber.clear();
-        num_ContactNumber.sendKeys("3456723456");
+        num_ContactNumber.sendKeys(randomNumber());
     }
 
 
