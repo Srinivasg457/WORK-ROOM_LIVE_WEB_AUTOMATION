@@ -12,6 +12,7 @@ public class WaitHelper {
     public WebDriver driver;
 
     public WaitHelper(WebDriver driver){
+
         this.driver = driver;
     }
 

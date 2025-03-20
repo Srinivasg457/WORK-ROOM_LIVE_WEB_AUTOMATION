@@ -1,5 +1,7 @@
 package stepDefinations;
 
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 import org.apache.log4j.Level;
@@ -20,8 +22,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-
-
+import io.cucumber.java.Scenario;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.OutputType;
 public class Chataaksteps extends BaseClass {
 
 @Before
@@ -93,6 +96,33 @@ public void setup() throws IOException {
 
 
 }
+
+
+    @After
+    public void addScreenshot(Scenario scenario) {
+        if (scenario.isFailed()) {
+            try {
+                // Ensure WebDriver is initialized
+                if (driver == null) {
+                    System.out.println("WebDriver is null! Screenshot cannot be taken.");
+                    return;
+                }
+
+                // Capture Screenshot as Bytes
+                TakesScreenshot ts = (TakesScreenshot) driver;
+                byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
+
+                // Attach screenshot to Cucumber Report
+                scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
+
+            } catch (Exception e) {
+                System.out.println("⚠️ Failed to capture screenshot: " + e.getMessage());
+            }
+        }
+    }
+
+
+
 
 
 

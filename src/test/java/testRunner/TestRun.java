@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/java/Features",
+        features = "/home/limitscale/Documents/CurrentProject/Live_ChataakProjectWebautomation/src/test/java/Features/ChataakAddStore.feature",
         glue = "stepDefinations",
         dryRun = false,
         plugin = {
