@@ -1,7 +1,6 @@
 package stepDefinations;
 
 import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 import org.apache.log4j.Level;
@@ -32,18 +31,16 @@ public void setup() throws IOException {
 
     // Reading the properties file
     configprop = new Properties();
-    FileInputStream configProfile = new FileInputStream("/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/resources/config.properties");
+    String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
+    FileInputStream configProfile = new FileInputStream(configPath);
     configprop.load(configProfile);
 
 
     // Logger setup
     logger = Logger.getLogger("ChataakWebApplication");
-    PropertyConfigurator.configure("/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/resources/log4j.properties");
+    String log4jPath = System.getProperty("user.dir") + "/src/test/resources/log4j.properties";
+    PropertyConfigurator.configure(log4jPath);
     logger.setLevel(Level.DEBUG);
-    logger.info("************* Launching Browser *****************");
-
-//    System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
-//    driver = new FirefoxDriver();
 
 
     String br=configprop.getProperty("browser"); //getting the browser name from config.properties file
@@ -55,6 +52,8 @@ public void setup() throws IOException {
     }
 
     else if (br.equals("chrome")) {
+
+        logger.info("************* Launching CHROME Browser *****************");
         // Chrome options setup
         ChromeOptions options = new ChromeOptions();
 
@@ -74,7 +73,7 @@ public void setup() throws IOException {
 
     else if (br.equals("msedge")) {
 
-
+        logger.info("************* Launching EDGE Browser *****************");
         // Create Edge Options
         EdgeOptions options = new EdgeOptions();
         options.addArguments("useAutomationExtension=false");
@@ -130,7 +129,7 @@ public void setup() throws IOException {
 
 
     @Given("the user launches the Chrome browser")
-    public void the_user_launches_the_chrome_browser() {
+    public void the_user_launches_the_chrome_browser() throws IOException {
 
         lp= new ChataakLoginPage(driver);
         sp=new ChataakStoresPage(driver);

@@ -540,7 +540,7 @@ public class ChataakStoresPage {
     public void status(){
 
         waithelper.WaitForElement(status_message, 10);
-        String ExpectedStatus="The store name already exists in your organization. Please choose unique name to continue";
+        String ExpectedStatus="The store name already exists in your organization. Please choose unique name to continue.";
         String ActualStatus=status_message.getText();
         if(ActualStatus.equals(ExpectedStatus)){
             Assert.assertTrue(true);

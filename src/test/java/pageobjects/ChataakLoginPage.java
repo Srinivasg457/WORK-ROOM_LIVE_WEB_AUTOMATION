@@ -1,6 +1,7 @@
 package pageobjects;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -8,19 +9,27 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.WaitHelper;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 public class ChataakLoginPage {
     public WebDriver ldriver;
     WaitHelper waitHelper;
+    public Properties configprop;
 
-    public ChataakLoginPage(WebDriver rdriver){
+    public ChataakLoginPage(WebDriver rdriver) throws IOException {
         ldriver=rdriver;
         PageFactory.initElements(rdriver,this);
         waitHelper=new WaitHelper(ldriver);
 
+        configprop = new Properties();
+        FileInputStream configProfile = new FileInputStream("/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/resources/config.properties");
+        configprop.load(configProfile);
     }
 
     //xpath identification
-    @FindBy(xpath=" //a[normalize-space()='Create here a free trial']")
+    @FindBy(xpath="//a[normalize-space()='Create here a free trial']")
     @CacheLookup
     WebElement ClickLink_SignUpLink;
 
@@ -28,6 +37,7 @@ public class ChataakLoginPage {
     @FindBy(xpath="//input[@placeholder='johndoe@example.com']")
     @CacheLookup
     WebElement txtEmail;
+
 
     @FindBy(xpath="//input[@placeholder='Password']")
     @CacheLookup
