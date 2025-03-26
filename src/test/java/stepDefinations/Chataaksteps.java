@@ -90,6 +90,13 @@ public void setup() throws IOException {
 //        prefs.put("profile.password_manager_enabled", false);
 
 //        options.setExperimentalOption("prefs", prefs);
+        try {
+            Runtime.getRuntime().exec("pkill -f msedge");
+        } catch (IOException e) {
+            System.out.println("No Edge instances were running.");
+        }
+
+
         System.setProperty("webdriver.edge.driver",configprop.getProperty("microsoftedgepath"));
         driver = new EdgeDriver(); // Launch Edge
     }
