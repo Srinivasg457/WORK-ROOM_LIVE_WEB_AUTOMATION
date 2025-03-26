@@ -57,7 +57,7 @@ public void setup() throws IOException {
 
         logger.info("************* Launching CHROME Browser *****************");
         // Chrome options setup
-        ChromeOptions options = new ChromeOptions();
+     //   ChromeOptions options = new ChromeOptions();
 
         // Disable "Save Password" popup
 //        Map<String, Object> prefs = new HashMap<>();
@@ -70,7 +70,7 @@ public void setup() throws IOException {
 //        options.setExperimentalOption("useAutomationExtension", false);
 
         System.setProperty("webdriver.chrome.driver",configprop.getProperty("chromepath"));
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
     }
 
     else if (br.equals("msedge")) {
