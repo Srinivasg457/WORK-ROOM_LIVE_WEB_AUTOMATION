@@ -31,8 +31,6 @@ public class Chataaksteps extends BaseClass {
 
 @Before
 public void setup() throws IOException {
-    System.setProperty("webdriver.edge.driver","Drivers/msedgedriver");
-    driver = new EdgeDriver();
     // Reading the properties file
     configprop = new Properties();
     String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
@@ -72,8 +70,6 @@ public void setup() throws IOException {
 //        options.setExperimentalOption("useAutomationExtension", false);
 
         System.setProperty("webdriver.chrome.driver",configprop.getProperty("chromepath"));
-
-
         driver = new ChromeDriver();
     }
 
@@ -92,16 +88,8 @@ public void setup() throws IOException {
 //        prefs.put("profile.password_manager_enabled", false);
 
 //        options.setExperimentalOption("prefs", prefs);
-        try {
-            Runtime.getRuntime().exec("pkill -f msedge");
-        } catch (IOException e) {
-            System.out.println("No Edge instances were running.");
-        }
-
-        EdgeOptions options = new EdgeOptions();
-        options.addArguments("--user-data-dir=/tmp/edge-user-data-" + System.currentTimeMillis());
         System.setProperty("webdriver.edge.driver",configprop.getProperty("microsoftedgepath"));
-        driver = new EdgeDriver(options); // Launch Edge
+        driver = new EdgeDriver(); // Launch Edge
     }
     // Maximize the browser window
     logger.info("************* Browser Launched and Maximized *****************");
@@ -129,7 +117,7 @@ public void setup() throws IOException {
                 scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
 
             } catch (Exception e) {
-                System.out.println("⚠️ Failed to capture screenshot: " + e.getMessage());
+                System.out.println("Failed to capture screenshot: " + e.getMessage());
             }
         }
     }
