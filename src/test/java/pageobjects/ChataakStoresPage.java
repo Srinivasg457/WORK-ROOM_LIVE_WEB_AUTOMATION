@@ -316,7 +316,8 @@ public class ChataakStoresPage {
 
         if (profile_Logo.isDisplayed()){
             profile_Logo.click();
-            profile_Logo.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/images/d5099fbca1f14ba14c1891af52837730.jpg");
+            String filePath = System.getProperty("user.dir") + "/src/test/java/images/d5099fbca1f14ba14c1891af52837730.jpg";
+            profile_Logo.sendKeys(filePath);
             Assert.assertTrue(true);
         }
 
@@ -540,7 +541,7 @@ public class ChataakStoresPage {
     public void status(){
 
         waithelper.WaitForElement(status_message, 10);
-        String ExpectedStatus="The store name already exists in your organization. Please choose unique name to continue.";
+        String ExpectedStatus="The store name already exists in your organization. Please choose unique name to continue";
         String ActualStatus=status_message.getText();
         if(ActualStatus.equals(ExpectedStatus)){
             Assert.assertTrue(true);

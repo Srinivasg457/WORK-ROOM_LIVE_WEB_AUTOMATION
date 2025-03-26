@@ -1,143 +1,149 @@
-2025-03-20 05:35:55,245 - ChataakWebApplication -INFO - ************* Launching Browser *****************
-2025-03-20 05:35:56,243 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 05:35:56,372 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 05:36:00,696 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 05:36:00,921 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 05:36:05,084 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 05:36:05,245 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 05:36:06,936 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 05:57:10,995 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 05:57:12,129 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 05:57:12,246 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 05:57:17,267 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 05:57:17,544 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 05:57:21,740 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 05:57:21,846 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 05:57:23,646 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:21:25,382 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:21:26,421 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:21:26,541 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:21:51,111 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:21:51,347 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:21:55,528 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:21:55,656 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:22:06,873 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:22:07,597 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:22:07,622 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:22:11,895 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:22:12,403 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:22:16,646 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:22:16,784 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:22:25,562 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:22:25,702 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:22:26,558 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:22:26,609 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:22:56,449 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:22:56,653 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:23:00,832 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:23:00,971 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:23:02,080 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:23:02,214 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:23:02,792 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:23:02,841 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:23:28,434 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:23:28,658 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:23:32,841 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:23:32,991 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:23:34,685 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:25:38,463 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:25:39,541 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:25:39,652 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:25:52,564 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:25:52,796 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:25:56,978 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:25:57,174 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:25:58,375 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:25:58,511 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:25:59,162 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:25:59,198 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:26:02,602 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:26:02,995 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:26:07,168 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:26:07,356 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:26:09,084 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:26:09,267 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:26:09,965 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:26:10,009 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:26:19,351 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:26:19,680 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:26:23,839 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:26:24,033 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:26:25,153 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:26:25,321 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:26:25,986 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:26:26,048 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:26:33,708 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:26:33,947 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:26:38,120 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:26:38,274 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:26:40,565 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:51:45,616 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:51:46,693 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:51:46,787 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:51:56,915 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:51:57,203 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:52:01,417 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:52:01,602 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:52:03,353 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:52:03,509 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:52:04,348 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:52:04,379 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:52:09,188 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:52:09,432 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:52:13,614 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:52:13,769 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:52:15,535 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:52:15,689 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:52:16,343 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:52:16,384 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:52:20,057 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:52:20,261 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:52:24,438 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:52:24,642 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:52:25,755 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 06:52:25,872 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 06:52:26,557 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 06:52:26,649 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 06:52:40,045 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 06:52:40,276 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 06:52:44,452 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 06:52:44,594 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 06:52:46,339 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 08:12:52,780 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 08:12:54,064 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 08:12:54,171 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 08:12:59,227 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 08:12:59,628 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 08:13:03,802 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 08:13:03,966 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 08:13:05,628 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 08:13:05,780 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 08:13:06,396 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 08:13:06,450 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 08:13:11,748 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 08:13:12,000 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 08:13:16,192 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 08:13:16,359 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 08:13:17,551 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 08:13:17,719 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 08:13:18,366 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 08:13:18,426 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 08:13:23,086 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 08:13:23,440 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 08:13:27,611 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 08:13:27,770 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 08:13:29,038 - ChataakWebApplication -INFO - ************* Close The Browser *****************
-2025-03-20 08:13:29,208 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-20 08:13:29,816 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-20 08:13:29,843 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-20 08:13:35,283 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-20 08:13:35,534 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-20 08:13:39,716 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-20 08:13:39,905 - ChataakWebApplication -INFO - ************* Check The Application Status Message *****************
-2025-03-20 08:13:41,574 - ChataakWebApplication -INFO - ************* Close The Browser *****************
+2025-03-21 00:46:24,531 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 00:46:25,646 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 00:46:25,795 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 00:46:29,197 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 00:46:29,619 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 00:46:33,795 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 00:46:33,971 - ChataakWebApplication -INFO - ************* Adding The Store information *****************
+2025-03-21 00:46:51,075 - ChataakWebApplication -INFO - ************* Checking The Added Store Confirmation Message *****************
+2025-03-21 01:42:00,277 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 01:42:01,288 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 01:42:01,401 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 01:42:04,828 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 01:42:05,089 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 01:42:09,292 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 01:44:51,298 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 01:44:52,325 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 01:44:52,467 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 01:44:57,106 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 01:44:57,353 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 01:45:01,525 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 01:46:53,834 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 01:46:54,866 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 01:46:54,977 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 01:47:00,084 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 01:47:00,415 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 01:47:04,579 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 02:43:49,721 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 02:43:51,101 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 02:43:58,825 - ChataakWebApplication -INFO - ************* Enter Organization Name*****************
+2025-03-21 02:43:59,221 - ChataakWebApplication -INFO - ************* Enter Your Name *****************
+2025-03-21 02:43:59,417 - ChataakWebApplication -INFO - ************* Enter Your Email *****************
+2025-03-21 02:43:59,673 - ChataakWebApplication -INFO - ************* Enter Contact Number *****************
+2025-03-21 02:43:59,855 - ChataakWebApplication -INFO - ************* Enter Your Designation *****************
+2025-03-21 02:44:00,010 - ChataakWebApplication -INFO - ************* Select Organization Type *****************
+2025-03-21 02:44:00,224 - ChataakWebApplication -INFO - ************* Select Country from Dropdown *****************
+2025-03-21 02:44:00,730 - ChataakWebApplication -INFO - ************* Accept Terms and Conditions *****************
+2025-03-21 02:44:00,840 - ChataakWebApplication -INFO - ************* click on submit Your Interest Button *****************
+2025-03-21 02:44:00,971 - ChataakWebApplication -INFO - ************* Sign up Page Status 'the SignUp Page Status message will be seen as Organization already exists with email' *****************
+2025-03-21 03:25:10,069 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 03:25:11,122 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 04:08:38,909 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 04:08:40,062 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 04:10:32,257 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 04:10:33,329 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 04:15:04,135 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 04:15:05,130 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 04:19:34,869 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 04:19:35,933 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 04:21:55,171 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 04:21:56,239 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 04:21:56,345 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 04:22:06,595 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 04:22:06,928 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 04:22:11,088 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 07:43:30,379 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 07:43:32,744 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 07:43:32,852 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 07:43:38,031 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 07:43:38,805 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 07:43:43,371 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 07:50:17,269 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 07:50:19,006 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 07:51:05,712 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 07:51:07,461 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 07:51:36,875 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 07:51:38,749 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 07:56:29,818 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 07:56:31,617 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:00:14,698 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:00:16,445 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:00:16,581 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 08:00:23,548 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 08:00:24,180 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 08:00:28,462 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 08:02:54,943 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:02:56,736 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:06:35,950 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:06:37,688 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:07:09,048 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:07:10,829 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:07:56,283 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:07:57,983 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:07:58,122 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 08:08:05,254 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 08:08:05,756 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 08:08:10,205 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 08:09:42,276 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:09:43,998 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:09:44,122 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 08:09:48,404 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 08:09:48,948 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 08:09:53,413 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 08:22:09,322 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:22:11,129 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:22:11,266 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 08:22:16,380 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 08:22:16,908 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 08:22:21,281 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 08:27:18,715 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:27:20,521 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:27:20,654 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 08:27:23,896 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 08:27:24,688 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 08:27:29,013 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 08:49:08,228 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:49:10,087 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:49:10,189 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 08:49:16,822 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 08:49:17,347 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 08:49:21,849 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 08:50:27,669 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:50:29,456 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:50:29,586 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 08:50:45,510 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 08:50:46,001 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 08:50:50,469 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-21 08:57:02,924 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-21 08:57:04,618 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-21 08:57:04,742 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-21 08:57:09,277 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-21 08:57:09,773 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-21 08:57:14,063 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-25 23:28:40,587 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-25 23:28:41,871 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-25 23:28:42,000 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-25 23:30:42,487 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-25 23:30:42,809 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-25 23:30:46,961 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-26 00:16:23,574 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-26 00:16:24,671 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-26 00:16:24,798 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-26 00:18:48,877 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-26 00:18:49,114 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-26 00:18:53,275 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-26 02:45:52,698 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-26 02:45:54,809 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-26 02:45:54,997 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-26 02:46:04,542 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-26 02:46:04,963 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-26 02:46:09,468 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-26 02:47:09,840 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-26 02:47:11,957 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-26 02:47:12,117 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-03-26 02:48:00,723 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-03-26 02:48:02,777 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-03-26 02:48:07,388 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-03-26 03:16:22,570 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-03-26 03:16:24,460 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-03-26 03:16:24,646 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************

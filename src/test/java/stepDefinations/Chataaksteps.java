@@ -6,11 +6,13 @@ import io.cucumber.java.en.*;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import pageobjects.ChataakCatalogModulePage;
 import pageobjects.ChataakLoginPage;
 import pageobjects.ChataakSignUpPage;
 import pageobjects.ChataakStoresPage;
@@ -134,6 +136,7 @@ public void setup() throws IOException {
         lp= new ChataakLoginPage(driver);
         sp=new ChataakStoresPage(driver);
         signUppage=new ChataakSignUpPage(driver);
+        catalog=new ChataakCatalogModulePage(driver);
     }
 
     @Given("the user navigates to the login page with the URL {string}")
@@ -251,6 +254,21 @@ public void setup() throws IOException {
         logger.info("************* Sign up Page Status 'the SignUp Page Status message will be seen as Organization already exists with email' *****************");
         signUppage.SignUpPageStatus();
     }
+
+
+
+
+
+    //Catalog Module --> Where we are Performing to add the Products and its related Submodule
+
+    @When("user will perform the actions to add the Category Manager")
+    public void user_will_perform_the_actions_to_add_the_category_manager() throws InterruptedException {
+        catalog.catalogModule();
+    }
+
+
+
+
 
 
 

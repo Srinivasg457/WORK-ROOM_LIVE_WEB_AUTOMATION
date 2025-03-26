@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "/home/limitscale/Documents/CurrentProject/Live_ChataakProjectWebautomation/src/test/java/Features",
+        features = "src/test/java/Features/ChataakAddCatalogProducts.feature",
         glue = "stepDefinations",
         dryRun = false,
-        tags ="@sanity or @regression", // Ensure correct tag syntax,
+       // tags ="@sanity or @regression", // Ensure correct tag syntax,
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports.html", // HTML Report

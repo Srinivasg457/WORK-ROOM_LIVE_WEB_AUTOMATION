@@ -4,6 +4,7 @@ package stepDefinations;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import pageobjects.ChataakCatalogModulePage;
 import pageobjects.ChataakLoginPage;
 import pageobjects.ChataakSignUpPage;
 import pageobjects.ChataakStoresPage;
@@ -18,6 +19,7 @@ public class BaseClass {
     public ChataakSignUpPage signUppage;
     public static Logger logger;
     public Properties configprop;
+    public ChataakCatalogModulePage catalog;
 
 
 
