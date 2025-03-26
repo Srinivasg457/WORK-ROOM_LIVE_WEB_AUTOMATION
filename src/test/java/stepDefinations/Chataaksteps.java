@@ -7,6 +7,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -96,9 +97,10 @@ public void setup() throws IOException {
             System.out.println("No Edge instances were running.");
         }
 
-
+        EdgeOptions options = new EdgeOptions();
+        options.addArguments("--user-data-dir=/tmp/edge-user-data-" + System.currentTimeMillis());
         System.setProperty("webdriver.edge.driver",configprop.getProperty("microsoftedgepath"));
-        driver = new EdgeDriver(); // Launch Edge
+        driver = new EdgeDriver(options); // Launch Edge
     }
     // Maximize the browser window
     logger.info("************* Browser Launched and Maximized *****************");
