@@ -31,7 +31,8 @@ public class Chataaksteps extends BaseClass {
 
 @Before
 public void setup() throws IOException {
-
+    System.setProperty("webdriver.edge.driver","Drivers/msedgedriver");
+    driver = new EdgeDriver();
     // Reading the properties file
     configprop = new Properties();
     String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
