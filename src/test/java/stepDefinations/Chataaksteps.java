@@ -70,6 +70,8 @@ public void setup() throws IOException {
 //        options.setExperimentalOption("useAutomationExtension", false);
 
         System.setProperty("webdriver.chrome.driver",configprop.getProperty("chromepath"));
+
+
         driver = new ChromeDriver();
     }
 
