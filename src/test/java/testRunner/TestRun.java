@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/Features/ChataakAddCatalogProducts.feature",
+        features = "src/test/java/Features/ChataakLogin.feature",
         glue = "stepDefinations",
         dryRun = false,
        // tags ="@sanity or @regression", // Ensure correct tag syntax,
