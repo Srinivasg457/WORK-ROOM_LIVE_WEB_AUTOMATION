@@ -79,19 +79,19 @@ public void setup() throws IOException {
 
         logger.info("************* Launching EDGE Browser *****************");
         // Create Edge Options
-        EdgeOptions options = new EdgeOptions();
-        options.addArguments("useAutomationExtension=false");
-        options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
-        options.addArguments("--remote-allow-origins=*");
+//        EdgeOptions options = new EdgeOptions();
+//        options.addArguments("useAutomationExtension=false");
+//        options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
+//        options.addArguments("--remote-allow-origins=*");
 
         // Disable password save popup
-        Map<String, Object> prefs = new HashMap<>();
-        prefs.put("credentials_enable_service", false);
-        prefs.put("profile.password_manager_enabled", false);
+//        Map<String, Object> prefs = new HashMap<>();
+//        prefs.put("credentials_enable_service", false);
+//        prefs.put("profile.password_manager_enabled", false);
 
-        options.setExperimentalOption("prefs", prefs);
+//        options.setExperimentalOption("prefs", prefs);
         System.setProperty("webdriver.edge.driver",configprop.getProperty("microsoftedgepath"));
-        driver = new EdgeDriver(options); // Launch Edge
+        driver = new EdgeDriver(); // Launch Edge
     }
     // Maximize the browser window
     logger.info("************* Browser Launched and Maximized *****************");
