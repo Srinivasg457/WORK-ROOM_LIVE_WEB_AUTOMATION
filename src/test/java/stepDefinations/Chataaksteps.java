@@ -60,14 +60,14 @@ public void setup() throws IOException {
         ChromeOptions options = new ChromeOptions();
 
         // Disable "Save Password" popup
-        Map<String, Object> prefs = new HashMap<>();
-        prefs.put("credentials_enable_service", false);
-        prefs.put("profile.password_manager_enabled", false);
-        options.setExperimentalOption("prefs", prefs);
-
-        options.addArguments("--remote-allow-origins=*");
-        options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
-        options.setExperimentalOption("useAutomationExtension", false);
+//        Map<String, Object> prefs = new HashMap<>();
+//        prefs.put("credentials_enable_service", false);
+//        prefs.put("profile.password_manager_enabled", false);
+//        options.setExperimentalOption("prefs", prefs);
+//
+//        options.addArguments("--remote-allow-origins=*");
+//        options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+//        options.setExperimentalOption("useAutomationExtension", false);
 
         System.setProperty("webdriver.chrome.driver",configprop.getProperty("chromepath"));
         driver = new ChromeDriver(options);
