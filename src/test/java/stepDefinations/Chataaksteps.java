@@ -77,19 +77,6 @@ public void setup() throws IOException {
     else if (br.equals("chrome")) {
 
         logger.info("************* Launching CHROME Browser *****************");
-        // Chrome options setup
-     //   ChromeOptions options = new ChromeOptions();
-
-        // Disable "Save Password" popup
-//        Map<String, Object> prefs = new HashMap<>();
-//        prefs.put("credentials_enable_service", false);
-//        prefs.put("profile.password_manager_enabled", false);
-//        options.setExperimentalOption("prefs", prefs);
-//
-//        options.addArguments("--remote-allow-origins=*");
-//        options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
-//        options.setExperimentalOption("useAutomationExtension", false);
-
         System.setProperty("webdriver.chrome.driver",configprop.getProperty("chromepath"));
         driver = new ChromeDriver();
     }
@@ -97,12 +84,8 @@ public void setup() throws IOException {
     else if (br.equals("msedge")) {
 
         logger.info("************* Launching EDGE Browser *****************");
-        // Create Edge Options
-        EdgeOptions options = new EdgeOptions();
-        options.addArguments("--user-data-dir=" + userDataDir);
-
         System.setProperty("webdriver.edge.driver",configprop.getProperty("microsoftedgepath"));
-        driver = new EdgeDriver(options); // Launch Edge
+        driver = new EdgeDriver(); // Launch Edge
     }
     // Maximize the browser window
     logger.info("************* Browser Launched and Maximized *****************");
