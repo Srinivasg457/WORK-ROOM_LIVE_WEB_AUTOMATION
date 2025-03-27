@@ -33,7 +33,7 @@ public class Chataaksteps extends BaseClass {
 public void setup() throws IOException {
     // Reading the properties file
     configprop = new Properties();
-    String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
+    String configPath = System.getProperty("user.dir") + "target/test-classes/config.properties";
     FileInputStream configProfile = new FileInputStream(configPath);
     configprop.load(configProfile);
 
