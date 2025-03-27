@@ -18,7 +18,9 @@ import pageobjects.ChataakLoginPage;
 import pageobjects.ChataakSignUpPage;
 import pageobjects.ChataakStoresPage;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -33,9 +35,26 @@ public class Chataaksteps extends BaseClass {
 public void setup() throws IOException {
     // Reading the properties file
     configprop = new Properties();
-    String configPath = System.getProperty("user.dir") + "target/test-classes/config.properties";
-    FileInputStream configProfile = new FileInputStream(configPath);
-    configprop.load(configProfile);
+   // String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
+//   String configPath=System.getProperty("/home/limitscale/Documents/CurrentProject/Live_ChataakProjectWebautomation/src/test/resources/config.properties");
+//    FileInputStream configProfile = new FileInputStream(configPath);
+//    configprop.load(configProfile);
+
+    // Correct way to construct the path
+    //String configPath = "/home/limitscale/Documents/CurrentProject/Live_ChataakProjectWebautomation/src/test/resources/config.properties";
+    String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
+// Validate if the file exists
+    File configFile = new File(configPath);
+    if (!configFile.exists()) {
+        throw new FileNotFoundException("Configuration file not found at: " + configPath);
+    }
+
+// Load the properties file
+    try (FileInputStream configProfile = new FileInputStream(configFile)) {
+        configprop.load(configProfile);
+    } catch (IOException e) {
+        e.printStackTrace(); // Handle or log the exception properly
+    }
 
 
     // Logger setup
@@ -89,10 +108,10 @@ public void setup() throws IOException {
 
 //        options.setExperimentalOption("prefs", prefs);
 
-        EdgeOptions options = new EdgeOptions();
-        options.addArguments("--headless=new");
+//        EdgeOptions options = new EdgeOptions();
+//        options.addArguments("--headless=new");
         System.setProperty("webdriver.edge.driver",configprop.getProperty("microsoftedgepath"));
-        driver = new EdgeDriver(options); // Launch Edge
+        driver = new EdgeDriver(); // Launch Edge
     }
     // Maximize the browser window
     logger.info("************* Browser Launched and Maximized *****************");
