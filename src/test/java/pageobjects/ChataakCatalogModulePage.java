@@ -9,9 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import stepDefinations.BaseClass;
 import utilities.WaitHelper;
-
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -62,25 +60,98 @@ public class ChataakCatalogModulePage extends BaseClass {
     By Button_AddButton=By.xpath(configprop.getProperty("button_AddButton"));
     By catagory_logo=By.xpath(configprop.getProperty("catagory_image"));
     By image_catogory=By.xpath(configprop.getProperty("catagory_UploadImage"));
+    By  category_name=By.xpath(configprop.getProperty("category_name"));
+    By category_Description=By.xpath(configprop.getProperty("category_Description"));
+    By category_label=By.xpath(configprop.getProperty("category_label"));
+    By category_SubmitButton=By.xpath(configprop.getProperty("category_SubmitButton"));
+    By category_Status=By.xpath(configprop.getProperty("category_Status"));
 
 
 
 
-  //Actions Method
+
+
+
+    //Actions Method
     public void catalogModule() throws InterruptedException {
         ldriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Thread.sleep(5000);
         ldriver.findElement(link_Catalog).click();
-        ldriver.findElement(catalog_CategoryManager ).click();
-        ldriver.findElement(Button_AddButton ).click();
-
-        if(ldriver.findElement(catagory_logo).isDisplayed()){
+        ldriver.findElement(catalog_CategoryManager).click();
+        ldriver.findElement(Button_AddButton).click();
+        Thread.sleep(2000);
+        WebElement logo = ldriver.findElement(catagory_logo);
+        waithelper.WaitForElement(logo, 10);
+        if (logo.isDisplayed()) {
             System.out.println("Profile_Logo is Displayed");
             String filePath = System.getProperty("user.dir") + "/src/test/java/images/LC2D09P7_Image_369.jpg";
-          // waithelper.WaitForElement(ldriver.findElement(image_catogory),10);
             ldriver.findElement(image_catogory).sendKeys(filePath);
+            // upload_image.sendKeys(filePath);
             Assert.assertTrue(true);
+        } else {
+            System.out.println("profile logo is not Displyed");
+            Assert.fail();
         }
-    }
 
+        //category_name
+        ldriver.findElement(category_name).click();
+        ldriver.findElement(category_name).sendKeys(configprop.getProperty("catname"));
+        WebElement text = ldriver.findElement(category_name);
+        String catname = text.getAttribute("value");
+        System.out.println(catname);
+        //category description
+        ldriver.findElement(category_Description).click();
+        ldriver.findElement(category_Description).sendKeys(configprop.getProperty("catDesc"));
+
+        //category label
+//        ldriver.findElement(category_label).click();
+//        ldriver.findElement(category_label).sendKeys(configprop.getProperty("catlabel"));
+//        Thread.sleep(2000);
+//         ldriver.findElement(category_label).click();
+
+
+        //checking whether the submit button is Displayed and  enabled
+        if (ldriver.findElement(category_SubmitButton).isDisplayed()) {
+            if (ldriver.findElement(category_SubmitButton).isEnabled()) {
+                ldriver.findElement(category_SubmitButton).click();
+            } else {
+                System.out.println("submit Button is Not Enabled");
+            }
+        } else {
+            System.out.println("SubmitButton is Not Displayed");
+        }
+
+// Wait for the status element to be visible
+        WebElement status = ldriver.findElement(category_Status);
+        waithelper.WaitForElement(status, 10);
+
+// Get the category status text and trim spaces
+        String catstatus = status.getText().trim();
+        System.out.println("Retrieved Category Status: " + catstatus);
+
+// Expected status values
+        String expectedStatus = (configprop.getProperty("catexiststatus") + catname).trim();
+        String newCategoryStatus = configprop.getProperty("catnewstatus").trim();
+
+// Log actual vs expected
+        System.out.println("Actual Status: " + catstatus);
+        System.out.println("Expected New Category Status: " + newCategoryStatus);
+        System.out.println("Expected Existing Category Status: " + expectedStatus);
+
+// Check conditions and assert accordingly
+        if (catstatus.equalsIgnoreCase(newCategoryStatus)) {
+            System.out.println("Category successfully added: " + catstatus);
+            Assert.assertTrue(true);
+        } else if (catstatus.equalsIgnoreCase(expectedStatus)) {
+            System.out.println("Category already exists: " + catstatus);
+            Assert.assertTrue(true);
+        } else {
+            System.out.println("Unexpected category status! Actual: " + catstatus +
+                    ", Expected: " + newCategoryStatus + " or " + expectedStatus);
+            Assert.fail("Unexpected category status: " + catstatus);
+        }
+
+
+
+    }
 }

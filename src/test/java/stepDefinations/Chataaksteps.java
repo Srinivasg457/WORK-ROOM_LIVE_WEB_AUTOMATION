@@ -243,6 +243,7 @@ public class Chataaksteps extends BaseClass {
 
     @When("user will perform the actions to add the Category Manager")
     public void user_will_perform_the_actions_to_add_the_category_manager() throws InterruptedException {
+       logger.info("*** Performing to add the category  ***");
         catalog.catalogModule();
     }
 
