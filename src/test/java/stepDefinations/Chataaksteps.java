@@ -62,7 +62,14 @@ public class Chataaksteps extends BaseClass {
         else if (br.equals("msedge")) {
             logger.info("************* Launching EDGE Browser *****************");
             System.setProperty("webdriver.edge.driver",configprop.getProperty("microsoftedgepath"));
-            driver = new EdgeDriver(); // Launch Edge
+            // Create EdgeOptions to start a fresh session
+            EdgeOptions options = new EdgeOptions();
+            options.addArguments("--no-sandbox"); // Ensures Edge runs safely
+            options.addArguments("--disable-dev-shm-usage"); // Fixes resource issues on Linux
+            options.addArguments("--disable-gpu"); // Disables GPU rendering
+            options.addArguments("--remote-allow-origins=*"); // Resolves security policy issues
+            options.addArguments("--guest"); // Launches without user profile
+            driver = new EdgeDriver(options); // Launch Edge
         }
         // Maximize the browser window
         logger.info("************* Browser Launched and Maximized *****************");
