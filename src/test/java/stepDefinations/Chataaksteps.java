@@ -88,8 +88,11 @@ public void setup() throws IOException {
 //        prefs.put("profile.password_manager_enabled", false);
 
 //        options.setExperimentalOption("prefs", prefs);
+
+        EdgeOptions options = new EdgeOptions();
+        options.addArguments("--headless=new");
         System.setProperty("webdriver.edge.driver",configprop.getProperty("microsoftedgepath"));
-        driver = new EdgeDriver(); // Launch Edge
+        driver = new EdgeDriver(options); // Launch Edge
     }
     // Maximize the browser window
     logger.info("************* Browser Launched and Maximized *****************");
