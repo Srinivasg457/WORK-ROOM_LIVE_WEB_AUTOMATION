@@ -247,5 +247,33 @@ public class Chataaksteps extends BaseClass {
         catalog.catalogModule();
     }
 
+    //Here Filling up all the fields of the category module
+    @When("user will fill all the fields of the category form")
+    public void user_will_fill_all_the_fields_of_the_category_form() throws InterruptedException {
+        logger.info("*** Filling up All the Fields in the Category Module  ***");
+         catalog.fillAllCategoryModule();
+    }
 
+    @When("user will try to create the lable")
+    public void user_will_try_to_create_the_lable() throws InterruptedException {
+        logger.info("*** creating the new label  ***");
+        catalog.CreateNewLabel();
+    }
+
+    @When("user will see the list of datas")
+    public void user_will_see_the_list_of_datas() throws InterruptedException {
+        logger.info("*** getting the list of Data  ***");
+        catalog.CategoryList();
+    }
+
+    @When("user will try to delete the category")
+    public void user_will_try_to_delete_the_category() throws InterruptedException {
+        logger.info("*** Deleting the one of the list  ***");
+
+        try {
+            catalog.categoryDelete();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
 }
