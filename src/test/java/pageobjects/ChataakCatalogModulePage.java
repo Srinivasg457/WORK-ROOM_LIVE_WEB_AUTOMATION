@@ -9,6 +9,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import stepDefinations.BaseClass;
 import utilities.WaitHelper;
 import java.io.FileInputStream;
@@ -78,10 +80,11 @@ public class ChataakCatalogModulePage extends BaseClass {
     By cat_list_imageURL=By.xpath(configprop.getProperty("cat_list_imageURL"));
     By cat_Action_Button=By.xpath(configprop.getProperty("cat_Action_Button"));
     By cat_Delete_Action=By.xpath(configprop.getProperty("cat_Delete_Action"));
+    By cat_edit_Action=By.xpath(configprop.getProperty("cat_edit_Action"));
 
     By cat_Delete_PopUp=By.xpath(configprop.getProperty("cat_Delete_PopUp"));
    By cat_Delete_Confirmtion=By.xpath(configprop.getProperty("cat_Delete_Confirmtion"));
-
+   By Edit_CAtegory_Name=By.xpath(configprop.getProperty("Edit_CAtegory_Name"));
 
     //Actions Method
     public void catalogModule() throws InterruptedException {
@@ -267,7 +270,7 @@ public class ChataakCatalogModulePage extends BaseClass {
         waithelper.WaitForElement(logo, 10);
         if (logo.isDisplayed()) {
             System.out.println("Profile_Logo is Displayed");
-            String filePath = System.getProperty("user.dir") + "/src/test/java/images/LC2D09P7_Image_369.jpg";
+            String filePath = System.getProperty("user.dir") + "/src/test/java/images/Picture-01.png";
             ldriver.findElement(image_catogory).sendKeys(filePath);
             // upload_image.sendKeys(filePath);
             Assert.assertTrue(true);
@@ -468,4 +471,12 @@ public class ChataakCatalogModulePage extends BaseClass {
             System.out.println(e.getMessage());
         }
     }
+
+
+
+
+
+
+
+
 }

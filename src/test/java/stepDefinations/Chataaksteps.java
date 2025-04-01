@@ -55,8 +55,11 @@ public class Chataaksteps extends BaseClass {
         else if (br.equals("chrome")) {
 
             logger.info("************* Launching CHROME Browser *****************");
+            ChromeOptions options = new ChromeOptions();
+            options.setAcceptInsecureCerts(true);
+
             System.setProperty("webdriver.chrome.driver",configprop.getProperty("chromepath"));
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(options);
         }
 
         else if (br.equals("msedge")) {
@@ -276,4 +279,17 @@ public class Chataaksteps extends BaseClass {
             System.out.println(e.getMessage());
         }
     }
+
+
+
+//    @When("user will perform the edit operation")
+//    public void user_will_perform_the_edit_operation() throws InterruptedException {
+//     logger.info("*** Perform the category edit Operation  ***");
+//     catalog.categoryEdit();
+//    }
+
+
+
+
+
 }
