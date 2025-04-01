@@ -13,9 +13,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import stepDefinations.BaseClass;
 import utilities.WaitHelper;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -23,13 +25,15 @@ public class ChataakCatalogModulePage extends BaseClass {
 
     public WebDriver ldriver;
     WaitHelper waithelper;
+
     public static Properties configprop;
 
     //constructor
-    public ChataakCatalogModulePage (WebDriver rdriver) throws IOException {
-        ldriver=rdriver;
+    public ChataakCatalogModulePage(WebDriver rdriver) throws IOException {
+        ldriver = rdriver;
         PageFactory.initElements(rdriver, this);
-        waithelper=new WaitHelper(ldriver);
+        waithelper = new WaitHelper(ldriver);
+
     }
 
     //xpath identification
@@ -61,30 +65,39 @@ public class ChataakCatalogModulePage extends BaseClass {
 //
     By link_Catalog = By.xpath(configprop.getProperty("catalog_link"));
 
-    By catalog_CategoryManager=By.xpath(configprop.getProperty("catalog_CategoryManager"));
-    By Button_AddButton=By.xpath(configprop.getProperty("button_AddButton"));
-    By catagory_logo=By.xpath(configprop.getProperty("catagory_image"));
-    By image_catogory=By.xpath(configprop.getProperty("catagory_UploadImage"));
-    By  category_name=By.xpath(configprop.getProperty("category_name"));
-    By category_Description=By.xpath(configprop.getProperty("category_Description"));
-    By category_label_DrpDown=By.xpath(configprop.getProperty("category_label_DrpDown"));
-    By category_SubmitButton=By.xpath(configprop.getProperty("category_SubmitButton"));
-    By category_Status=By.xpath(configprop.getProperty("category_Status"));
-    By category_label_Options=By.xpath(configprop.getProperty("category_label_Options"));
-    By category_label_textBox=By.xpath(configprop.getProperty("category_label_textBox"));
-    By category_List=By.xpath(configprop.getProperty("category_List"));
+    By catalog_CategoryManager = By.xpath(configprop.getProperty("catalog_CategoryManager"));
+    By Button_AddButton = By.xpath(configprop.getProperty("button_AddButton"));
+    By catagory_logo = By.xpath(configprop.getProperty("catagory_image"));
+    By image_catogory = By.xpath(configprop.getProperty("catagory_UploadImage"));
+    By category_name = By.xpath(configprop.getProperty("category_name"));
+    By category_Description = By.xpath(configprop.getProperty("category_Description"));
+    By category_label_DrpDown = By.xpath(configprop.getProperty("category_label_DrpDown"));
+    By category_SubmitButton = By.xpath(configprop.getProperty("category_SubmitButton"));
+    By category_Status = By.xpath(configprop.getProperty("category_Status"));
+    By category_label_Options = By.xpath(configprop.getProperty("category_label_Options"));
+    By category_label_textBox = By.xpath(configprop.getProperty("category_label_textBox"));
+    By category_List = By.xpath(configprop.getProperty("category_List"));
 
-    By cat_list_name=By.xpath(configprop.getProperty("cat_list_name"));
-    By cat_list_desc=By.xpath(configprop.getProperty("cat_list_desc"));
-    By cat_list_status=By.xpath(configprop.getProperty("cat_list_status"));
-    By cat_list_imageURL=By.xpath(configprop.getProperty("cat_list_imageURL"));
-    By cat_Action_Button=By.xpath(configprop.getProperty("cat_Action_Button"));
-    By cat_Delete_Action=By.xpath(configprop.getProperty("cat_Delete_Action"));
-    By cat_edit_Action=By.xpath(configprop.getProperty("cat_edit_Action"));
+    By cat_list_name = By.xpath(configprop.getProperty("cat_list_name"));
+    By cat_list_desc = By.xpath(configprop.getProperty("cat_list_desc"));
+    By cat_list_status = By.xpath(configprop.getProperty("cat_list_status"));
+    By cat_list_imageURL = By.xpath(configprop.getProperty("cat_list_imageURL"));
+    By cat_Action_Button = By.xpath(configprop.getProperty("cat_Action_Button"));
+    By cat_Delete_Action = By.xpath(configprop.getProperty("cat_Delete_Action"));
+    By cat_edit_Action = By.xpath(configprop.getProperty("cat_edit_Action"));
 
-    By cat_Delete_PopUp=By.xpath(configprop.getProperty("cat_Delete_PopUp"));
-   By cat_Delete_Confirmtion=By.xpath(configprop.getProperty("cat_Delete_Confirmtion"));
-   By Edit_CAtegory_Name=By.xpath(configprop.getProperty("Edit_CAtegory_Name"));
+    By cat_Delete_PopUp = By.xpath(configprop.getProperty("cat_Delete_PopUp"));
+    By cat_Delete_Confirmtion = By.xpath(configprop.getProperty("cat_Delete_Confirmtion"));
+    By Edit_CAtegory_Name = By.xpath(configprop.getProperty("Edit_CAtegory_Name"));
+
+
+    //to perform the enable or diable Actions
+    By Category_Active_Status = By.xpath(configprop.getProperty("Category_Active_Status"));
+    By Category_Inactive_Status = By.xpath(configprop.getProperty("Category_Inactive_Status"));
+
+    By category_Enable = By.xpath(configprop.getProperty("category_Enable"));
+    By category_Disable = By.xpath(configprop.getProperty("category_Disable"));
+
 
     //Actions Method
     public void catalogModule() throws InterruptedException {
@@ -166,7 +179,6 @@ public class ChataakCatalogModulePage extends BaseClass {
         }
 
 
-
     }
 
 
@@ -208,7 +220,6 @@ public class ChataakCatalogModulePage extends BaseClass {
         ldriver.findElement(category_label_Options).click();
 
 
-
         //checking whether the submit button is Displayed and  enabled
         if (ldriver.findElement(category_SubmitButton).isDisplayed()) {
             if (ldriver.findElement(category_SubmitButton).isEnabled()) {
@@ -251,9 +262,7 @@ public class ChataakCatalogModulePage extends BaseClass {
         }
 
 
-
     }
-
 
 
     //Here User will try to create a new label
@@ -291,7 +300,7 @@ public class ChataakCatalogModulePage extends BaseClass {
 
         //Create new label under category form
 
-        WebElement label_Box=ldriver.findElement(category_label_textBox);
+        WebElement label_Box = ldriver.findElement(category_label_textBox);
         Actions actions = new Actions(ldriver);
 
 // Step 1: Click the dropdown
@@ -300,9 +309,6 @@ public class ChataakCatalogModulePage extends BaseClass {
 // Step 2: Send Keys using Actions (sometimes bypasses React restrictions)
         actions.sendKeys(configprop.getProperty("labelname")).perform();
         actions.sendKeys(Keys.ENTER).perform();
-
-
-
 
 
         //checking whether the submit button is Displayed and  enabled
@@ -347,7 +353,6 @@ public class ChataakCatalogModulePage extends BaseClass {
         }
 
     }
-
 
 
     //Here User try to get the list of category list
@@ -404,13 +409,11 @@ public class ChataakCatalogModulePage extends BaseClass {
     }
 
 
-
     public void categoryDelete() throws InterruptedException {
         ldriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Thread.sleep(5000);
         ldriver.findElement(link_Catalog).click();
         ldriver.findElement(catalog_CategoryManager).click();
-
 
 
         try {
@@ -439,6 +442,7 @@ public class ChataakCatalogModulePage extends BaseClass {
 
                     //click on the delete option
                     //ldriver.findElement(cat_Delete_Action).click();
+
 
                     List<WebElement> deleteButtons = ldriver.findElements(cat_Delete_Action);
                     for (WebElement button : deleteButtons) {
@@ -471,6 +475,99 @@ public class ChataakCatalogModulePage extends BaseClass {
             System.out.println(e.getMessage());
         }
     }
+
+
+
+
+
+    public void categoryEnableOrDisable() throws InterruptedException {
+        ldriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Thread.sleep(5000);
+        ldriver.findElement(link_Catalog).click();
+        ldriver.findElement(catalog_CategoryManager).click();
+
+
+        try {
+
+            List<WebElement> list = ldriver.findElements(category_List);
+
+            if (!list.isEmpty()) {  // Check if the list is not empty
+                waithelper.WaitForElement(list.get(0), 20); // Wait for the first element
+            } else {
+                Assert.assertTrue(true);
+                System.out.println("No elements found for category_List");
+            }
+            // Iterate through each row
+            // Locate all rows in the MuiDataGrid table
+            List<WebElement> rows = ldriver.findElements(category_List);
+            for (WebElement row : rows) {
+                try {
+                    // Find the action button inside the current row
+                    WebElement actionButton = row.findElement(cat_Action_Button);
+
+                    // Click the action button
+                    actionButton.click();
+
+                    // Add a small delay to observe the click action (optional)
+                    Thread.sleep(1000);
+
+                    //click on the delete option
+                    //ldriver.findElement(cat_Delete_Action).click();
+
+
+                    List<WebElement> Disable = ldriver.findElements(category_Disable);
+                    for (WebElement button : Disable) {
+                        try {
+
+                            waithelper.WaitForElement(button, 10);
+                            button.click();
+
+//                            WebElement deletebutton = ldriver.findElement(cat_Delete_PopUp);
+//                            deletebutton.click();
+//                            WebElement OkayButton = ldriver.findElement(cat_Delete_Confirmtion);
+//                            OkayButton.click();
+
+                            break; // Stop after first successful click
+                        } catch (Exception e) {
+                            System.out.println("Retrying click...");
+                        }
+                    }
+
+
+                    List<WebElement> enable = ldriver.findElements(category_Enable);
+                    for (WebElement button : enable) {
+                        try {
+
+                            waithelper.WaitForElement(button, 10);
+                            button.click();
+
+//                            WebElement deletebutton = ldriver.findElement(cat_Delete_PopUp);
+//                            deletebutton.click();
+//                            WebElement OkayButton = ldriver.findElement(cat_Delete_Confirmtion);
+//                            OkayButton.click();
+
+                            break; // Stop after first successful click
+                        } catch (Exception e) {
+                            System.out.println("Retrying click...");
+                        }
+                    }
+
+
+                    System.out.println("Clicked action button in row: " + row.getAttribute("data-id"));
+
+                } catch (Exception e) {
+                    System.out.println("Failed to click action button in row: " + row.getAttribute("data-id"));
+                    e.printStackTrace();
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("No data found");
+            System.out.println(e.getMessage());
+        }
+    }
+
+
+
 
 
 

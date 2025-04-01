@@ -282,11 +282,12 @@ public class Chataaksteps extends BaseClass {
 
 
 
-//    @When("user will perform the edit operation")
-//    public void user_will_perform_the_edit_operation() throws InterruptedException {
-//     logger.info("*** Perform the category edit Operation  ***");
-//     catalog.categoryEdit();
-//    }
+    @When("user will perform the edit operation")
+    public void user_will_perform_the_edit_operation() throws InterruptedException {
+        logger.info("*** Deleting the one of the list  ***");
+        catalog.categoryEnableOrDisable();
+    }
+
 
 
 

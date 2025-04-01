@@ -20,17 +20,17 @@ Feature: Catalog Module
 #    And the user clicks the Login button
 #    And user will try to create the lable
 
-  Scenario: user will Print The list of category data
-    When the user enters their email "ripewe1814@framitag.com" and password "8fdlIsib"
-    And the user clicks the Login button
-    And user will see the list of datas
+#  Scenario: user will Print The list of category data
+#    When the user enters their email "ripewe1814@framitag.com" and password "8fdlIsib"
+#    And the user clicks the Login button
+#    And user will see the list of datas
 
 #    Scenario: user will Delete the list of category
 #    When the user enters their email "ripewe1814@framitag.com" and password "8fdlIsib"
 #    And the user clicks the Login button
 #    And user will try to delete the category
 
-#      Scenario: user will Edit The Category
-#    When the user enters their email "ripewe1814@framitag.com" and password "8fdlIsib"
-#    And the user clicks the Login button
-#    And user will perform the edit operation
+      Scenario: user will Edit The Category
+    When the user enters their email "ripewe1814@framitag.com" and password "8fdlIsib"
+    And the user clicks the Login button
+    And user will perform the edit operation

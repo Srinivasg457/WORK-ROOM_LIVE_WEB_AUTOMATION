@@ -17,8 +17,17 @@ public class WaitHelper {
         this.driver = driver;
     }
 
+
+
     public void WaitForElement(WebElement element, long timeOutInSeconds){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSeconds));
         wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+
+    public WebElement WaitForElement1(By locator, long timeOutInSeconds) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSeconds));
+        // Wait until the element is visible and return the WebElement
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 }
