@@ -1,787 +1,87 @@
-2025-03-28 13:01:59,856 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:02:01,955 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:02:02,080 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:02:08,353 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:02:08,989 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:02:13,298 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:02:13,638 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-03-28 13:02:33,874 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:02:35,247 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:02:35,320 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:02:51,204 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:02:51,944 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:02:56,479 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:02:56,854 - ChataakWebApplication -INFO - *** Filling up All the Fields in the Category Module  ***
-2025-03-28 13:03:19,546 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:03:21,091 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:03:21,166 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:03:27,929 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:03:28,655 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:03:33,237 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:03:33,572 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-03-28 13:03:48,532 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:03:49,657 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:03:49,749 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:03:55,816 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:03:56,265 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:04:00,554 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:04:00,909 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-03-28 13:23:01,041 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:23:02,865 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:23:02,997 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:23:07,805 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:23:08,580 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:23:13,005 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:23:13,350 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 13:24:09,359 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:24:11,053 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:24:11,164 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:24:17,819 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:24:18,567 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:24:23,058 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:24:23,417 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 13:25:31,222 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:25:33,048 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:25:33,182 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:25:38,543 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:25:39,028 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:25:43,487 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:25:43,846 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 13:29:21,608 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:29:23,392 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:29:23,539 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:29:28,375 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:29:29,100 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:29:33,576 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:29:33,910 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 13:32:56,605 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:32:58,402 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:32:58,534 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:33:11,509 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:33:11,917 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:33:16,419 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:33:16,776 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 13:40:09,849 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:40:11,557 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:40:11,679 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:40:16,726 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:40:17,412 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:40:21,726 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:40:22,097 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 13:45:01,093 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:45:02,824 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:45:02,961 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:45:07,504 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:45:07,898 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:45:12,205 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:45:12,539 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 13:51:00,482 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:51:02,529 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:51:02,680 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:51:14,553 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:51:15,171 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:51:19,611 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:51:20,009 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 13:55:45,685 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:55:47,490 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:55:47,638 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:55:51,894 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:55:52,865 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:55:57,167 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:55:57,489 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-03-28 13:57:04,804 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:57:06,629 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:57:06,755 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 13:57:10,786 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 13:57:11,669 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 13:57:16,063 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 13:57:16,379 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-03-28 13:59:54,897 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 13:59:56,645 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 13:59:56,784 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:00:00,613 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:00:01,092 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:00:05,371 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:00:05,729 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-03-28 14:01:42,771 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:01:44,507 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:01:44,657 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:01:49,094 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:01:49,863 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:01:54,437 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:01:54,770 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 14:03:06,476 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:03:08,299 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:03:08,426 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:03:12,624 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:03:13,354 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:03:17,700 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:03:18,022 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-03-28 14:06:31,300 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:06:33,133 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:06:33,295 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:06:38,019 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:06:38,447 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:06:42,924 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:06:43,281 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-03-28 14:07:28,147 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:07:29,833 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:07:29,959 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:07:34,310 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:07:34,697 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:07:39,135 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:07:39,493 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-03-28 14:08:43,476 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:08:45,251 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:08:45,366 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:08:50,010 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:08:50,479 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:08:54,992 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:08:55,357 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 14:10:15,501 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:10:17,421 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:10:17,557 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:10:21,710 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:10:22,212 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:10:26,479 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:10:26,792 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 14:15:27,559 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:15:29,281 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:15:29,395 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:15:33,910 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:15:34,465 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:15:38,883 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:15:39,217 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 14:17:53,137 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:17:54,827 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:17:54,951 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:17:59,552 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:17:59,972 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:18:04,459 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:18:04,789 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 14:22:37,316 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:22:39,175 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:22:39,327 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:22:44,045 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:22:44,434 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:22:48,894 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:22:49,226 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 14:24:41,466 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:24:43,293 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:24:43,432 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:24:47,360 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:24:47,868 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:24:52,156 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:24:52,470 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 14:26:08,750 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:26:10,529 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:26:10,673 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:26:15,130 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:26:15,531 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:26:19,880 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:26:20,211 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-03-28 14:26:35,050 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:26:36,258 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:26:36,327 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:26:42,049 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:26:42,433 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:26:46,942 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:26:47,277 - ChataakWebApplication -INFO - *** Filling up All the Fields in the Category Module  ***
-2025-03-28 14:27:03,288 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:27:04,890 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:27:04,966 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:27:09,920 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:27:10,833 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:27:15,250 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:27:15,578 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-03-28 14:27:30,601 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:27:32,123 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:27:32,198 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:27:41,824 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:27:42,387 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:27:46,715 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:27:47,050 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-03-28 14:27:57,673 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 14:27:59,234 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 14:27:59,354 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 14:28:08,207 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 14:28:09,449 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 14:28:14,028 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 14:28:14,402 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 15:07:44,031 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:07:45,256 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:07:45,409 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:07:50,453 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:07:50,731 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:07:54,931 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:07:55,157 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-03-28 15:08:06,675 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:08:07,455 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:08:07,534 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:08:11,988 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:08:12,279 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:08:16,442 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:08:16,651 - ChataakWebApplication -INFO - *** Filling up All the Fields in the Category Module  ***
-2025-03-28 15:08:30,451 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:08:31,251 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:08:31,342 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:08:47,428 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:08:48,039 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:08:52,220 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:08:52,396 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-03-28 15:09:04,239 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:09:05,182 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:09:05,258 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:09:10,674 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:09:10,934 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:09:15,104 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:09:15,258 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-03-28 15:09:24,351 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:09:25,266 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:09:25,331 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:09:30,206 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:09:30,452 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:09:34,632 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:09:34,908 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-03-28 15:12:33,162 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:12:34,320 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:12:34,488 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:12:38,984 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:12:39,248 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:12:43,417 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:12:43,663 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-03-28 15:12:58,965 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:12:59,758 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:12:59,857 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:13:04,805 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:13:05,149 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:13:09,320 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:13:09,577 - ChataakWebApplication -INFO - *** Filling up All the Fields in the Category Module  ***
-2025-03-28 15:13:29,283 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:13:29,926 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:13:30,002 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:13:34,978 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:13:35,369 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:13:39,530 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:13:39,790 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-03-28 15:13:52,094 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:13:52,744 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:13:52,818 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:14:07,093 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:14:07,550 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:14:11,707 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:14:11,901 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-03-28 15:14:32,298 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:14:32,938 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:14:33,012 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:14:34,111 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:14:50,644 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:14:51,841 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:14:51,989 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:14:57,451 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:14:57,720 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:15:01,887 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:15:02,108 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-03-28 15:15:19,387 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:15:20,025 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:15:20,104 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:15:23,641 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:15:23,973 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:15:28,146 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:15:28,292 - ChataakWebApplication -INFO - *** Filling up All the Fields in the Category Module  ***
-2025-03-28 15:15:44,261 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:15:44,914 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:15:44,994 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:15:49,638 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:15:49,874 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:15:54,037 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:15:54,303 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-03-28 15:16:06,540 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:16:07,206 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:16:07,234 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:16:12,783 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:16:13,134 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:16:17,302 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:16:17,432 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-03-28 15:16:43,906 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-03-28 15:16:44,520 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-03-28 15:16:44,600 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-03-28 15:16:48,665 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-03-28 15:16:49,060 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-03-28 15:16:53,248 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-03-28 15:16:53,465 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 08:50:31,017 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:50:32,683 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:50:32,885 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:50:35,165 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 08:50:35,610 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:50:36,691 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:50:36,855 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:50:38,090 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 08:50:38,428 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:50:39,768 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:50:39,805 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:50:42,831 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 08:50:43,189 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:50:44,212 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:50:44,282 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:50:45,497 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 08:50:45,774 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:50:46,897 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:50:46,975 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:50:49,643 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 08:52:14,093 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:52:15,805 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:52:15,945 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:52:20,487 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 08:52:20,883 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:52:21,834 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:52:21,866 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:52:24,755 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 08:52:25,011 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:52:26,083 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:52:26,145 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:52:27,225 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 08:52:27,545 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:52:28,544 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:52:28,643 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:52:29,873 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 08:52:30,168 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 08:52:31,228 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 08:52:31,261 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 08:52:32,229 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:05:25,083 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 09:05:26,868 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:05:27,109 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:07:59,916 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:08:00,580 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 09:08:05,026 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 09:08:05,352 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-04-01 09:11:38,274 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 09:11:39,336 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:11:39,470 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:11:44,288 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:11:44,513 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 09:11:48,670 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 09:11:48,832 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-04-01 09:11:53,919 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 09:11:54,559 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:11:54,622 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:11:56,885 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:11:56,946 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 09:11:57,723 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:11:57,855 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:11:59,935 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:12:00,016 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 09:12:00,791 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:12:00,928 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:12:02,054 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:12:02,112 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
-2025-04-01 09:12:02,787 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:12:02,907 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:12:04,045 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:13:36,232 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 09:13:37,928 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:13:38,100 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:13:38,907 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:13:39,058 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 09:13:39,761 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:13:39,848 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:13:40,612 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:13:40,732 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 09:13:41,416 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:13:41,501 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:13:42,279 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:13:42,402 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 09:13:43,104 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:13:43,169 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:13:43,960 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 09:13:44,083 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 09:13:44,789 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 09:13:44,850 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 09:13:48,583 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:13:02,161 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:13:03,359 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:13:03,525 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:13:38,656 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:13:38,898 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:13:43,075 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:13:43,192 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-04-01 10:14:01,068 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:14:01,796 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:14:01,833 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:15:20,426 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:15:20,689 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:15:24,865 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:15:25,020 - ChataakWebApplication -INFO - *** Filling up All the Fields in the Category Module  ***
-2025-04-01 10:16:02,403 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:16:03,119 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:16:03,211 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:16:38,058 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:16:38,304 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:16:42,485 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:16:42,721 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-04-01 10:16:56,891 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:16:57,709 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:16:57,799 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:17:30,174 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:17:30,413 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:17:34,587 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:17:34,728 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-04-01 10:18:03,034 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:18:03,790 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:18:03,876 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:18:42,375 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:18:42,632 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:18:46,809 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:18:46,928 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 10:43:50,823 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:43:52,096 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:43:52,259 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:43:57,393 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:43:57,914 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:44:02,101 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:44:02,362 - ChataakWebApplication -INFO - *** Performing to add the category  ***
-2025-04-01 10:44:13,535 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:44:14,402 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:44:14,478 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:44:18,587 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:44:18,832 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:44:23,016 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:44:23,303 - ChataakWebApplication -INFO - *** Filling up All the Fields in the Category Module  ***
-2025-04-01 10:44:36,635 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:44:37,666 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:44:37,778 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:44:41,456 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:44:41,699 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:44:45,876 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:44:46,034 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-04-01 10:46:47,258 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:46:48,399 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:46:48,541 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:46:52,412 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:46:52,659 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:46:56,832 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:46:57,031 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-04-01 10:49:30,064 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:49:31,311 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:49:31,457 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:49:35,580 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:49:48,761 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:49:49,978 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:49:50,111 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:49:53,706 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:51:27,507 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:51:28,762 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:51:28,924 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:51:33,478 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:51:33,782 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:51:37,994 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:51:38,255 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-04-01 10:52:46,032 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:52:47,280 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:52:47,397 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:52:51,328 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:52:51,640 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:52:55,831 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:52:56,011 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-04-01 10:55:39,912 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 10:55:41,176 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 10:55:41,337 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 10:55:45,084 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 10:55:45,531 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 10:55:49,706 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 10:55:49,961 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-04-01 11:03:37,648 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:03:38,900 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:03:39,045 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:03:43,964 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:03:44,335 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:03:48,507 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:03:48,736 - ChataakWebApplication -INFO - *** creating the new label  ***
-2025-04-01 11:07:40,652 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:07:41,928 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:07:42,111 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:07:46,847 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:07:47,261 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:07:51,442 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:09:19,012 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:09:20,167 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:09:20,293 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:09:24,090 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:09:24,409 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:09:28,617 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:09:28,855 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-04-01 11:27:26,605 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:27:27,816 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:27:27,955 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:27:31,828 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:27:32,264 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:27:36,443 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:27:36,650 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 11:31:20,060 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:31:21,251 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:31:21,400 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:31:25,108 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:31:25,383 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:31:29,566 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:31:29,764 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 11:32:23,884 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:32:25,298 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:32:25,428 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:32:28,589 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:32:29,172 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:32:33,348 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:32:33,581 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 11:37:31,991 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:37:33,244 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:37:33,402 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:37:37,065 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:37:37,524 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:37:41,705 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:37:41,913 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 11:43:56,716 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:43:57,948 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:43:58,092 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:44:01,831 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:44:02,089 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:44:06,275 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:44:06,475 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 11:45:54,666 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:45:55,868 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:45:55,997 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:45:59,903 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:46:00,148 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:46:04,340 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:46:04,498 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 11:47:27,057 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:47:28,349 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:47:28,454 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:47:31,974 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:47:32,375 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:47:36,547 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:47:36,782 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 11:49:56,615 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:49:57,842 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:49:57,999 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:50:01,568 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:50:02,162 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:50:06,342 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:50:06,624 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 11:53:35,612 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:53:36,957 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:53:37,115 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:53:41,304 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:53:41,575 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:53:45,765 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:53:45,930 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 11:58:25,696 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 11:58:26,866 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 11:58:27,032 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 11:58:30,985 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 11:58:31,241 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 11:58:35,419 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 11:58:35,595 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 12:03:52,483 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 12:03:53,669 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 12:03:53,826 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 12:03:58,051 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 12:03:58,423 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 12:04:02,632 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 12:04:02,762 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 12:22:28,513 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 12:22:29,720 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 12:22:29,850 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 12:22:34,843 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 12:22:35,089 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 12:22:39,278 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 12:22:39,477 - ChataakWebApplication -INFO - *** Perform the category edit Operation  ***
-2025-04-01 14:08:44,246 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 14:08:46,836 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 14:08:47,100 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 14:09:09,278 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 14:09:09,749 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 14:09:14,276 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 14:09:14,661 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-04-01 15:57:57,943 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 15:58:00,033 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 15:58:00,270 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 15:58:04,891 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 15:58:05,542 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 15:58:10,179 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 15:58:10,540 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-04-01 16:08:32,237 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 16:08:34,448 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 16:08:34,702 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 16:08:43,785 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 16:08:44,445 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 16:08:48,817 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 16:08:49,310 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-04-01 18:52:36,720 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 18:52:38,054 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 18:52:38,211 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 18:52:45,341 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 18:52:45,599 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 18:52:49,842 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 18:52:50,055 - ChataakWebApplication -INFO - *** getting the list of Data  ***
-2025-04-01 18:59:19,819 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 18:59:21,077 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 18:59:21,196 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 18:59:27,849 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 18:59:28,278 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 18:59:32,486 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 18:59:32,643 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:02:18,970 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:02:20,345 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:02:20,507 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:02:26,748 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:02:27,106 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:02:31,308 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:02:31,426 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:07:14,519 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:07:15,733 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:07:15,895 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:07:39,651 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:07:39,953 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:07:44,140 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:07:44,301 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:11:14,729 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:11:15,971 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:11:16,107 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:11:23,839 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:11:24,089 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:11:28,274 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:11:28,438 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:12:22,199 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:12:23,451 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:12:23,586 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:12:31,370 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:12:31,609 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:12:35,799 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:12:36,016 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:13:55,527 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:13:56,770 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:13:56,930 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:14:45,478 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:14:45,727 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:14:49,916 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:14:50,191 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:18:03,286 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:18:04,505 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:18:04,663 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:18:18,262 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:18:18,516 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:18:22,709 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:18:22,964 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:22:03,318 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:22:04,554 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:22:04,687 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:22:09,429 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:22:09,944 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:22:14,131 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:22:14,262 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:35:09,892 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:35:11,934 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:35:12,137 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:35:19,391 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:35:20,008 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:35:24,600 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:35:24,979 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:36:47,270 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:36:49,446 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:36:49,780 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:36:55,431 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:36:56,180 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:37:00,494 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:37:00,879 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:37:31,681 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:37:33,914 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:37:34,159 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:37:41,101 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:37:41,570 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:37:45,949 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:37:46,326 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:43:49,781 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:43:51,905 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:43:52,231 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:43:55,445 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:43:56,281 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:44:00,755 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:44:01,132 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:47:42,734 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:47:44,832 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:47:45,144 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:47:51,723 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:47:52,484 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:47:56,860 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:47:57,238 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:55:37,185 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:55:39,240 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:55:39,493 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:55:43,275 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:55:43,760 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:55:48,293 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:55:48,679 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 19:57:38,392 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 19:57:40,524 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 19:57:40,867 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 19:57:45,199 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 19:57:46,245 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 19:57:50,641 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 19:57:51,055 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 20:07:36,099 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 20:07:38,184 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 20:07:38,354 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 20:07:46,331 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 20:07:47,208 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 20:07:51,536 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 20:07:51,892 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 20:09:38,059 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 20:09:40,231 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 20:09:40,410 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 20:09:48,499 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 20:09:49,389 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 20:09:53,925 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 20:09:54,310 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 20:10:34,314 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 20:10:36,368 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 20:10:36,564 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 20:10:44,507 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 20:10:45,094 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 20:10:49,411 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 20:10:49,763 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 20:11:27,029 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 20:11:28,974 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 20:11:29,209 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 20:11:36,708 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 20:11:37,380 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 20:11:41,976 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 20:11:42,393 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 20:12:18,665 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 20:12:20,818 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 20:12:21,133 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 20:12:25,130 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 20:12:25,789 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 20:12:30,460 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 20:12:30,812 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 20:13:49,032 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 20:13:51,110 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 20:13:51,327 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 20:13:54,909 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 20:13:56,018 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 20:14:00,793 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 20:14:01,167 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 20:14:44,052 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 20:14:46,115 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 20:14:46,459 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 20:14:53,166 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 20:14:54,047 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 20:14:58,586 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 20:14:59,004 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
-2025-04-01 20:15:59,213 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
-2025-04-01 20:16:01,511 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
-2025-04-01 20:16:01,838 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
-2025-04-01 20:16:08,829 - ChataakWebApplication -INFO - ************* Enter the Email *****************
-2025-04-01 20:16:09,547 - ChataakWebApplication -INFO - ************* Enter the Password *****************
-2025-04-01 20:16:14,037 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
-2025-04-01 20:16:14,390 - ChataakWebApplication -INFO - *** Deleting the one of the list  ***
+2025-04-02 16:06:37,523 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 16:06:39,488 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 16:06:39,760 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 16:06:48,263 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 16:06:48,821 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 16:06:53,261 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 16:06:53,630 - ChataakWebApplication -INFO - *** Adding The New products ***
+2025-04-02 16:23:26,773 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 16:23:28,883 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 16:23:29,059 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 16:24:01,451 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 16:24:02,065 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 16:24:06,617 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 16:24:07,028 - ChataakWebApplication -INFO - *** Adding The New products ***
+2025-04-02 16:28:17,449 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 16:28:19,673 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 16:28:19,997 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 16:28:35,771 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 16:28:36,362 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 16:28:40,703 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 16:28:41,071 - ChataakWebApplication -INFO - *** Adding The New products ***
+2025-04-02 16:31:00,500 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 16:31:02,434 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 16:31:02,628 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 16:38:12,605 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 16:38:14,825 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 16:38:15,114 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 16:38:28,096 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 16:38:28,631 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 16:38:33,270 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 16:38:33,623 - ChataakWebApplication -INFO - *** Adding The New products ***
+2025-04-02 16:42:03,328 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 16:42:05,288 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 16:42:05,414 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 16:42:11,991 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 16:42:12,413 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 16:42:16,934 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 16:42:17,307 - ChataakWebApplication -INFO - *** Adding The New products ***
+2025-04-02 16:43:10,519 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 16:43:12,574 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 16:43:12,883 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 16:43:18,908 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 16:43:19,621 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 16:43:24,139 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 16:43:24,468 - ChataakWebApplication -INFO - *** Adding The New products ***
+2025-04-02 16:44:59,802 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 16:45:01,910 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 16:45:02,214 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 16:45:08,616 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 16:45:09,220 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 16:45:13,784 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 16:45:14,157 - ChataakWebApplication -INFO - *** Print the List of Products ***
+2025-04-02 16:49:57,862 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 16:50:00,708 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 16:50:01,040 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 16:50:26,769 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 16:50:27,387 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 16:50:31,751 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 16:50:32,143 - ChataakWebApplication -INFO - *** Print the List of Products ***
+2025-04-02 17:44:02,964 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 17:44:05,064 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 17:44:05,307 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 17:44:14,637 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 17:44:15,316 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 17:44:19,640 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 17:44:19,975 - ChataakWebApplication -INFO - *** Creating the Products Without Presents of the Category ***
+2025-04-02 17:44:29,966 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 17:44:31,494 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 17:44:31,599 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 17:44:40,592 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 17:44:41,251 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 17:44:45,815 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 17:44:46,185 - ChataakWebApplication -INFO - *** Print the List of Products ***
+2025-04-02 17:44:57,561 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 17:44:59,600 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 17:44:59,753 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 17:45:04,880 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 17:45:05,759 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 17:45:10,119 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 17:45:10,504 - ChataakWebApplication -INFO - *** Adding The New products ***
+2025-04-02 17:49:46,970 - ChataakWebApplication -INFO - ************* Launching EDGE Browser *****************
+2025-04-02 17:49:50,018 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-02 17:49:50,321 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-02 17:50:04,630 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-02 17:50:05,709 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-02 17:50:10,486 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-02 17:50:10,973 - ChataakWebApplication -INFO - *** Adding The New products ***

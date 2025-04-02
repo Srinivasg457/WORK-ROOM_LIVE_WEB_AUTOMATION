@@ -316,7 +316,7 @@ public class ChataakStoresPage {
 
         if (profile_Logo.isDisplayed()){
             profile_Logo.click();
-            String filePath = System.getProperty("user.dir") + "/src/test/java/images/d5099fbca1f14ba14c1891af52837730.jpg";
+            String filePath = System.getProperty("user.dir") + "/src/test/java/images/Dell.jpg";
             profile_Logo.sendKeys(filePath);
             Assert.assertTrue(true);
         }
@@ -476,11 +476,11 @@ public class ChataakStoresPage {
       //ldriver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         if (profile_Logo.isDisplayed()){
 //            JavascriptExecutor js = (JavascriptExecutor) ldriver;
-//            //profile_Logo.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/images/d5099fbca1f14ba14c1891af52837730.jpg");
+//            //profile_Logo.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/images/Dell.jpg");
 //            js.executeScript("arguments[0].style.display='block';", profile_Logo);
-//            profile_Logo.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/images/d5099fbca1f14ba14c1891af52837730.jpg");
+//            profile_Logo.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/images/Dell.jpg");
             System.out.println(profile_Logo.isDisplayed()+"+Profile_Logo is Displayed");
-            upload_image.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/java/images/d5099fbca1f14ba14c1891af52837730.jpg");
+            upload_image.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/java/images/Dell.jpg");
             Assert.assertTrue(true);
 
         }

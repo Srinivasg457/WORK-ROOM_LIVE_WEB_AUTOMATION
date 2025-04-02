@@ -12,10 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pageobjects.ChataakCatalogModulePage;
-import pageobjects.ChataakLoginPage;
-import pageobjects.ChataakSignUpPage;
-import pageobjects.ChataakStoresPage;
+import pageobjects.*;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -120,6 +117,7 @@ public class Chataaksteps extends BaseClass {
         sp=new ChataakStoresPage(driver);
         signUppage=new ChataakSignUpPage(driver);
         catalog=new ChataakCatalogModulePage(driver);
+        AddProducts=new ChataakAddCatalogProducts(driver);
     }
 
     @Given("the user navigates to the login page with the URL {string}")
@@ -281,15 +279,35 @@ public class Chataaksteps extends BaseClass {
     }
 
 
-
-    @When("user will perform the edit operation")
-    public void user_will_perform_the_edit_operation() throws InterruptedException {
-        logger.info("*** Deleting the one of the list  ***");
+    @When("user will perform the enable or Disable Action")
+    public void user_will_perform_the_enable_or_disable_action() throws InterruptedException {
+        logger.info("*** Enable or Disable the Category ***");
         catalog.categoryEnableOrDisable();
     }
 
 
+    @When("user will see the Pop up message saying to create the category First")
+    public void user_will_see_the_pop_up_message_saying_to_create_the_category_first() throws InterruptedException {
+       logger.info("*** Creating the Products Without Presents of the Category ***");
+        AddProducts.AddProductsPage();
+        AddProducts.AddProductsWithoutCategory();
+    }
 
+
+    @When("user will go to the Products and try to print the list of products")
+    public void user_will_go_to_the_products_and_try_to_print_the_list_of_products() throws InterruptedException {
+        logger.info("*** Print the List of Products ***");
+        AddProducts.ProductList();
+    }
+
+
+
+    @When("User will fill the Product Data  for Adding the New Product")
+    public void user_will_fill_the_product_data_for_adding_the_new_product() throws InterruptedException {
+        logger.info("*** Adding The New products ***");
+       AddProducts.AddProductsPage();
+       AddProducts.AddNewProducts();
+    }
 
 
 
