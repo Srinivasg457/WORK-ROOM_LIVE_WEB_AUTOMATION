@@ -286,6 +286,9 @@ public class Chataaksteps extends BaseClass {
     }
 
 
+
+//    From Here we are working on the Products Module
+
     @When("user will see the Pop up message saying to create the category First")
     public void user_will_see_the_pop_up_message_saying_to_create_the_category_first() throws InterruptedException {
        logger.info("*** Creating the Products Without Presents of the Category ***");
@@ -309,6 +312,13 @@ public class Chataaksteps extends BaseClass {
        AddProducts.AddNewProducts();
     }
 
+
+    @When("User will Add The New Product")
+    public void user_will_add_the_new_product() throws InterruptedException {
+        logger.info("*** If the category is Present in the Category Only Then User will create the Products ***");
+        AddProducts.AddProductsPage();
+        AddProducts.CategoryExistAddNewProduct();
+    }
 
 
 }
