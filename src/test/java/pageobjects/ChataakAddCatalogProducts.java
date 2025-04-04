@@ -2,25 +2,18 @@ package pageobjects;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.CacheLookup;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.WaitHelper;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Properties;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
 import static stepDefinations.BaseClass.randomNumber;
+
 
 public class ChataakAddCatalogProducts {
 
@@ -437,7 +430,7 @@ public class ChataakAddCatalogProducts {
                     }
 
                 } else {
-                    System.out.println(" Category list is not Present");
+                    System.out.println("Category list is not Present");
                 }
 
 
@@ -474,7 +467,7 @@ public class ChataakAddCatalogProducts {
 
 
             } else {
-                System.out.println("Category list is NOT present.");
+                System.out.println("Product list is NOT present.");
                 WebElement productcode = waithelper.WaitForElement1(Product_Code, 10);
 
 
@@ -565,7 +558,7 @@ public class ChataakAddCatalogProducts {
             if (!list.isEmpty()) {  // Check if the list is not empty
                 waithelper.WaitForElement(list.get(0), 20); // Wait for the first element
             } else {
-                System.out.println("No elements found for category_List");
+                System.out.println("No elements found for Product_List");
             }
             // Locate all rows in the MuiDataGrid table
             List<WebElement> rows = ldriver.findElements(Product_List);
@@ -615,7 +608,7 @@ public class ChataakAddCatalogProducts {
                 waithelper.WaitForElement(list.get(0), 20); // Wait for the first element
             } else {
                 Assert.assertTrue(true);
-                System.out.println("No elements found for category_List");
+                System.out.println("No elements found for Product_List");
             }
             // Iterate through each row
             // Locate all rows in the MuiDataGrid table

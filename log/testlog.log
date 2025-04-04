@@ -437,3 +437,10 @@
 2025-04-04 13:13:32,491 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
 2025-04-04 13:13:32,757 - ChataakWebApplication -INFO - ************* Adding The Store information *****************
 2025-04-04 13:13:48,998 - ChataakWebApplication -INFO - ************* Checking The Added Store Confirmation Message *****************
+2025-04-04 18:22:10,821 - ChataakWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-04-04 18:22:12,500 - ChataakWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-04-04 18:22:12,635 - ChataakWebApplication -INFO - ************* Get The Application URL  *****************
+2025-04-04 18:23:12,526 - ChataakWebApplication -INFO - ************* Enter the Email *****************
+2025-04-04 18:23:13,177 - ChataakWebApplication -INFO - ************* Enter the Password *****************
+2025-04-04 18:23:17,635 - ChataakWebApplication -INFO - ************* Click on the Login Button *****************
+2025-04-04 18:25:49,414 - ChataakWebApplication -INFO - ************* Adding The Store information *****************
