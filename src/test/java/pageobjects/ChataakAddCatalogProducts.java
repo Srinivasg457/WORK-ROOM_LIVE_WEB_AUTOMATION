@@ -3,8 +3,12 @@ package pageobjects;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.WaitHelper;
 
@@ -64,6 +68,25 @@ public class ChataakAddCatalogProducts {
     By Catalog_Products_Link = By.xpath(configprop.getProperty("Catalog_Products_Link"));
     By catalog_Products_AddProducts_Button = By.xpath(configprop.getProperty("catalog_Products_AddProducts_Button"));
 
+    //Produc Page  Product_Card's Xpath
+    By Total_Product_Text = By.xpath(configprop.getProperty("Total_Product_Text"));
+    By Total_Products = By.xpath(configprop.getProperty("Total_Products"));
+
+    By Active_Products_Text = By.xpath(configprop.getProperty("Active_Products_Text"));
+    By Active_Products_Count = By.xpath(configprop.getProperty("Active_Products_Count"));
+
+    By InActive_Products_Text = By.xpath(configprop.getProperty("InActive_Products_Text"));
+    By InActive_Products_Count = By.xpath(configprop.getProperty("InActive_Products_Count"));
+
+    // Product Page List xpath
+    By Product_Page_Product_List = By.xpath(configprop.getProperty("Product_Page_Product_List"));
+    By Product_Action_Button = By.xpath(configprop.getProperty("Product_Action_Button"));
+
+    // Enable Or Disable Operation
+    By Product_category_Disable = By.xpath(configprop.getProperty("Product_category_Disable"));
+    By Product_category_Enable = By.xpath(configprop.getProperty("Product_category_Enable"));
+
+
     //Here we are identifying the xpath for the Adding Product Page
     By Product_Code = By.xpath(configprop.getProperty("Product_Code"));
     By Product_Bar_COde = By.xpath(configprop.getProperty("Product_Bar_COde"));
@@ -77,6 +100,10 @@ public class ChataakAddCatalogProducts {
     By Product_Page_Product_MinSellingPrice = By.xpath(configprop.getProperty("Product_Page_Product_MinSellingPrice"));
     By Product_Page_Product_UnitInBox = By.xpath(configprop.getProperty("Product_Page_Product_UnitInBox"));
     By Product_Page_Product_SellingPrice_PerUnit = By.xpath(configprop.getProperty("Product_Page_Product_SellingPrice_PerUnit"));
+
+
+    By Product_Page_Product_Category_List = By.xpath(configprop.getProperty("Product_Page_Product_Category_List"));
+
 
     By Product_page_Product_Submit_Button = By.xpath("Product_page_Product_Submit_Button");
 
@@ -106,7 +133,12 @@ public class ChataakAddCatalogProducts {
     //Xpath to find the list of category
     By Product_List_Category = By.xpath(configprop.getProperty("Product_List_Category"));
     By Product_CategoryOrBrand = By.xpath(configprop.getProperty("Product_CategoryOrBrand"));
+    By Product_ImageOrVideo = By.xpath(configprop.getProperty("Product_ImageOrVideo"));
     By Product_CategoryOrBrand_DropDown = By.xpath(configprop.getProperty("Product_CategoryOrBrand_DropDown"));
+
+    //Status message
+    By Product_Page_Status = By.xpath(configprop.getProperty("Product_Page_Status"));
+
 
     // Using This Method we can move till the Add Product Page
     public void AddProductsPage() throws InterruptedException {
@@ -389,20 +421,56 @@ public class ChataakAddCatalogProducts {
                 Product_SellingPrice_PerUnit.sendKeys(configprop.getProperty("SellingPrice_PerUnit"));
 
 
-                //click the dropdown box
-                //              DropdownBox.click();
-//                WebElement list1 =waithelper.WaitForElement1(Product_category_DropdownList,10);
-//               list1.click();
-            WebElement button = ldriver.findElement(Product_page_Product_Submit_Button);
+                //click the dropdown Box
+                DropdownBox.click();
 
-                Actions actions = new Actions(ldriver);
-                actions.moveToElement(button).click().perform();
+                List<WebElement> ProductcategoryList = ldriver.findElements(Product_List_Category);
+
+                // Check if categories are found
+                if (!ProductcategoryList.isEmpty()) {
+                    System.out.println("Category list is present. Found categories:");
+                    for (WebElement category : ProductcategoryList) {
+                        Thread.sleep(3000);
+                        category.click();
+                        break;
+                        // Print each category name
+                    }
+
+                } else {
+                    System.out.println(" Category list is not Present");
+                }
 
 
+//                WebElement imageOrVideotab= ldriver.findElement(Product_ImageOrVideo);
+//                imageOrVideotab.click();
 
-//                // WebElement ProductSubmitButton=waithelper.WaitForElement1(Product_page_Product_Submit_Button,10);
-//                WebElement button = ldriver.findElement(Product_page_Product_Submit_Button);
-//                button.click();
+
+                Wait<WebDriver> wait = new FluentWait<>(ldriver)
+                        .withTimeout(Duration.ofSeconds(15))
+                        .pollingEvery(Duration.ofSeconds(1))
+                        .ignoring(NoSuchElementException.class);
+
+                //  WebElement submitButton = wait.until(driver -> driver.findElement(Product_page_Product_Submit_Button));
+                WebElement submitButton = wait.until(driver -> driver.findElement(By.xpath("(//button[@type='submit' ])[1]")));
+
+                if (submitButton.isDisplayed()) {
+                    System.out.println(" Submit Button is Displayed ");
+                    submitButton.click();
+                } else {
+                    System.out.println(" Submit Button is Not  Displayed ");
+                }
+
+
+                WebElement status = waithelper.WaitForElement1(Product_Page_Status, 20);
+                // String ExpectedStatus = "The store name already exists in your organization. Please choose unique name to continue";
+                String ActualStatus = status.getText();
+                if (ActualStatus.equals("This Product Code already exists your Organization.")) {
+                    Assert.assertTrue(true);
+                } else if (ActualStatus.equalsIgnoreCase("Added Successfully")) {
+                    Assert.assertTrue(true);
+                } else {
+                    Assert.assertTrue(false);
+                }
 
 
             } else {
@@ -410,13 +478,13 @@ public class ChataakAddCatalogProducts {
                 WebElement productcode = waithelper.WaitForElement1(Product_Code, 10);
 
 
-                //Finding The Product Code Text Box
+                // Finding The Product Code Text Box
                 productcode.click();
                 productcode.clear();
                 productcode.sendKeys(configprop.getProperty("ProductCOde"));
 
 
-                //     Click on the Pop up message
+                // Click on the Pop up message
                 WebElement popup = waithelper.WaitForElement1(Category_First_Pop_Up, 10);
                 popup.click();
 
@@ -427,6 +495,175 @@ public class ChataakAddCatalogProducts {
         }
 
 
+    }
+
+
+    public void PrintProductCardDetails() throws InterruptedException {
+        ldriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Thread.sleep(5000);
+
+        //here if only the organization type is manufacturer or merchant u need to move to add product
+        WebElement organizationType = waithelper.WaitForElement1(Organization_Type, 10);
+        String Type = organizationType.getText();
+        if (Type.equals(configprop.getProperty("ManName"))) {
+            System.out.println(organizationType.getText());
+            Assert.assertTrue(true);
+        } else if (Type.equals(configprop.getProperty("MerName"))) {
+            Assert.assertTrue(true);
+        } else {
+            Assert.fail();
+        }
+
+
+        ldriver.findElement(link_Catalog).click();
+        ldriver.findElement(Catalog_Products_Link).click();
+
+        //Here i'm Printing the Card count  on the console and comparing with the actual list count
+        WebElement TotalProductText = waithelper.WaitForElement1(Total_Product_Text, 10);
+
+        if (TotalProductText.isDisplayed()) {
+            System.out.println("Total Products Text Message : " + TotalProductText.getText());
+            Thread.sleep(3000);
+            WebElement TotalProducts = waithelper.WaitForElement1(Total_Products, 10);
+            System.out.println("Total Products : " + TotalProducts.getText());
+            System.out.println("Total Products Card is Displayed");
+        } else {
+            System.out.println("Total Products Card is Not Displayed");
+        }
+
+        // Here im Printing the Active Products
+        WebElement ActiveproductsText = waithelper.WaitForElement1(Active_Products_Text, 10);
+
+        if (TotalProductText.isDisplayed()) {
+            System.out.println("Active  Products Text Message : " + ActiveproductsText.getText());
+            //Thread.sleep(3000);
+            WebElement ActiveProducts = waithelper.WaitForElement1(Active_Products_Count, 10);
+            System.out.println("Active  Products Count  : " + ActiveProducts.getText());
+            System.out.println("Active Products Card is Displayed");
+        } else {
+            System.out.println("Active  Products Card is Not Displayed");
+        }
+
+        // Here im Printing the InActive Products
+        WebElement InActiveProductsText = waithelper.WaitForElement1(InActive_Products_Text, 10);
+
+        if (TotalProductText.isDisplayed()) {
+            System.out.println("InActive  Products Text Message : " + InActiveProductsText.getText());
+            //Thread.sleep(3000);
+            WebElement InActiveProducts = waithelper.WaitForElement1(InActive_Products_Count, 10);
+            System.out.println("InActive  Products Count : " + InActiveProducts.getText());
+            System.out.println("inactive  Products Card is Displayed");
+        } else {
+            System.out.println("Inactive  Products Card is Not Displayed");
+        }
+
+
+        try {
+
+            List<WebElement> list = ldriver.findElements(Product_List);
+
+            if (!list.isEmpty()) {  // Check if the list is not empty
+                waithelper.WaitForElement(list.get(0), 20); // Wait for the first element
+            } else {
+                System.out.println("No elements found for category_List");
+            }
+            // Locate all rows in the MuiDataGrid table
+            List<WebElement> rows = ldriver.findElements(Product_List);
+            int count = 0;
+            for (WebElement row : rows) {
+                //Extract the Name
+                WebElement nameElement = row.findElement(Product_Name);
+                String name = nameElement.getText();
+                count++;
+
+            }
+            // Print the total count of products
+            System.out.println("Total number of products: " + count);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+
+    }
+
+
+    //Here i'M Performing the  Enable or Disable  Fuction is working in The List 1st Product ( C R U D ) Operation
+    public void productEnableOrDisable() throws InterruptedException {
+        ldriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Thread.sleep(5000);
+        //here if only the organization type is manufacturer or merchant u need to move to add product
+        WebElement organizationType = waithelper.WaitForElement1(Organization_Type, 10);
+        String Type = organizationType.getText();
+        if (Type.equals(configprop.getProperty("ManName"))) {
+            System.out.println(organizationType.getText());
+            Assert.assertTrue(true);
+        } else if (Type.equals(configprop.getProperty("MerName"))) {
+            Assert.assertTrue(true);
+        } else {
+            Assert.fail();
+        }
+
+
+        ldriver.findElement(link_Catalog).click();
+        ldriver.findElement(Catalog_Products_Link).click();
+
+        try {
+
+            List<WebElement> list = ldriver.findElements(Product_Page_Product_List);
+
+            if (!list.isEmpty()) {  // Check if the list is not empty
+                waithelper.WaitForElement(list.get(0), 20); // Wait for the first element
+            } else {
+                Assert.assertTrue(true);
+                System.out.println("No elements found for category_List");
+            }
+            // Iterate through each row
+            // Locate all rows in the MuiDataGrid table
+            List<WebElement> rows = ldriver.findElements(Product_Page_Product_List);
+            for (WebElement row : rows) {
+                try {
+                    // Find the action button inside the current row
+                    WebElement actionButton = row.findElement(Product_Action_Button);
+                    // Click the action button
+                    actionButton.click();
+                    // Add a small delay to observe the click action (optional)
+                    Thread.sleep(1000);
+                    List<WebElement> Disable = ldriver.findElements(Product_category_Disable);
+                    for (WebElement button : Disable) {
+                        try {
+                            waithelper.WaitForElement(button, 10);
+                            button.click();
+                            break; // Stop after first successful click
+                        } catch (Exception e) {
+                            System.out.println("Retrying click...");
+                        }
+                    }
+
+
+                    List<WebElement> enable = ldriver.findElements(Product_category_Enable);
+                    for (WebElement button : enable) {
+                        try {
+
+                            waithelper.WaitForElement(button, 10);
+                            button.click();
+                            break; // Stop after first successful click
+                        } catch (Exception e) {
+                            System.out.println("Retrying click...");
+                        }
+                    }
+
+
+                    System.out.println("Clicked action button in row: " + row.getAttribute("data-id"));
+
+                } catch (Exception e) {
+                    System.out.println("Failed to click action button in row: " + row.getAttribute("data-id"));
+                    e.printStackTrace();
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("No data found");
+            System.out.println(e.getMessage());
+        }
     }
 
 

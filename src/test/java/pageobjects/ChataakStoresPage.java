@@ -480,7 +480,11 @@ public class ChataakStoresPage {
 //            js.executeScript("arguments[0].style.display='block';", profile_Logo);
 //            profile_Logo.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/images/Dell.jpg");
             System.out.println(profile_Logo.isDisplayed()+"+Profile_Logo is Displayed");
-            upload_image.sendKeys("/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/java/images/Dell.jpg");
+
+            String filePath = System.getProperty("user.dir") + "/src/test/java/images/Picture-01.png";
+            upload_image.sendKeys(filePath);
+
+            //upload_image.sendKeys("/home/limitscale/WorkingProject/Live_ChataakProjectWebautomation/src/test/java/images/Dell.jpg");
             Assert.assertTrue(true);
 
         }

@@ -1,4 +1,5 @@
 package stepDefinations;
+
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
@@ -20,9 +21,11 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
+
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.OutputType;
+
 public class Chataaksteps extends BaseClass {
 
     @Before
@@ -41,27 +44,23 @@ public class Chataaksteps extends BaseClass {
         logger.setLevel(Level.DEBUG);
 
 
-        String br=configprop.getProperty("browser"); //getting the browser name from config.properties file
+        String br = configprop.getProperty("browser"); //getting the browser name from config.properties file
 
         //Launching browser
         if (br.equals("firefox")) {
-            System.setProperty("webdriver.gecko.driver",configprop.getProperty("firefoxdriverpath"));
+            System.setProperty("webdriver.gecko.driver", configprop.getProperty("firefoxdriverpath"));
             driver = new FirefoxDriver();
-        }
-
-        else if (br.equals("chrome")) {
+        } else if (br.equals("chrome")) {
 
             logger.info("************* Launching CHROME Browser *****************");
             ChromeOptions options = new ChromeOptions();
             options.setAcceptInsecureCerts(true);
 
-            System.setProperty("webdriver.chrome.driver",configprop.getProperty("chromepath"));
+            System.setProperty("webdriver.chrome.driver", configprop.getProperty("chromepath"));
             driver = new ChromeDriver(options);
-        }
-
-        else if (br.equals("msedge")) {
+        } else if (br.equals("msedge")) {
             logger.info("************* Launching EDGE Browser *****************");
-            System.setProperty("webdriver.edge.driver",configprop.getProperty("microsoftedgepath"));
+            System.setProperty("webdriver.edge.driver", configprop.getProperty("microsoftedgepath"));
             // Create EdgeOptions to start a fresh session
             EdgeOptions options = new EdgeOptions();
             options.addArguments("--no-sandbox"); // Ensures Edge runs safely
@@ -103,21 +102,14 @@ public class Chataaksteps extends BaseClass {
     }
 
 
-
-
-
-
-
-
-
     @Given("the user launches the Chrome browser")
     public void the_user_launches_the_chrome_browser() throws IOException {
 
-        lp= new ChataakLoginPage(driver);
-        sp=new ChataakStoresPage(driver);
-        signUppage=new ChataakSignUpPage(driver);
-        catalog=new ChataakCatalogModulePage(driver);
-        AddProducts=new ChataakAddCatalogProducts(driver);
+        lp = new ChataakLoginPage(driver);
+        sp = new ChataakStoresPage(driver);
+        signUppage = new ChataakSignUpPage(driver);
+        catalog = new ChataakCatalogModulePage(driver);
+        AddProducts = new ChataakAddCatalogProducts(driver);
     }
 
     @Given("the user navigates to the login page with the URL {string}")
@@ -150,8 +142,6 @@ public class Chataaksteps extends BaseClass {
     }
 
 
-
-
     //Adding new store
 
     @When("user will perform the actions to add the store")
@@ -163,14 +153,12 @@ public class Chataaksteps extends BaseClass {
     }
 
 
-
-
-
     //user Sign Up Page
     @Given("the user navigates to the SignUp page with the URL {string}")
     public void the_user_navigates_to_the_sign_up_page_with_the_url(String SignUpPageUrl) {
         driver.get(SignUpPageUrl);
     }
+
     @Given("User Fills the Sign Up form")
     public void user_fills_the_sign_up_form() {
         logger.info("************* Enter Organization Name*****************");
@@ -190,12 +178,14 @@ public class Chataaksteps extends BaseClass {
         logger.info("************* Accept Terms and Conditions *****************");
         signUppage.termsandConditions();
     }
+
     @Given("Click on the Submit Your Interest Form")
     public void click_on_the_submit_your_interest_form() {
         logger.info("************* click on submit Your Interest Button *****************");
         signUppage.SubmitYourInterest();
 
     }
+
     @Then("the SignUp Page Status message will be seen")
     public void the_sign_up_page_status_message_will_be_seen() {
         // signUppage.status();
@@ -237,14 +227,11 @@ public class Chataaksteps extends BaseClass {
     }
 
 
-
-
-
     //Catalog Module --> Where we are Performing to add the Products and its related Submodule
 
     @When("user will perform the actions to add the Category Manager")
     public void user_will_perform_the_actions_to_add_the_category_manager() throws InterruptedException {
-       logger.info("*** Performing to add the category  ***");
+        logger.info("*** Performing to add the category  ***");
         catalog.catalogModule();
     }
 
@@ -252,7 +239,7 @@ public class Chataaksteps extends BaseClass {
     @When("user will fill all the fields of the category form")
     public void user_will_fill_all_the_fields_of_the_category_form() throws InterruptedException {
         logger.info("*** Filling up All the Fields in the Category Module  ***");
-         catalog.fillAllCategoryModule();
+        catalog.fillAllCategoryModule();
     }
 
     @When("user will try to create the lable")
@@ -286,12 +273,11 @@ public class Chataaksteps extends BaseClass {
     }
 
 
-
 //    From Here we are working on the Products Module
 
     @When("user will see the Pop up message saying to create the category First")
     public void user_will_see_the_pop_up_message_saying_to_create_the_category_first() throws InterruptedException {
-       logger.info("*** Creating the Products Without Presents of the Category ***");
+        logger.info("*** Creating the Products Without Presents of the Category ***");
         AddProducts.AddProductsPage();
         AddProducts.AddProductsWithoutCategory();
     }
@@ -304,12 +290,11 @@ public class Chataaksteps extends BaseClass {
     }
 
 
-
     @When("User will fill the Product Data  for Adding the New Product")
     public void user_will_fill_the_product_data_for_adding_the_new_product() throws InterruptedException {
         logger.info("*** Adding The New products ***");
-       AddProducts.AddProductsPage();
-       AddProducts.AddNewProducts();
+        AddProducts.AddProductsPage();
+        AddProducts.AddNewProducts();
     }
 
 
@@ -318,6 +303,17 @@ public class Chataaksteps extends BaseClass {
         logger.info("*** If the category is Present in the Category Only Then User will create the Products ***");
         AddProducts.AddProductsPage();
         AddProducts.CategoryExistAddNewProduct();
+    }
+
+    @When("user will print the product Active , All and Inactive products in the Console")
+    public void user_will_print_the_product_active_all_and_inactive_products_in_the_console() throws InterruptedException {
+        logger.info("*** Print the All Products , Active Products , And In-Active Products Count ***");
+        AddProducts.PrintProductCardDetails();
+    }
+
+    @When("user will Perform The Edit Operation")
+    public void user_will_perform_the_edit_operation() throws InterruptedException {
+     AddProducts.productEnableOrDisable();
     }
 
 
