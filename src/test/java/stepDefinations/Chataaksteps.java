@@ -77,30 +77,27 @@ public class Chataaksteps extends BaseClass {
 
     }
 
-
     @After
-    public void addScreenshot(Scenario scenario) {
-        if (scenario.isFailed()) {
-            try {
-                // Ensure WebDriver is initialized
-                if (driver == null) {
-                    System.out.println("WebDriver is null! Screenshot cannot be taken.");
-                    return;
+    public void tearDown(Scenario scenario) {
+        try {
+            if (scenario.isFailed()) {
+                // Take a screenshot if scenario fails
+                if (driver != null) {
+                    TakesScreenshot ts = (TakesScreenshot) driver;
+                    byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
+                    scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
                 }
-
-                // Capture Screenshot as Bytes
-                TakesScreenshot ts = (TakesScreenshot) driver;
-                byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
-
-                // Attach screenshot to Cucumber Report
-                scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
-
-            } catch (Exception e) {
-                System.out.println("Failed to capture screenshot: " + e.getMessage());
+            }
+        } catch (Exception e) {
+            System.out.println("Failed to capture screenshot: " + e.getMessage());
+        } finally {
+            if (driver != null) {
+                logger.info("************* Quitting Browser *****************");
+                driver.quit(); // This closes all windows and ends the WebDriver session
+                logger.info("************* Browser Closed Successfully *****************");
             }
         }
     }
-
 
     @Given("the user launches the Chrome browser")
     public void the_user_launches_the_chrome_browser() throws IOException {
@@ -311,10 +308,25 @@ public class Chataaksteps extends BaseClass {
         AddProducts.PrintProductCardDetails();
     }
 
-    @When("user will Perform The Edit Operation")
-    public void user_will_perform_the_edit_operation() throws InterruptedException {
-     AddProducts.productEnableOrDisable();
+    @When("user will Test Action Active or Inactive")
+    public void user_will_test_action_active_or_inactive() throws InterruptedException {
+        AddProducts.productEnableOrDisable();
     }
+
+    @When("The user will perform the action to edit the product")
+    public void the_user_will_perform_the_action_to_edit_the_product() throws InterruptedException {
+     AddProducts.productActionProductEdit();
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 }

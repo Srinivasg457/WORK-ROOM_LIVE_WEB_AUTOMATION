@@ -580,6 +580,8 @@ public class ChataakAddCatalogProducts {
     }
 
 
+
+
     //Here i'M Performing the  Enable or Disable  Fuction is working in The List 1st Product ( C R U D ) Operation
     public void productEnableOrDisable() throws InterruptedException {
         ldriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -658,6 +660,113 @@ public class ChataakAddCatalogProducts {
             System.out.println(e.getMessage());
         }
     }
+
+
+
+
+    //Here i'M Performing the  Edit of the product
+    public void productActionProductEdit() throws InterruptedException {
+        ldriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Thread.sleep(5000);
+        //here if only the organization type is manufacturer or merchant u need to move to add product
+        WebElement organizationType = waithelper.WaitForElement1(Organization_Type, 10);
+        String Type = organizationType.getText();
+        if (Type.equals(configprop.getProperty("ManName"))) {
+            System.out.println(organizationType.getText());
+            Assert.assertTrue(true);
+        } else if (Type.equals(configprop.getProperty("MerName"))) {
+            Assert.assertTrue(true);
+        } else {
+            Assert.fail();
+        }
+
+
+        ldriver.findElement(link_Catalog).click();
+        ldriver.findElement(Catalog_Products_Link).click();
+
+        try {
+            WebElement ProductList=waithelper.WaitForElement1(Product_Page_Product_List,10);
+            List<WebElement> list =ldriver.findElements(Product_Page_Product_List);
+
+            if (!list.isEmpty()) {  // Check if the list is not empty
+                waithelper.WaitForElement(list.get(0), 20); // Wait for the first element
+            } else {
+                Assert.assertTrue(true);
+                System.out.println("No elements found for Product_List");
+            }
+            // Iterate through each row
+            // Locate all rows in the MuiDataGrid table
+            List<WebElement> rows = ldriver.findElements(Product_Page_Product_List);
+            for (WebElement row : rows) {
+                try {
+                    // Find the action button inside the current row
+                    WebElement actionButton = row.findElement(Product_Action_Button);
+                    // Click the action button
+                    actionButton.click();
+                    // Add a small delay to observe the click action (optional)
+                    Thread.sleep(1000);
+
+                    try {
+                        // Locate the list items inside the menu
+                        List<WebElement> menuItems = ldriver.findElements(By.cssSelector("ul[role='menu'] li[role='menuitem']"));
+                         int count=0;
+                        // Print out the menu item texts
+                        for (WebElement item : menuItems) {
+                            System.out.println(item.getText().trim());
+                            count++;
+                            if(count==3){
+                                break;
+                            }
+                        }
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+//                    List<WebElement> Disable = ldriver.findElements(Product_category_Disable);
+//                    for (WebElement button : Disable) {
+//                        try {
+//                            waithelper.WaitForElement(button, 10);
+//                            button.click();
+//                            break; // Stop after first successful click
+//                        } catch (Exception e) {
+//                            System.out.println("Retrying click...");
+//                        }
+//                    }
+
+
+                    System.out.println("Clicked action button in row: " + row.getAttribute("data-id"));
+                    break;
+                } catch (Exception e) {
+                    System.out.println("Failed to click action button in row: " + row.getAttribute("data-id"));
+                    e.printStackTrace();
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("No data found");
+            System.out.println(e.getMessage());
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
