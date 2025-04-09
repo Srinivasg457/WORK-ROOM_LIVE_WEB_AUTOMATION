@@ -1,103 +1,12 @@
 package stepDefinations;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+
 import io.cucumber.java.en.*;
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import pageobjects.*;
-
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
-
-import io.cucumber.java.Scenario;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.OutputType;
 
 public class Chataaksteps extends BaseClass {
 
-    @Before
-    public void setup() throws IOException {
-        // Reading the properties file
-        configprop = new Properties();
-        String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
-        FileInputStream configProfile = new FileInputStream(configPath);
-        configprop.load(configProfile);
-
-
-        // Logger setup
-        logger = Logger.getLogger("ChataakWebApplication");
-        String log4jPath = System.getProperty("user.dir") + "/src/test/resources/log4j.properties";
-        PropertyConfigurator.configure(log4jPath);
-        logger.setLevel(Level.DEBUG);
-
-
-        String br = configprop.getProperty("browser"); //getting the browser name from config.properties file
-
-        //Launching browser
-        if (br.equals("firefox")) {
-            System.setProperty("webdriver.gecko.driver", configprop.getProperty("firefoxdriverpath"));
-            driver = new FirefoxDriver();
-        } else if (br.equals("chrome")) {
-
-            logger.info("************* Launching CHROME Browser *****************");
-            ChromeOptions options = new ChromeOptions();
-            options.setAcceptInsecureCerts(true);
-
-            System.setProperty("webdriver.chrome.driver", configprop.getProperty("chromepath"));
-            driver = new ChromeDriver(options);
-        } else if (br.equals("msedge")) {
-            logger.info("************* Launching EDGE Browser *****************");
-            System.setProperty("webdriver.edge.driver", configprop.getProperty("microsoftedgepath"));
-            // Create EdgeOptions to start a fresh session
-            EdgeOptions options = new EdgeOptions();
-            options.addArguments("--no-sandbox"); // Ensures Edge runs safely
-            options.addArguments("--disable-dev-shm-usage"); // Fixes resource issues on Linux
-            options.addArguments("--disable-gpu"); // Disables GPU rendering
-            options.addArguments("--remote-allow-origins=*"); // Resolves security policy issues
-            options.addArguments("--guest"); // Launches without user profile
-            driver = new EdgeDriver(options); // Launch Edge
-        }
-        // Maximize the browser window
-        logger.info("************* Browser Launched and Maximized *****************");
-        driver.manage().window().maximize();
-
-
-    }
-
-    @After
-    public void tearDown(Scenario scenario) {
-        try {
-            if (scenario.isFailed()) {
-                // Take a screenshot if scenario fails
-                if (driver != null) {
-                    TakesScreenshot ts = (TakesScreenshot) driver;
-                    byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
-                    scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
-                }
-            }
-        } catch (Exception e) {
-            System.out.println("Failed to capture screenshot: " + e.getMessage());
-        } finally {
-            if (driver != null) {
-                logger.info("************* Quitting Browser *****************");
-                driver.quit(); // This closes all windows and ends the WebDriver session
-                logger.info("************* Browser Closed Successfully *****************");
-            }
-        }
-    }
 
     @Given("the user launches the Chrome browser")
     public void the_user_launches_the_chrome_browser() throws IOException {
@@ -121,6 +30,7 @@ public class Chataaksteps extends BaseClass {
         lp.Email(email);
         logger.info("************* Enter the Password *****************");
         lp.password(password);
+
     }
 
     @When("the user clicks the Login button")
@@ -134,8 +44,8 @@ public class Chataaksteps extends BaseClass {
     public void the_user_should_see_the_status_message() {
         logger.info("************* Check The Application Status Message *****************");
         lp.statusmessage();
-        logger.info("************* Close The Browser *****************");
-        driver.close();
+//        logger.info("************* Close The Browser *****************");
+//        driver.close();
     }
 
 

@@ -96,24 +96,30 @@ public class ChataakLoginPage {
         System.out.println(owner.getText());
     }
 
-    public void statusmessage(){
-        waitHelper.WaitForElement(status,10);
-        String message=status.getText();
-        if (message.equalsIgnoreCase("Login successful")){
-            System.out.println("Status message = "+ message);
+
+    public void statusmessage() {
+        waitHelper.WaitForElement(status, 10);
+        String message = status.getText();
+        System.out.println("Status message = " + message);
+
+        if (message.equalsIgnoreCase("Login successful")) {
+            System.out.println("Status : " + message);
             Assert.assertTrue(true);
         } else if (message.equalsIgnoreCase("Incorrect password. Please try again or reset your password if you've forgotten it.")) {
-            System.out.println("Status message = "+ message);
+            System.out.println("Status : "+ message);
+            //Assert.fail("Login failed due to incorrect password. Stopping scenario.");
             Assert.assertTrue(true);
         } else if (message.equalsIgnoreCase("This email is not registered in Chataak")) {
-            System.out.println("Status message = "+ message);
+            System.out.println("Status : "+ message);
+//            Assert.fail("Login failed due to unregistered email. Stopping scenario.");
             Assert.assertTrue(true);
+        } else {
+           // logger.error();
+            System.out.println("Unexpected login status message: " + message);
+            Assert.fail("Unexpected login status. Stopping scenario.");
         }
-            
-
-
-
     }
+
 
 
 

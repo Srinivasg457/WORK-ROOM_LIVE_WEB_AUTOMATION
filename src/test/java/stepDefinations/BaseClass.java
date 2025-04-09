@@ -10,7 +10,8 @@ import java.util.Properties;
 
 
 public class BaseClass {
-    public WebDriver driver;
+    //    public WebDriver driver;
+    public static WebDriver driver; // Make it static to share across classes
     public ChataakLoginPage lp;
     public ChataakStoresPage sp;
     public ChataakSignUpPage signUppage;
@@ -20,15 +21,9 @@ public class BaseClass {
     public ChataakAddCatalogProducts AddProducts;
 
 
-
-
-
-
-
-
-    public static String randomString(){
-        String generatedString1= RandomStringUtils.randomAlphanumeric(8);
-      return(generatedString1);
+    public static String randomString() {
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(8);
+        return (generatedString1);
     }
     //random numbers
 
