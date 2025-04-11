@@ -82,8 +82,6 @@ public class ChataakWebApphooks extends BaseClass {
 //        AddProducts = new ChataakAddCatalogProducts(driver);
 //    }
 
-
-
     @After
     public void tearDown(Scenario scenario) {
         try {

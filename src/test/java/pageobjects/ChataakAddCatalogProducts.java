@@ -686,7 +686,7 @@ public class ChataakAddCatalogProducts {
 
 
     public void productActionProductEdit() throws InterruptedException {
-        ldriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        ldriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         Thread.sleep(5000);
 
         WebElement organizationType = waithelper.WaitForElement1(Organization_Type, 10);
@@ -737,35 +737,6 @@ public class ChataakAddCatalogProducts {
 
                             //  Perform the actual edit right here
                             performProductEdit();
-
-//                            WebElement ProductUpdateButton = waithelper.WaitForElement1(Product_Update_Button, 10);
-//
-//                            if (ProductUpdateButton.isDisplayed()) {
-//                                System.out.println("Product Update Button is Displayed ");
-//                                ProductUpdateButton.click();
-//
-//                            } else {
-//                                System.out.println("Product Update button is Not Displayed");
-//                            }
-
-
-
-//                            WebElement EditStatusMessage=waithelper.WaitForElement1(Product_Page_Status,10);
-//                            String actualStatusMessage = EditStatusMessage.getText().trim();
-
-
-//                             if (actualStatusMessage.equalsIgnoreCase("Update Successfully")) {
-//                                Assert.assertTrue(true);
-//                            } else if(actualStatusMessage.equalsIgnoreCase("This Product Code already exists your Organization.")){
-//                                Assert.fail("failed");
-//                            }
-
-
-
-
-
-
-
 
                             System.out.println("Edited product in row: " + row.getAttribute("data-id"));
                             return; // Exit after first successful edit

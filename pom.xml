@@ -19,6 +19,15 @@
 
   <build>
     <plugins>
+
+
+      <plugin>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-maven</artifactId>
+        <version>2.11.2</version>
+      </plugin>
+
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -30,7 +39,6 @@
       </plugin>
     </plugins>
   </build>
-
 
 
 
@@ -151,6 +159,36 @@
       <groupId>tech.grasshopper</groupId>
       <artifactId>extentreports-cucumber7-adapter</artifactId>
       <version>1.14.0</version>
+    </dependency>
+
+
+    <!-- Allure Cucumber JVM -->
+
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-cucumber7-jvm</artifactId>
+      <version>2.20.1</version>
+    </dependency>
+
+
+    <!--    &lt;!&ndash; Allure TestNG (optional if using TestNG) &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>io.qameta.allure</groupId>-->
+<!--      <artifactId>allure-testng</artifactId>-->
+<!--      <version>2.20.1</version>-->
+<!--    </dependency>-->
+
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.20.0</version> <!-- Use latest stable version -->
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.20.0</version>
     </dependency>
 
 

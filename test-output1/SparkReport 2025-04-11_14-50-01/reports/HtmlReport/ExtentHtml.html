@@ -1,0 +1,462 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link href='http://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title></title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+			
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent standard default hide-overflow bdd-report'>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+        <a href="#!" class="brand-logo black"><img src="http://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'></span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Apr 11, 2025 02:50:01 PM</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m4 l4 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Features</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='$0%'>
+                    <span class='strong'>0</span> features passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>
+                    1</span> features failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> skipped
+                </div>
+            </div>
+        </div>
+        <div class='col s12 m4 l4 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Scenarios</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='child-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'>
+                    <span class='strong'>0</span> scenarios passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>
+                    1</span> scenarios failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> others
+                </div>
+            </div>
+        </div>
+        <div class='col s12 m4 l4 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Steps</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='grandchild-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='83%'>
+                    <span class='strong'>5</span> steps passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='16%'>
+                    1</span> steps failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> others
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	
+	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>Catalog Module category</span>
+						<span class='test-time'>Apr 11, 2025 02:50:01 PM</span>
+						<span class='test-status right fail'>Fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class="sr-filters bdd-filters">
+	<a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
+	<a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
+	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
+	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
+</div>
+
+<div class='scenario node' test-id='2' status='fail'>
+
+	<span class='duration right label'>00 01 08.361</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: user will Edit The Category</div>
+	</div>
+	
+	
+	
+	<ul class='steps'>
+		<li test-id='4' class='node given Pass' status='Pass'>
+			<div class="step-name" title="(stepDefinations.Chataaksteps.the_user_launches_the_chrome_browser())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given the user launches the Chrome browser</div>
+
+
+		</li>
+		<li test-id='5' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(stepDefinations.Chataaksteps.the_user_navigates_to_the_login_page_with_the_url(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And the user navigates to the login page with the URL "https://dev-app.chataak.in/login/"</div>
+
+
+		</li>
+		<li test-id='6' class='node when Pass' status='Pass'>
+			<div class="step-name" title="(stepDefinations.Chataaksteps.the_user_enters_their_email_and_password(java.lang.String,java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When the user enters their email "ripewe1814@framitag.com" and password "8fdlIsib"</div>
+
+
+		</li>
+		<li test-id='7' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(stepDefinations.Chataaksteps.the_user_clicks_the_login_button())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And the user clicks the Login button</div>
+
+
+		</li>
+		<li test-id='8' class='node and Fail' status='Fail'>
+			<div class="step-name" title="(stepDefinations.ChataakCatalogCategorySteps.user_will_perform_the_edit_operation())"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>And user will perform the edit operation</div>
+
+
+					<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[normalize-space()='Catalog']"}
+  (Session info: chrome=135.0.7049.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-21-generic', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b37b7964ab5b48dc2c1c1be60c115cc, findElement {value=//p[normalize-space()='Catalog'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36003/devtoo..., se:cdpVersion: 135.0.7049.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b37b7964ab5b48dc2c1c1be60c115cc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageobjects.ChataakCatalogModulePage.CategoryEdit(ChataakCatalogModulePage.java:701)
+	at stepDefinations.ChataakCatalogCategorySteps.user_will_perform_the_edit_operation(ChataakCatalogCategorySteps.java:68)
+	at ✽.user will perform the edit operation(file:///home/limitscale/WorkingProject/Live_ChataakProjectWebautomation/src/test/java/Features/ChataakAddCatalogCatagory.feature:41)
+</textarea>
+		</li>
+		<li test-id='9' class='node * Pass' status='Pass'>
+			<div class="step-name" title="(AFTER)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>hooks.ChataakWebApphooks.tearDown(io.cucumber.java.Scenario)</div>
+
+
+					<div class="node-step">Failed Step Screenshot</div>
+					<div class='screenshots'>
+						<a href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABgAAAAK1CAIAAACBxLLpAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3XuMXdV96PG19pkz9mBsCGMnjhVT2yQO+FLzMjXGyQ1JRB4XigolSrgQbkmoaAtxRUWKSNTSChqCRKRIDaRGEIkEJ6i8oriNVNJHQjANJBcDN5RHg3GgUAfMwy/G4zPn7PvHHh8fj80A43n5588HaZizz2Mv7P0H56u11s7b+3YkAAAAAOIqJnoAAAAAAIwtAQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACA4AQgAAAAgOAEIAAAAIDgBCAAAACC4rokeAAAAALBLWZYTPQQmTM55jD5ZAAIAAIAJJvpQ6bwSRjcGCUAAAAAwYfaafvSgA9OQ4lNdBqOVgQQgAAAAmABDKs/OhzmlVP06VmuBmHzKPR61u89oZSABCAAAAMZbu/60u09Zplz9u/3UBI6PiVCWZc45le2/+l3pZ/CpfSAAAQAAwPjpnPhTlmVKOZVlymU176dslZaAHbByzruFnjKljiP7OBVIAAIAAIDxVn2ZL8uUc1mmst192uVn8Nv+BA+T8TA4ByznnYmnbJegPLgecBRWgQlAAAAAME52dp+dE39SWZaD3aerXuuudxW1YqLHyARrNVs7GgMDjeauVYBlbk8FGvFasLy9b8cojxQAAADYw277/pRpsPyUZc65p2eK9EOnVrPV19c/OA8o55xyyrsmAY2gAbm8AAAAYPxU833a9afVKqdO7VZ/GKKoFVOndrdag9dJuXOy2Mg/cFSHBwAAAOxF5+KvavZGVX+6u7tqXbWJHh2TUa2r1t3dVTWglFLeeZe4kW0TLgABAADAOCrbUirLet3mvLyher0rle2NospkBhAAAABMWh3zNXLKqV1/ylRa/MUwilqxc71gKssy5V23hnu7k4CERgAAABgPO+/yPjiZo1W2Wq0R3tGJA0TOudUqU9EqytwZfWwCDQAAAJPXrm/tI93JhQPN4EXSTj8j/RwBCAAAAMbQXtd/tVeBTezY2A90XDD7sgpMAAIAAIBx0vmNfeeKMBjOkLu/j/iiEYAAAABgzJUdOwCllNpTOiZ6XEx2nZfKbptIvU02gQYAAIBxtevb+4g2dNk08Eo9T3ml8WJK6bD6Oxtl/yFdh43uCJlEdl4kZblPW4YLQAAAADAecto14Wfnri5vbx7H068/sbGxYe3mNa82Xh4oGymlrlx/R733uBnLZ9ZnH3HQkWMxbCbWrs1/dsafkUUgAQgAAADGVe74+db908Y7ntj2yKNbHqzlrqr+VLpy/eeb7l08/XeOnHbMx2eePcpjZRIY2QUzhAAEAAAAk92qF77xwKYfb21uTil11p/2w0e2PPD0649v3LHh3DmXTNwwmbxsAg0AAACT2qoXvvGvr6yu6s8wtjY3/+srq1e98I23+LEXXnjh6aefPhoDTCmls84668QTT3y771q1atU555xzxBFHnHTSSV/4whdee+210RrPGCnL8otf/OKSJUt6e3u/+c1vDvPKDRs29Pb23n///eM4uuGYAQQAAACT1z9tvOOBTT9+i/cLK1P5wKYfz+ye/VbWgjWbzYGBgdEYY0opfepTn9q8+U0S1RBXXnnlypUrzz///HPPPXft2rW33nrrM888c8cdd0ydOnW0RjXq7rvvvm9961uXXnrphz70oWOOOWaYV+7YsSOlNIp/wvtIAAIAAIBJ6unXn3hi2yPDz/2p5dph9VmvN7dta26p5gE9se2R9x509DjvCX3OOee8rdcPDAzcdNNNK1as+NKXvpRSOv300z/wgQ+cffbZ995778c+9rExG+a++s1vfpNSuvTSS6dNmzbRY3l7LAEDAACASWpjY8OjWx4c5gW1XHtn95xlh370/Dkr3lGfWR18dMuDGxsb9uW8Dz300B//8R8fffTRH/nIR/7mb/6mr6+vOt5oNC6//PIlS5YsWLDgjDPO+Lu/+7ve3t5NmzallFasWHHWWWdVL1uyZMmKFSvOOeecRYsWLVu27Nprr62mwwxRluXzzz/ffvjhD3/45ZdfrurP9ddfP2/evPZTzWazt7f31ltvrR6++OKLX/7yl5cvX/7+97//3HPPffDBXX9Ed9xxx2c+85n58+d/+MMfvuaaa/r7+6vjjzzyyB/90R8dddRRn/jEJ6677rr28YcffvjjH//4vHnzli1b1vn6vR5/z3vec9FFF6WUDj/88N7e3nvuuWf4cU4qAhAAAABMRpsGXlm7eU0t77Z2p+j4Il/VnxMP+Z+Lpy99R33mUdOOrV5cy11rN6/ZNPDKyM777LPPnnnmmZs2bbrqqqvOPPPM22+//Qtf+EL11PXXX3/TTTf9/u///sqVK0855ZSrrrqqvcqp2Ww2m83qZa1Wa9WqVcuWLbv//vuvuOKKG2644dprrx1ylq6urssvv/y222772Mc+dtttt7Varc5nhyxPK8uyOphS2rx58yc/+cn77rvvc5/73Fe+8pWXXnrps5/9bLX6bOXKlRdddNG8efNuuOGGKvTccMMNKaW1a9f+7u/+7qGHHnrPPfdcd911//Iv/1JNO+rv7z///PPnzZt37733XnPNNatXr/6Lv/iLYY7/8Ic/vOyyy1JKd9555w9+8INTTjllmHFONpaAAQAAwGRUz1Nebbzcec+v2VPeU8/dL+54ob+1vbP+tMrmzzfdu67vyWY5UN0X7NXGy/U8ZWTnvemmmw455JBbbrmlXq9X014uvPDCL3/5y/Pnz//Hf/zH008//YorrkgpnXrqqc8+++x3vvOdvX7IRz/60RUrVqSUzjjjjAcffPDWW2+tGkqnP/3TPz3hhBO+853vXHzxxVdeeeWyZcv+8A//cPny5cMP70c/+tH69evvv//+97///dVso0svvfTxxx9funTpt7/97bPPPvurX/1qSumTn/xkURTVDKNvf/vbS5YsqY7PnTt3xYoVn//856+++upXX331+eefP+200w4//PDDDz+8vWHzyy+/vNfjixcvfvLJJ1NK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AgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAACE4AAgAAAAhOAAIAAAAITgACAAAA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AQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCc613WdAAAGZUlEQVQAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAEJwABAAAABCcAAQAAAAQnAAEAAAAE9/8B8e0iK2MbNJYAAAAASUVORK5CYII=' data-featherlight='image'><span class='label grey badge white-text text-white'>base64-img</span></a>
+					</div>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<div id='step-filters' class="right sr-filters">
+				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
+				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
+				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
+				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
+				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
+			</div>
+			<h5 class='test-name'></h5>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><div id='exception-view' class='view hide'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='exception-collection' class='exception-collection'>
+				<li class='exception displayed active'>
+					<div class='exception-heading'>
+						<span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+					</div>
+					<div class='exception-content hide'>
+						<div class='exception-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>StackTrace</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Apr 11, 2025 02:50:54 PM</td>
+										<td class='linked' test-id='8'>And user will perform the edit operation</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[normalize-space()='Catalog']"}
+  (Session info: chrome=135.0.7049.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.11.0-21-generic', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b37b7964ab5b48dc2c1c1be60c115cc, findElement {value=//p[normalize-space()='Catalog'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36003/devtoo..., se:cdpVersion: 135.0.7049.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b37b7964ab5b48dc2c1c1be60c115cc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pageobjects.ChataakCatalogModulePage.CategoryEdit(ChataakCatalogModulePage.java:701)
+	at stepDefinations.ChataakCatalogCategorySteps.user_will_perform_the_edit_operation(ChataakCatalogCategorySteps.java:68)
+	at ✽.user will perform the edit operation(file:///home/limitscale/WorkingProject/Live_ChataakProjectWebautomation/src/test/java/Features/ChataakAddCatalogCatagory.feature:41)
+</textarea>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='exception-name'></h5>
+		</div>
+	</div>
+</div>
+<!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Features
+					<div class='panel-lead'>1</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Scenarios
+					<div class='panel-lead'>1</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>6</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Apr 11, 2025 02:50:01 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Apr 11, 2025 02:51:10 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>00 01 09.177</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 1,
+				passParent: 0,
+				failParent: 1,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				childCount: 1,
+				passChild: 0,
+				failChild: 1,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				grandChildCount: 6,
+				passGrandChild: 5,
+				failGrandChild: 1,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+			};
+			</script>
+		
+		<script>
+			var timeline = {
+			        "Catalog Module category":68.365
+			};
+		</script>
+		
+		  <script src='http://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/v3html/js/extent.js' type='text/javascript'></script>
+		
+		
+		<script type='text/javascript'>
+				
+		</script> 
+
+	</body>
+</html>
