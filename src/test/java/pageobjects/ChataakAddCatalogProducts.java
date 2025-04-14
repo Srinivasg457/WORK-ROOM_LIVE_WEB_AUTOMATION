@@ -11,6 +11,7 @@ import utilities.WaitHelper;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.time.Duration;
 import java.util.List;
 import java.util.Properties;
@@ -39,16 +40,38 @@ public class ChataakAddCatalogProducts {
     {
         try {
             configprop = new Properties();
-            String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
-            FileInputStream configProfile = new FileInputStream(configPath);
+            // Use the classpath to load the properties file
+            InputStream configProfile = getClass().getClassLoader().getResourceAsStream("config.properties");
+
+            if (configProfile == null) {
+                throw new RuntimeException("config.properties file not found in the classpath!");
+            }
 
             configprop.load(configProfile);
-
 
         } catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException("Failed to load properties file!");
         }
+
+
+
+
+
+
+
+//        try {
+//            configprop = new Properties();
+//            String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
+//            FileInputStream configProfile = new FileInputStream(configPath);
+//
+//            configprop.load(configProfile);
+//
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//            throw new RuntimeException("Failed to load properties file!");
+//        }
     }
 
     private By getByXpath(String key) {
