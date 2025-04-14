@@ -23,6 +23,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.UUID;
 
 public class ChataakWebApphooks extends BaseClass {
 
@@ -51,20 +52,19 @@ public class ChataakWebApphooks extends BaseClass {
         } else if (br.equals("chrome")) {
 
             logger.info("************* Launching CHROME Browser *****************");
-//            ChromeOptions options = new ChromeOptions();
-//            options.addArguments("--no-sandbox");
-//            options.addArguments("--disable-dev-shm-usage");
-//            options.addArguments("--disable-extensions");
-//            options.addArguments("--disable-gpu");
-//            options.addArguments("--remote-allow-origins=*");
-//            options.addArguments("--headless=new"); // Recommended for Jenkins
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--remote-allow-origins=*");
+            String userDataDir = "/tmp/chrome-user-data-" + UUID.randomUUID();
+            options.addArguments("--user-data-dir=" + userDataDir);
 
-            // ✅ Important: Use a unique Chrome profile directory per run
-//            String tempProfile = "/tmp/chrome-profile-" + System.currentTimeMillis();
-//            options.addArguments("--user-data-dir=" + tempProfile);
+
 
             System.setProperty("webdriver.chrome.driver", configprop.getProperty("chromepath"));
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(options);
         } else if (br.equals("msedge")) {
             logger.info("************* Launching EDGE Browser *****************");
             System.setProperty("webdriver.edge.driver", configprop.getProperty("microsoftedgepath"));
