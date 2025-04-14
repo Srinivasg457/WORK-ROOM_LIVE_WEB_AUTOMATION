@@ -808,3 +808,10 @@
 2025-04-14 12:49:17,512 [main] INFO ChataakWebApplication - ************* Enter the Password *****************
 2025-04-14 12:49:21,886 [main] INFO ChataakWebApplication - ************* Click on the Login Button *****************
 2025-04-14 12:49:22,207 [main] INFO ChataakWebApplication - ************* Check The Application Status Message *****************
+2025-04-14 12:57:10,512 [main] INFO ChataakWebApplication - ************* Launching CHROME Browser *****************
+2025-04-14 12:57:11,838 [main] INFO ChataakWebApplication - ************* Browser Launched and Maximized *****************
+2025-04-14 12:57:12,073 [main] INFO ChataakWebApplication - ************* Get The Application URL  *****************
+2025-04-14 12:57:15,522 [main] INFO ChataakWebApplication - ************* Enter the Email *****************
+2025-04-14 12:57:16,661 [main] INFO ChataakWebApplication - ************* Enter the Password *****************
+2025-04-14 12:57:21,095 [main] INFO ChataakWebApplication - ************* Click on the Login Button *****************
+2025-04-14 12:57:21,397 [main] INFO ChataakWebApplication - ************* Check The Application Status Message *****************

@@ -51,11 +51,20 @@ public class ChataakWebApphooks extends BaseClass {
         } else if (br.equals("chrome")) {
 
             logger.info("************* Launching CHROME Browser *****************");
-//            ChromeOptions options = new ChromeOptions();
-//            options.setAcceptInsecureCerts(true);
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--disable-extensions");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--remote-allow-origins=*");
+            options.addArguments("--headless=new"); // Recommended for Jenkins
+
+            // ✅ Important: Use a unique Chrome profile directory per run
+            String tempProfile = "/tmp/chrome-profile-" + System.currentTimeMillis();
+            options.addArguments("--user-data-dir=" + tempProfile);
 
             System.setProperty("webdriver.chrome.driver", configprop.getProperty("chromepath"));
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(options);
         } else if (br.equals("msedge")) {
             logger.info("************* Launching EDGE Browser *****************");
             System.setProperty("webdriver.edge.driver", configprop.getProperty("microsoftedgepath"));
@@ -74,7 +83,6 @@ public class ChataakWebApphooks extends BaseClass {
 
 
     }
-
 
 
 //    @Before
@@ -97,9 +105,7 @@ public class ChataakWebApphooks extends BaseClass {
 
                     scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
                     // Also attach to Allure report
-                  //  Allure.addAttachment("Allure Screenshot", "image/png", new ByteArrayInputStream(screenshot), ".png");
-
-
+                    //  Allure.addAttachment("Allure Screenshot", "image/png", new ByteArrayInputStream(screenshot), ".png");
 
 
                 }
@@ -115,8 +121,6 @@ public class ChataakWebApphooks extends BaseClass {
 //            }
 //        }
     }
-
-
 
 
 }
