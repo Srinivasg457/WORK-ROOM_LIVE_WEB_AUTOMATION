@@ -41,6 +41,7 @@ public class ChataakAddCatalogProducts {
             configprop = new Properties();
             String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
             FileInputStream configProfile = new FileInputStream(configPath);
+
             configprop.load(configProfile);
 
 

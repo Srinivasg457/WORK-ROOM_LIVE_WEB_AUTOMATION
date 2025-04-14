@@ -839,3 +839,21 @@
 2025-04-14 13:53:52,193 [main] INFO ChataakWebApplication - ************* Click on the Login Button *****************
 2025-04-14 13:53:52,518 [main] INFO ChataakWebApplication - ************* Check The Application Status Message *****************
 2025-04-14 13:53:53,905 [main] INFO ChataakWebApplication - *** user will perform the edit operation For the Category ***
+2025-04-14 14:09:20,593 [main] INFO ChataakWebApplication - ************* Launching CHROME Browser *****************
+2025-04-14 14:09:22,015 [main] INFO ChataakWebApplication - ************* Browser Launched and Maximized *****************
+2025-04-14 14:10:15,815 [main] INFO ChataakWebApplication - ************* Launching CHROME Browser *****************
+2025-04-14 14:10:17,282 [main] INFO ChataakWebApplication - ************* Browser Launched and Maximized *****************
+2025-04-14 14:10:17,531 [main] INFO ChataakWebApplication - ************* Get The Application URL  *****************
+2025-04-14 14:10:22,317 [main] INFO ChataakWebApplication - ************* Enter the Email *****************
+2025-04-14 14:10:22,699 [main] INFO ChataakWebApplication - ************* Enter the Password *****************
+2025-04-14 14:10:27,124 [main] INFO ChataakWebApplication - ************* Click on the Login Button *****************
+2025-04-14 14:10:27,444 [main] INFO ChataakWebApplication - ************* Check The Application Status Message *****************
+2025-04-14 14:10:29,347 [main] INFO ChataakWebApplication - *** user will perform the edit operation For the Category ***
+2025-04-14 14:11:51,136 [main] INFO ChataakWebApplication - ************* Launching CHROME Browser *****************
+2025-04-14 14:11:52,737 [main] INFO ChataakWebApplication - ************* Browser Launched and Maximized *****************
+2025-04-14 14:11:52,961 [main] INFO ChataakWebApplication - ************* Get The Application URL  *****************
+2025-04-14 14:12:00,059 [main] INFO ChataakWebApplication - ************* Enter the Email *****************
+2025-04-14 14:12:00,508 [main] INFO ChataakWebApplication - ************* Enter the Password *****************
+2025-04-14 14:12:04,780 [main] INFO ChataakWebApplication - ************* Click on the Login Button *****************
+2025-04-14 14:12:05,150 [main] INFO ChataakWebApplication - ************* Check The Application Status Message *****************
+2025-04-14 14:12:06,504 [main] INFO ChataakWebApplication - *** user will perform the edit operation For the Category ***
