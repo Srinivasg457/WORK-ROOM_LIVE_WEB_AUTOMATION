@@ -36,7 +36,7 @@ Feature: Catalog Module category
 #    And user will perform the enable or Disable Action
 
   Scenario: user will Edit The Category
-    When the user enters their email "hitet98406@excederm.com" and password "iPsQxfXd1"
+    When the user enters their email "hitet98406@excederm.com" and password "iPsQxfXd"
     And the user clicks the Login button
     And the user should see the status message
     And user will perform the edit operation

@@ -105,7 +105,7 @@ public class ChataakLoginPage {
         if (message.equalsIgnoreCase("Login successful")) {
             System.out.println("Status : " + message);
             Assert.assertTrue(true);
-        } else if (message.equalsIgnoreCase("123Incorrect password. Please try again or reset your password if you've forgotten it.")) {
+        } else if (message.equalsIgnoreCase("Incorrect password. Please try again or reset your password if you've forgotten it.")) {
             System.out.println("Status : "+ message);
             //Assert.fail("Login failed due to incorrect password. Stopping scenario.");
             Assert.assertTrue(true);
