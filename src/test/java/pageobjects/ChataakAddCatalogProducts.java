@@ -38,40 +38,40 @@ public class ChataakAddCatalogProducts {
     //xpath identification
 
     {
-        try {
-            configprop = new Properties();
-            // Use the classpath to load the properties file
-            InputStream configProfile = getClass().getClassLoader().getResourceAsStream("config.properties");
-
-            if (configProfile == null) {
-                throw new RuntimeException("config.properties file not found in the classpath!");
-            }
-
-            configprop.load(configProfile);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            throw new RuntimeException("Failed to load properties file!");
-        }
-
-
-
-
-
-
-
 //        try {
 //            configprop = new Properties();
-//            String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
-//            FileInputStream configProfile = new FileInputStream(configPath);
+//            // Use the classpath to load the properties file
+//            InputStream configProfile = getClass().getClassLoader().getResourceAsStream("config.properties");
+//
+//            if (configProfile == null) {
+//                throw new RuntimeException("config.properties file not found in the classpath!");
+//            }
 //
 //            configprop.load(configProfile);
-//
 //
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //            throw new RuntimeException("Failed to load properties file!");
 //        }
+
+
+
+
+
+
+
+        try {
+            configprop = new Properties();
+            String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
+            FileInputStream configProfile = new FileInputStream(configPath);
+
+            configprop.load(configProfile);
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            throw new RuntimeException("Failed to load properties file!");
+        }
     }
 
     private By getByXpath(String key) {
