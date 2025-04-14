@@ -1,11 +1,15 @@
 package stepDefinations;
 
 import io.cucumber.java.en.When;
+import io.qameta.allure.*;
 import pageobjects.ChataakAddCatalogProducts;
 import pageobjects.ChataakCatalogModulePage;
 
 import java.io.IOException;
-
+@Epic("Chataak Platform")
+@Feature("Category Feature")
+@Story("User will be on the Category Page")
+@Severity(SeverityLevel.CRITICAL)
 public class ChataakCatalogCategorySteps extends BaseClass {
 
 

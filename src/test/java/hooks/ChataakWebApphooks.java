@@ -3,6 +3,8 @@ package hooks;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import io.qameta.allure.Allure;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -16,6 +18,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import pageobjects.*;
 import stepDefinations.BaseClass;
 
+import java.io.ByteArrayInputStream;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -47,11 +51,11 @@ public class ChataakWebApphooks extends BaseClass {
         } else if (br.equals("chrome")) {
 
             logger.info("************* Launching CHROME Browser *****************");
-            ChromeOptions options = new ChromeOptions();
-            options.setAcceptInsecureCerts(true);
+//            ChromeOptions options = new ChromeOptions();
+//            options.setAcceptInsecureCerts(true);
 
             System.setProperty("webdriver.chrome.driver", configprop.getProperty("chromepath"));
-            driver = new ChromeDriver(options);
+            driver = new ChromeDriver();
         } else if (br.equals("msedge")) {
             logger.info("************* Launching EDGE Browser *****************");
             System.setProperty("webdriver.edge.driver", configprop.getProperty("microsoftedgepath"));
@@ -90,7 +94,14 @@ public class ChataakWebApphooks extends BaseClass {
                 if (driver != null) {
                     TakesScreenshot ts = (TakesScreenshot) driver;
                     byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
+
                     scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
+                    // Also attach to Allure report
+                  //  Allure.addAttachment("Allure Screenshot", "image/png", new ByteArrayInputStream(screenshot), ".png");
+
+
+
+
                 }
             }
         } catch (Exception e) {
