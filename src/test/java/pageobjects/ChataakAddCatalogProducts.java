@@ -72,7 +72,7 @@ public class ChataakAddCatalogProducts {
             e.printStackTrace();
             throw new RuntimeException("Failed to load properties file!");
         }
-    }
+   }
 
     private By getByXpath(String key) {
         String xpath = configprop.getProperty(key);

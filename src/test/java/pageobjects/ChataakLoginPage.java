@@ -7,16 +7,26 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.ExcelUtil;
 import utilities.WaitHelper;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Map;
 import java.util.Properties;
 
 public class ChataakLoginPage {
     public WebDriver ldriver;
     WaitHelper waitHelper;
     public Properties configprop;
+    public Map<String, String> locators; // <- NEW
+
+    // Declare WebElement variables outside methods, but inside the class
+    WebElement txtEmail;
+    WebElement txtPassword;
+    WebElement loginbutton;
+
+
 
     public ChataakLoginPage(WebDriver rdriver) throws IOException {
         ldriver=rdriver;
@@ -26,6 +36,17 @@ public class ChataakLoginPage {
         configprop = new Properties();
         FileInputStream configProfile = new FileInputStream("/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/resources/config.properties");
         configprop.load(configProfile);
+
+        // Load XPath locators from Excel
+       // locators = ExcelUtil.readLocators("/home/limitscale/WorkingProject/Live_ChataakProjectWebautomation/src/test/resources/chataakWebApplicationXpath.xlsx");
+
+        String excelPath = getClass().getClassLoader().getResource("chataakWebApplicationXpath.xlsx").getPath();
+        locators = ExcelUtil.readLocators(excelPath);
+
+        // Now initialize elements
+//        setupElements();
+
+
     }
 
     //xpath identification
@@ -34,18 +55,18 @@ public class ChataakLoginPage {
     WebElement ClickLink_SignUpLink;
 
     //Locators
-    @FindBy(xpath="//input[@placeholder='johndoe@example.com']")
-    @CacheLookup
-    WebElement txtEmail;
+//    @FindBy(xpath="//input[@placeholder='johndoe@example.com']")
+//    @CacheLookup
+//    WebElement txtEmail;
 
 
-    @FindBy(xpath="//input[@placeholder='Password']")
-    @CacheLookup
-    WebElement txtPassword;
+//    @FindBy(xpath="//input[@placeholder='Password']")
+//    @CacheLookup
+//    WebElement txtPassword;
 
-    @FindBy(xpath="//button[normalize-space()='Login']")
-    @CacheLookup
-    WebElement btnLogin;
+//    @FindBy(xpath="//button[normalize-space()='Login']")
+//    @CacheLookup
+//    WebElement btnLogin;
 
 
     @FindBy(xpath="//li[normalize-space()='Sign Out']")
@@ -63,6 +84,16 @@ public class ChataakLoginPage {
     WebElement status;
 
 
+    //xpath reading from the xcelfile
+
+    // After constructor, use this to safely access locators
+    private void setupElements() {
+        txtEmail = ldriver.findElement(By.xpath(locators.get("EmailAddress")));
+        txtPassword = ldriver.findElement(By.xpath(locators.get("password")));
+        loginbutton = ldriver.findElement(By.xpath(locators.get("login_Button")));
+    }
+
+
     //Action Method
     public void clickLink() {
         ClickLink_SignUpLink.click();
@@ -71,20 +102,39 @@ public class ChataakLoginPage {
 
     public void Email(String email) {
         // waithelper.WaitForElement(txtEmail,10);
-        txtEmail.click();
-        txtEmail.clear();
-        txtEmail.sendKeys(email);
+//        txtEmail.click();
+//        txtEmail.clear();
+//        txtEmail.sendKeys(email);
+ //       WebElement txtEmail = ldriver.findElement(By.xpath(locators.get("EmailAddress")));
+            setupElements();
+            txtEmail.click();
+            txtEmail.clear();
+            txtEmail.sendKeys(email);
+
     }
 
     public void password(String password) {
 
+//        txtPassword.click();
+//        txtPassword.clear();
+//        txtPassword.sendKeys(password);
+ //       WebElement txtPassword = ldriver.findElement(By.xpath(locators.get("password")));
+
+
+        setupElements();
         txtPassword.click();
         txtPassword.clear();
         txtPassword.sendKeys(password);
+
+
     }
 
     public void Login() {
-        btnLogin.click();
+ //       btnLogin.click();
+
+ //       WebElement loginbutton= ldriver.findElement(By.xpath(locators.get("login_Button")));
+        setupElements();
+        loginbutton.click();
     }
 
     public void Logout() {
@@ -98,7 +148,7 @@ public class ChataakLoginPage {
 
 
     public void statusmessage() {
-        waitHelper.WaitForElement(status, 10);
+        waitHelper.WaitForElement(status, 30);
         String message = status.getText();
         System.out.println("Status message = " + message);
 
