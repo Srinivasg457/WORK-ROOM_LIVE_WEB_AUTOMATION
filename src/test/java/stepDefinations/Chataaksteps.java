@@ -40,7 +40,7 @@ public class Chataaksteps extends BaseClass {
     }
 
     @Then("the user should see the status message")
-    public void the_user_should_see_the_status_message() {
+    public void the_user_should_see_the_status_message() throws InterruptedException {
         logger.info("************* Check The Application Status Message *****************");
         lp.statusmessage();
     }

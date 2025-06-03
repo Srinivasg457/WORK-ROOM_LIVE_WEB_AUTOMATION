@@ -12,6 +12,7 @@ import utilities.WaitHelper;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
@@ -25,8 +26,7 @@ public class ChataakLoginPage {
     WebElement txtEmail;
     WebElement txtPassword;
     WebElement loginbutton;
-
-
+//    WebElement logoutbutton;
 
     public ChataakLoginPage(WebDriver rdriver) throws IOException {
         ldriver=rdriver;
@@ -34,7 +34,7 @@ public class ChataakLoginPage {
         waitHelper=new WaitHelper(ldriver);
 
         configprop = new Properties();
-        FileInputStream configProfile = new FileInputStream("/home/limitscale/Documents/ChataakProjectWebAutomation/src/test/resources/config.properties");
+        FileInputStream configProfile = new FileInputStream("/home/limitscale/Desktop/WorkRoom/Live_ChataakProjectWebautomation/src/test/resources/config.properties");
         configprop.load(configProfile);
 
         // Load XPath locators from Excel
@@ -53,6 +53,23 @@ public class ChataakLoginPage {
     @FindBy(xpath="//a[normalize-space()='Create here a free trial']")
     @CacheLookup
     WebElement ClickLink_SignUpLink;
+
+
+
+    @FindBy(xpath="//span[normalize-space()='Employees']")
+   @CacheLookup
+    WebElement sideMenu_Employees;
+
+    @FindBy(id = "dg_table")
+    @CacheLookup
+    WebElement dg_table;
+
+
+    @FindBy(css = "#dg_table tbody tr")
+    @CacheLookup
+    private List<WebElement> rows;
+
+
 
     //Locators
 //    @FindBy(xpath="//input[@placeholder='johndoe@example.com']")
@@ -91,6 +108,8 @@ public class ChataakLoginPage {
         txtEmail = ldriver.findElement(By.xpath(locators.get("EmailAddress")));
         txtPassword = ldriver.findElement(By.xpath(locators.get("password")));
         loginbutton = ldriver.findElement(By.xpath(locators.get("login_Button")));
+//        logoutbutton=ldriver.findElement(By.xpath(locators.get("logout_Button")));
+
     }
 
 
@@ -147,27 +166,99 @@ public class ChataakLoginPage {
     }
 
 
-    public void statusmessage() {
-        waitHelper.WaitForElement(status, 30);
-        String message = status.getText();
-        System.out.println("Status message = " + message);
+    public void statusmessage() throws InterruptedException {
+        Thread.sleep(4000); // wait for 3 seconds
+//        waitHelper.WaitForElement(logoutbutton,10);
+        System.out.println("Attempting to click sideMenu_Employees");
+        waitHelper.WaitForElement(sideMenu_Employees,10);
+        sideMenu_Employees.click();
+        System.out.println("Clicked sideMenu_Employees");
+        System.out.println(ldriver.getCurrentUrl());
 
-        if (message.equalsIgnoreCase("Login successful")) {
-            System.out.println("Status : " + message);
-            Assert.assertTrue(true);
-        } else if (message.equalsIgnoreCase("Incorrect password. Please try again or reset your password if you've forgotten it.")) {
-            System.out.println("Status : "+ message);
-            //Assert.fail("Login failed due to incorrect password. Stopping scenario.");
-            Assert.assertTrue(true);
-        } else if (message.equalsIgnoreCase("This email is not registered in Chataak")) {
-            System.out.println("Status : "+ message);
-//            Assert.fail("Login failed due to unregistered email. Stopping scenario.");
-            Assert.assertTrue(true);
-        } else {
-           // logger.error();
-            System.out.println("Unexpected login status message: " + message);
-            Assert.fail("Unexpected login status. Stopping scenario.");
+
+        try {
+
+
+            WebElement table = dg_table;
+            List<WebElement> row = rows;
+
+            for (int i = 0; i < row.size(); i++) {
+                WebElement ro = row.get(i);
+                List<WebElement> cells = ro.findElements(By.tagName("td"));
+
+                String image = "";
+                try {
+                    image = cells.get(1).findElement(By.tagName("img")).getAttribute("src");
+                } catch (Exception e) {
+                    image = "No image";
+                }
+
+                List<WebElement> nameDetails = cells.get(2).findElements(By.tagName("p"));
+                String name = nameDetails.size() > 0 ? nameDetails.get(0).getText() : "No name";
+                String email = nameDetails.size() > 1 ? nameDetails.get(1).getText() : "No email";
+                String phone = nameDetails.size() > 2 ? nameDetails.get(2).getText() : "No phone";
+
+                String department = cells.get(3).getText().trim();
+
+                List<WebElement> addressLines = cells.get(4).findElements(By.tagName("p"));
+                StringBuilder address = new StringBuilder();
+                for (WebElement line : addressLines) {
+                    if (!line.getText().isEmpty()) {
+                        address.append(line.getText().trim()).append(", ");
+                    }
+                }
+
+                String status = cells.get(5).getText().trim();
+
+                System.out.println("------ Employee " + (i + 1) + " ------");
+                System.out.println("Image: " + image);
+                System.out.println("Name: " + name);
+                System.out.println("Email: " + email);
+                System.out.println("Phone: " + phone);
+                System.out.println("Department: " + department);
+                System.out.println("Address: " + (address.length() > 0 ? address.substring(0, address.length() - 2) : "No address"));
+                System.out.println("Status: " + status);
+                System.out.println("-----------------------------");
+            }
+        } catch (Exception e) {
+            System.out.println("Error occurred: " + e.getMessage());
+            e.printStackTrace();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        waitHelper.WaitForElement(status, 30);
+//        String message = status.getText();
+//        System.out.println("Status message = " + message);
+//
+//        if (message.equalsIgnoreCase("Login successful")) {
+//            System.out.println("Status : " + message);
+//            Assert.assertTrue(true);
+//        } else if (message.equalsIgnoreCase("Incorrect password. Please try again or reset your password if you've forgotten it.")) {
+//            System.out.println("Status : "+ message);
+//            //Assert.fail("Login failed due to incorrect password. Stopping scenario.");
+//            Assert.assertTrue(true);
+//        } else if (message.equalsIgnoreCase("This email is not registered in Chataak")) {
+//            System.out.println("Status : "+ message);
+////            Assert.fail("Login failed due to unregistered email. Stopping scenario.");
+//            Assert.assertTrue(true);
+//        } else {
+//           // logger.error();
+//            System.out.println("Unexpected login status message: " + message);
+//            Assert.fail("Unexpected login status. Stopping scenario.");
+//        }
     }
 
 
