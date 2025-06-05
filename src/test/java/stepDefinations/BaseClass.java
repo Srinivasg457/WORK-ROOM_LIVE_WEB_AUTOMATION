@@ -12,7 +12,7 @@ import java.util.Properties;
 public class BaseClass {
     //    public WebDriver driver;
     public static WebDriver driver; // Make it static to share across classes
-    public ChataakLoginPage lp;
+    public WorkroomLoginPage lp;
     public ChataakStoresPage sp;
     public ChataakSignUpPage signUppage;
     public static Logger logger;

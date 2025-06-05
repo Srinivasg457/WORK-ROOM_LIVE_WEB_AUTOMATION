@@ -1,1 +1,1 @@
-{"19064fce0c9ddb201f46056a47d46fe1":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"ddd926cb8502668f","status":"broken","statusDetails":"Invalid login type: Administration","time":{"start":1744702721760,"stop":1744702797670,"duration":75910}}]}}
+{"15e298819a80585a1ef377f15c42180c":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"79fc735c4ee69164","status":"passed","time":{"start":1748953511177,"stop":1748953528413,"duration":17236}}]}}
