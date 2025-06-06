@@ -33,7 +33,7 @@ public class WorkroomLoginPage {
         waitHelper=new WaitHelper(ldriver);
 
         configprop = new Properties();
-        FileInputStream configProfile = new FileInputStream("/home/limitscale/Desktop/WorkRoom/Live_ChataakProjectWebautomation/src/test/resources/config.properties");
+        FileInputStream configProfile = new FileInputStream("/home/limitscale/Desktop/WorkRoom/Live_WorkRoomWebautomation/src/test/resources/config.properties");
         configprop.load(configProfile);
 
         // Load XPath locators from Excel
