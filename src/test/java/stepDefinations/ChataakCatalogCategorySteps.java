@@ -2,7 +2,6 @@ package stepDefinations;
 
 import io.cucumber.java.en.When;
 import io.qameta.allure.*;
-import pageobjects.ChataakAddCatalogProducts;
 import pageobjects.ChataakCatalogModulePage;
 
 import java.io.IOException;

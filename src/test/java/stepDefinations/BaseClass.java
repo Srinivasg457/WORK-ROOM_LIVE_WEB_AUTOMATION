@@ -18,7 +18,9 @@ public class BaseClass {
     public static Logger logger;
     public Properties configprop;
     public ChataakCatalogModulePage catalog;
-    public ChataakAddCatalogProducts AddProducts;
+
+//    for work room project here below
+    public WorkroomEmployeesModulePage AddEmployees;
 
 
     public static String randomString() {

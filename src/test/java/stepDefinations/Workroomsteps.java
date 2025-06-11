@@ -14,7 +14,7 @@ public class Workroomsteps extends BaseClass {
         sp = new ChataakStoresPage(driver);
         signUppage = new ChataakSignUpPage(driver);
         catalog = new ChataakCatalogModulePage(driver);
-        AddProducts = new ChataakAddCatalogProducts(driver);
+
     }
 
     @Given("the user navigates to the login page with the URL {string}")
@@ -38,6 +38,15 @@ public class Workroomsteps extends BaseClass {
         logger.info("************* Click on the Login Button *****************");
         lp.Login();
     }
+
+    @Then("the user should see the Login status message")
+    public void the_user_should_see_the_login_status_message() throws InterruptedException {
+        lp.loginStatus();
+    }
+
+
+
+
 
     @Then("the user should see the status message")
     public void the_user_should_see_the_status_message() throws InterruptedException {

@@ -1713,3 +1713,501 @@
 2025-06-06 11:43:53,655 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
 2025-06-06 11:43:57,916 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
 2025-06-06 11:43:58,065 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 11:55:45,397 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 11:55:47,278 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 11:55:48,774 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 11:55:53,136 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 11:55:54,024 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 11:55:58,604 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 11:55:58,988 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 12:20:00,267 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:20:02,308 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:20:03,678 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:20:07,513 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:20:08,208 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:20:12,815 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:20:17,383 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:20:17,675 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:20:17,732 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:20:19,060 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:20:19,470 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:20:23,357 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:20:24,171 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:20:28,658 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:20:33,141 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:20:33,491 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:20:33,517 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:20:34,882 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:20:35,237 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:20:39,108 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:20:39,788 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:20:44,050 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:20:48,558 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:20:48,911 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:25:59,629 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:26:01,716 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:26:03,481 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:26:08,193 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:26:09,112 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:26:13,723 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:26:14,136 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 12:26:28,847 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:26:29,042 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:26:29,110 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:26:30,279 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:26:30,585 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:26:34,485 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:26:35,307 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:26:39,810 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:26:44,326 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:26:44,584 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:26:44,636 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:26:45,896 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:26:46,187 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:26:50,218 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:26:50,914 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:26:55,421 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:26:59,904 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:27:00,156 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:27:00,205 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:27:01,383 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:27:01,658 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:27:05,304 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:27:06,286 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:27:10,612 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:27:15,116 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:27:15,297 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:29:52,662 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:29:54,634 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:29:56,023 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:30:27,444 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:30:28,190 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:30:32,562 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:30:32,910 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 12:30:57,961 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:30:58,486 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:30:58,616 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:30:59,907 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:31:00,339 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:31:03,622 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:31:04,644 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:31:09,088 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:31:13,551 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:31:13,840 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:31:13,901 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:31:15,160 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:31:15,466 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:31:19,152 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:31:19,905 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:31:24,415 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:31:28,959 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:31:29,310 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 12:31:29,349 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 12:31:30,740 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 12:31:31,123 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 12:31:35,209 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 12:31:36,100 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 12:31:40,672 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 12:31:45,166 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 12:31:45,516 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 15:44:04,540 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 15:44:06,107 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 15:44:07,563 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 15:44:11,464 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 15:44:11,811 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 15:44:16,035 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 15:44:16,434 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 15:44:25,015 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 15:44:25,239 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 15:45:30,163 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 15:45:31,563 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 15:45:32,867 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 15:45:36,442 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 15:45:36,903 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 15:45:41,137 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 15:45:41,547 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 15:45:49,439 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 15:45:49,594 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 15:47:39,005 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 15:47:40,260 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 15:47:41,523 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 15:47:45,354 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 15:47:45,693 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 15:47:49,911 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 15:47:50,309 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 15:47:59,262 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 15:47:59,430 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 15:49:23,492 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 15:49:24,609 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 15:49:25,598 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 15:49:29,347 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 15:49:29,731 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 15:49:33,902 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 15:49:34,033 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 15:49:43,147 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 15:49:43,300 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 15:56:57,510 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 15:56:58,554 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 15:56:59,536 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 15:57:02,957 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 15:57:03,329 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 15:57:07,664 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 15:57:07,850 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 15:57:15,282 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 15:57:15,551 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:01:12,142 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:01:13,327 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:01:14,318 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:01:17,728 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:01:17,926 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:01:22,251 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:01:22,420 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:01:29,067 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:01:29,230 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:02:40,036 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:02:41,226 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:02:42,208 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:02:45,566 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:02:45,780 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:02:50,047 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:02:50,224 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:02:59,331 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:02:59,481 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:05:23,528 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:05:24,747 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:05:25,703 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:05:29,806 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:05:30,093 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:05:34,259 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:05:34,344 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:05:45,887 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:05:46,020 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:10:36,922 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:10:38,535 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:10:39,817 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:10:44,121 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:10:44,554 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:10:48,751 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:10:48,950 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:10:54,367 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:10:54,569 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:13:59,783 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:14:00,884 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:14:01,948 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:14:05,809 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:14:06,083 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:14:10,296 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:14:10,595 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:14:16,825 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:14:17,127 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:18:52,168 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:18:53,297 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:18:54,285 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:18:57,934 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:18:58,439 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:19:02,654 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:19:02,886 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:19:07,897 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:19:08,038 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:20:35,807 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:20:36,914 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:20:37,951 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:20:42,907 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:20:43,103 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:20:47,333 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:20:47,462 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:20:53,526 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:20:53,673 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:23:20,058 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:23:21,102 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:23:22,046 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:23:25,926 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:23:26,319 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:23:30,507 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:23:30,671 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:23:48,880 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:23:49,073 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:26:25,075 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:26:26,116 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:26:27,071 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:26:30,952 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:26:31,374 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:26:35,548 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:26:35,776 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:26:57,207 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:26:57,423 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:32:29,294 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:32:30,347 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:32:31,310 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:32:35,196 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:32:35,515 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:32:39,678 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:32:39,795 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:32:50,690 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:32:50,824 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:34:20,505 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:34:21,553 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:34:22,568 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:34:26,092 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:34:26,436 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:34:30,689 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:34:30,900 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:34:42,079 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:34:42,234 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:35:52,440 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:35:53,434 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:35:54,802 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:35:58,650 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:35:59,194 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:36:03,563 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:36:03,918 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:36:20,772 [main] INFO WorkRoomWebApplication - ************* Quitting Browser *****************
+2025-06-06 16:36:21,141 [main] INFO WorkRoomWebApplication - ************* Browser Closed Successfully *****************
+2025-06-06 16:38:13,125 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:38:14,884 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:38:16,814 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:38:20,922 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:38:21,853 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:38:26,501 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:38:26,912 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-06 16:39:13,809 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-06 16:39:15,739 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-06 16:39:18,062 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-06 16:39:49,979 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-06 16:39:50,976 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-06 16:39:55,634 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-06 16:39:56,011 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-06-11 10:20:54,544 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 10:20:57,038 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 10:20:58,903 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 10:21:06,614 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 10:21:07,322 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 10:21:11,641 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 10:24:04,673 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 10:24:06,822 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 10:24:09,227 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 10:24:13,119 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 10:24:14,155 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 10:24:18,582 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 10:34:18,924 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 10:34:20,748 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 10:34:22,270 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 10:34:28,429 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 10:34:29,284 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 10:34:33,869 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 10:45:58,375 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 10:46:00,563 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 10:46:02,361 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 10:46:06,885 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 10:46:07,455 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 10:46:11,854 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 10:49:34,969 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 10:49:36,901 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 10:49:38,694 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 10:49:42,574 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 10:49:43,531 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 10:49:48,132 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 11:02:36,733 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 11:02:38,533 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 11:02:39,976 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 11:02:43,591 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 11:02:43,984 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 11:02:48,470 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 11:06:52,038 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 11:06:53,696 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 11:06:55,271 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 11:06:59,018 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 11:06:59,454 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 11:07:03,754 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 11:11:04,429 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 11:11:06,191 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 11:11:07,895 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 11:11:11,743 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 11:11:12,556 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 11:11:17,147 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 11:17:39,567 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 11:17:41,235 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 11:17:42,668 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 11:17:46,539 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 11:17:47,360 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 11:17:51,938 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 11:21:03,059 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 11:21:04,814 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 11:21:06,357 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 11:21:12,180 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 11:21:13,028 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 11:21:17,595 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 11:48:01,228 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 11:48:03,168 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 11:48:05,140 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 11:48:08,501 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 11:48:09,116 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 11:48:13,648 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 11:55:59,408 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 11:56:01,160 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 11:56:02,586 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 11:56:06,771 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 11:56:07,780 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 11:56:12,358 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 12:08:48,946 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 12:08:50,516 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 12:08:51,990 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 12:09:05,847 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 12:09:06,297 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 12:09:10,535 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 12:36:39,962 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 12:36:41,258 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 12:36:42,450 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 12:36:46,372 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 12:36:46,642 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 12:36:50,823 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 12:43:24,441 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 12:43:25,805 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 12:43:27,099 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 12:43:30,841 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 12:43:31,199 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 12:43:35,408 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 12:49:10,645 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 12:49:12,145 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 12:49:13,553 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 12:49:17,504 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 12:49:17,865 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 12:49:22,104 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 13:08:14,035 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 13:08:19,257 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 13:08:24,067 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 13:08:27,520 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 13:08:28,993 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 13:08:33,946 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 13:09:59,425 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 13:10:00,475 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 13:10:01,406 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 13:10:05,482 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 13:10:05,790 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 13:10:09,959 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 14:18:45,015 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 14:18:46,755 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 14:18:48,238 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 14:18:52,021 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 14:18:52,788 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 14:18:57,360 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 14:19:41,154 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 14:19:43,065 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 14:19:44,631 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 14:19:48,258 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 14:19:49,146 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 14:19:53,726 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 14:42:05,055 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 14:42:06,838 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 14:42:08,398 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 14:42:11,846 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 14:42:12,277 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 14:42:16,668 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 14:43:20,521 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 14:43:22,775 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 14:43:24,301 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 14:43:28,101 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 14:43:28,510 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 14:43:33,068 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 14:45:08,316 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 14:45:10,314 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 14:45:11,889 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 14:45:15,507 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 14:45:16,195 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 14:45:20,814 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 14:47:47,529 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 14:47:49,296 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 14:47:50,881 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 14:47:54,754 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 14:47:55,572 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 14:48:00,164 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 14:51:00,860 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 14:51:02,557 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 14:51:03,940 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 14:51:07,431 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 14:51:07,912 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 14:51:12,207 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 14:55:05,084 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 14:55:06,865 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 14:55:08,317 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 14:55:11,993 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 14:55:12,588 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 14:55:17,175 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 15:05:26,892 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 15:05:28,564 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 15:05:30,106 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 15:05:33,757 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 15:05:34,145 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 15:05:38,397 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 15:10:04,614 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 15:10:06,286 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 15:10:07,795 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 15:10:11,787 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 15:10:12,640 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 15:10:17,219 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 15:29:10,713 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 15:29:12,460 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 15:29:13,833 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 15:29:17,819 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 15:29:18,654 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 15:29:23,220 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 15:32:29,591 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 15:32:31,627 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 15:32:33,159 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 15:32:36,918 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 15:32:37,380 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 15:32:41,664 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 15:43:58,796 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 15:44:01,070 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 15:44:03,001 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 15:44:06,522 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 15:44:07,083 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 15:44:11,405 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 15:46:16,551 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 15:46:18,951 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 15:46:21,295 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 15:46:24,720 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 15:46:25,166 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 15:46:29,461 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 15:48:09,397 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 15:48:11,612 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 15:48:13,886 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 15:48:17,797 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 15:48:18,245 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 15:48:22,563 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 15:49:38,399 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 15:49:40,819 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 15:49:43,255 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 15:49:46,905 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 15:49:47,476 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 15:49:51,787 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 15:57:57,879 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 15:58:00,064 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 15:58:02,097 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 15:58:05,810 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 15:58:06,282 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 15:58:10,597 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 16:02:05,605 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 16:02:08,013 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 16:02:10,088 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 16:02:17,929 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 16:02:18,993 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 16:02:23,637 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 16:10:04,594 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 16:10:06,186 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 16:10:07,792 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 16:10:11,580 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 16:10:12,071 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 16:10:16,621 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 16:12:26,568 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 16:12:28,463 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 16:12:29,922 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 16:12:35,279 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 16:12:36,174 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 16:12:40,755 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-06-11 16:39:33,413 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-06-11 16:39:35,655 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-06-11 16:39:37,717 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-06-11 16:39:41,564 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-06-11 16:39:42,716 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-06-11 16:39:47,355 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
