@@ -26,20 +26,37 @@ public class WorkRoomEmployeesModuleSteps extends BaseClass {
 
     @Then("user will create new employee by filling the employee form in the employee module")
     public void user_will_create_new_employee_by_filling_the_employee_form_in_the_employee_module() throws InterruptedException {
+        logger.info("*** Moving to employee page ***");
         AddEmployees.EmployeesPage();
+        logger.info("*** Clicked Add Employee Button ***");
         AddEmployees.addEmployeeButton();
-        AddEmployees.departmentDropDown();
+//        logger.info("*** Checking and selcting the Department Dropdown ***");
+//        AddEmployees.departmentDropDown();
+        logger.info("*** Filling up employee name ***");
         AddEmployees.employeename();
+        logger.info("*** Filling up employee email ***");
         AddEmployees.EmployeeEmail();
+        logger.info("*** Filling up employee phonenumber ***");
         AddEmployees.employeePhoneNumber();
+        logger.info("*** Filling up employee Address ***");
         AddEmployees.employeeAddress();
+        logger.info("*** Filling up employee City ***");
         AddEmployees.EmployeeCity();
+        logger.info("*** Selecting the Employee country ***");
         AddEmployees.employeeCountry();
+        logger.info("*** Clicked show radio button ***");
         AddEmployees.showRadiobutton();
+        logger.info("*** Upload employee image ***");
         AddEmployees.uploadEmployeeImage();
+        logger.info("*** Clicked on save button***");
         AddEmployees.saveButton();
+        logger.info("*** Check for the Toast Message ***");
         AddEmployees.statusMessage();
+        logger.info("*** Verifying invitation email ***");
+        AddEmployees.verifyInvitationEmail() ;
 
+        logger.info("*** Switched to update password ***");
+        AddEmployees.switchToNewTab();
     }
 
 

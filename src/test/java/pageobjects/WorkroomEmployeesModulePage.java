@@ -5,11 +5,17 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import stepDefinations.BaseClass;
+import utilities.EmailReading;
 import utilities.WaitHelper;
 
+import javax.mail.AuthenticationFailedException;
+import javax.mail.Session;
+import javax.mail.Store;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.Random;
@@ -20,6 +26,7 @@ import static stepDefinations.BaseClass.randomString;
 
 public class WorkroomEmployeesModulePage {
 
+  public EmailReading emailu;
     public WebDriver ldriver;
     WaitHelper waithelper;
 
@@ -98,7 +105,7 @@ public class WorkroomEmployeesModulePage {
     By ExistedEmail=By.xpath(configprop.getProperty("ExistedEmail"));
     By Toastmessagerightcorner=By.xpath(configprop.getProperty("Toastmessagerightcorner"));
     By ToastMessages=By.xpath(configprop.getProperty("ToastMessages"));
-
+    By EmployeePasswordUpdate=By.xpath(configprop.getProperty("EmployeePasswordUpdate"));
 
 
     //  This Method helps to click the employeeModule
@@ -324,6 +331,81 @@ public class WorkroomEmployeesModulePage {
             Assert.fail("❌ Toast messages did not appear in expected time.");
         }
     }
+
+
+
+    public void verifyInvitationEmail() {
+        try {
+            String host = configprop.getProperty("email.host");
+            String user = configprop.getProperty("email.username");
+            String password = configprop.getProperty("email.password");
+            String subject = configprop.getProperty("email.subject.keyword");
+
+            System.out.println("Attempting to retrieve invitation email...");
+            String invitationLink = EmailReading.getInvitationLink(host, user, password, subject, 60);
+
+
+
+
+            if (invitationLink != null) {
+                // Open in new tab using Selenium
+                ((JavascriptExecutor)ldriver).executeScript("window.open('" + invitationLink + "','_blank');");
+
+                // Switch to new tab
+                ArrayList<String> tabs = new ArrayList<>(ldriver.getWindowHandles());
+                ldriver.switchTo().window(tabs.get(1));
+
+                // Verify page loaded
+                WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(10));
+                wait.until(ExpectedConditions.urlContains("work-room.io"));
+            } else {
+                Assert.fail("No invitation link found");
+            }
+
+        } catch (Exception e) {
+            System.err.println("Error verifying invitation email: " + e.getMessage());
+            e.printStackTrace();
+            Assert.fail("Failed to verify invitation email: " + e.getMessage());
+        }
+    }
+
+
+    public void switchToNewTab() {
+        String originalHandle = ldriver.getWindowHandle();
+
+        // Wait for a new tab to open
+        WebDriverWait wait = new WebDriverWait(ldriver, Duration.ofSeconds(10));
+        wait.until(driver -> driver.getWindowHandles().size() > 1);
+
+        // Switch to the new tab
+        for (String handle : ldriver.getWindowHandles()) {
+            if (!handle.equals(originalHandle)) {
+                ldriver.switchTo().window(handle);
+                System.out.println("🔁 Switched to new tab: " + ldriver.getTitle());
+
+                try {
+                    // Wait and click the Show Radio Button
+                    WebElement PasswordUpdate = waithelper.WaitForElement1(EmployeePasswordUpdate, 10);
+                    PasswordUpdate.click();
+                    PasswordUpdate.clear();
+                    PasswordUpdate.sendKeys(configprop.getProperty("updatepassword"));
+                    System.out.println("✅ Clicked Show Radio Button in new tab.");
+                } catch (TimeoutException e) {
+                    throw new RuntimeException("❌ Show Radio Button not found in the new tab.", e);
+                }
+
+                return;
+            }
+        }
+
+        throw new RuntimeException("❌ New tab not found after waiting.");
+    }
+
+
+
+
+
+
 
 
 
