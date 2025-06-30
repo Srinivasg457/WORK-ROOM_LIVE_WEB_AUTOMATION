@@ -88,85 +88,147 @@ public class WorkroomWebApphooks extends BaseClass {
 
 //For Docker Image
 
-    @Before
-    public void setup() throws IOException, MalformedURLException {
-        // Reading the properties file
-        configprop = new Properties();
-        String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
-        FileInputStream configProfile = new FileInputStream(configPath);
-        configprop.load(configProfile);
-
-        // Logger setup
-        logger = Logger.getLogger("WorkRoomWebApplication");
-        String log4jPath = System.getProperty("user.dir") + "/src/test/resources/log4j.properties";
-        PropertyConfigurator.configure(log4jPath);
-        logger.setLevel(Level.DEBUG);
-
-        String br = configprop.getProperty("browser");
-        String hubURL = configprop.getProperty("hubURL"); // e.g. http://localhost:4444/wd/hub
-
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-
-        switch (br.toLowerCase()) {
-            case "chrome":
-                capabilities.setBrowserName("chrome");
-//                ChromeOptions chromeOptions = new ChromeOptions();
-//                chromeOptions.addArguments("--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--remote-allow-origins=*");
-//                // Optional: Headless
-//                // chromeOptions.addArguments("--headless=new");
-//                driver = new RemoteWebDriver(new URL(hubURL), chromeOptions);
-                break;
-            case "firefox":
-
-//                FirefoxOptions firefoxOptions = new FirefoxOptions();
-//                firefoxOptions.addArguments("--no-sandbox", "--disable-dev-shm-usage");
-//                driver = new RemoteWebDriver(new URL(hubURL), firefoxOptions);
-                capabilities.setBrowserName("firefox");
-                break;
-            case "edge":
-                capabilities.setBrowserName("MicrosoftEdge");
-//                EdgeOptions edgeOptions = new EdgeOptions();
-//                edgeOptions.addArguments("--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--remote-allow-origins=*");
-//                driver = new RemoteWebDriver(new URL(hubURL), edgeOptions);
-                break;
-            default:
-                throw new RuntimeException("Browser not supported: " + br);
-        }
-
-        driver = new RemoteWebDriver(new URL(hubURL), capabilities);
-        logger.info("************* Remote WebDriver Launched *****************");
-        driver.manage().window().maximize();
-    }
-
-
-
-    @After
-    public void tearDown(Scenario scenario) {
-        try {
-            if (scenario.isFailed()) {
-                // Take a screenshot if scenario fails
-                if (driver != null) {
-                    TakesScreenshot ts = (TakesScreenshot) driver;
-                    byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
-
-                    scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
-                    // Also attach to Allure report
-                    //  Allure.addAttachment("Allure Screenshot", "image/png", new ByteArrayInputStream(screenshot), ".png");
-
-
-                }
-            }
-        } catch (Exception e) {
-            System.out.println("Failed to capture screenshot: " + e.getMessage());
-        }
-//        finally {
-//            if (driver != null) {
-//                logger.info("************* Quitting Browser *****************");
-//                driver.quit(); // This closes all windows and ends the WebDriver session
-//                logger.info("************* Browser Closed Successfully *****************");
-//            }
+//    @Before
+//    public void setup() throws IOException, MalformedURLException {
+//        // Reading the properties file
+//        configprop = new Properties();
+//        String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
+//        FileInputStream configProfile = new FileInputStream(configPath);
+//        configprop.load(configProfile);
+//
+//        // Logger setup
+//        logger = Logger.getLogger("WorkRoomWebApplication");
+//        String log4jPath = System.getProperty("user.dir") + "/src/test/resources/log4j.properties";
+//        PropertyConfigurator.configure(log4jPath);
+//        logger.setLevel(Level.DEBUG);
+//
+//        String br = configprop.getProperty("browser");
+//        String hubURL = configprop.getProperty("hubURL"); // e.g. http://localhost:4444/wd/hub
+//
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//
+//        switch (br.toLowerCase()) {
+//            case "chrome":
+//                capabilities.setBrowserName("chrome");
+////                ChromeOptions chromeOptions = new ChromeOptions();
+////                chromeOptions.addArguments("--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--remote-allow-origins=*");
+////                // Optional: Headless
+////                // chromeOptions.addArguments("--headless=new");
+////                driver = new RemoteWebDriver(new URL(hubURL), chromeOptions);
+//                break;
+//            case "firefox":
+//
+////                FirefoxOptions firefoxOptions = new FirefoxOptions();
+////                firefoxOptions.addArguments("--no-sandbox", "--disable-dev-shm-usage");
+////                driver = new RemoteWebDriver(new URL(hubURL), firefoxOptions);
+//                capabilities.setBrowserName("firefox");
+//                break;
+//            case "edge":
+//                capabilities.setBrowserName("MicrosoftEdge");
+////                EdgeOptions edgeOptions = new EdgeOptions();
+////                edgeOptions.addArguments("--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--remote-allow-origins=*");
+////                driver = new RemoteWebDriver(new URL(hubURL), edgeOptions);
+//                break;
+//            default:
+//                throw new RuntimeException("Browser not supported: " + br);
 //        }
+//
+//        driver = new RemoteWebDriver(new URL(hubURL), capabilities);
+//        logger.info("************* Remote WebDriver Launched *****************");
+//        driver.manage().window().maximize();
+//    }
+//
+//
+//
+//    @After
+//    public void tearDown(Scenario scenario) {
+//        try {
+//            if (scenario.isFailed()) {
+//                // Take a screenshot if scenario fails
+//                if (driver != null) {
+//                    TakesScreenshot ts = (TakesScreenshot) driver;
+//                    byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
+//
+//                    scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
+//                    // Also attach to Allure report
+//                    //  Allure.addAttachment("Allure Screenshot", "image/png", new ByteArrayInputStream(screenshot), ".png");
+//
+//
+//                }
+//            }
+//        } catch (Exception e) {
+//            System.out.println("Failed to capture screenshot: " + e.getMessage());
+//        }
+////        finally {
+////            if (driver != null) {
+////                logger.info("************* Quitting Browser *****************");
+////                driver.quit(); // This closes all windows and ends the WebDriver session
+////                logger.info("************* Browser Closed Successfully *****************");
+////            }
+////        }
+//    }
+
+
+
+@Before
+public void setup() throws IOException, MalformedURLException {
+    // Load config.properties
+    configprop = new Properties();
+    String configPath = System.getProperty("user.dir") + "/src/test/resources/config.properties";
+    FileInputStream configProfile = new FileInputStream(configPath);
+    configprop.load(configProfile);
+
+    // Logger setup
+    logger = Logger.getLogger("WorkRoomWebApplication");
+    String log4jPath = System.getProperty("user.dir") + "/src/test/resources/log4j.properties";
+    PropertyConfigurator.configure(log4jPath);
+    logger.setLevel(Level.DEBUG);
+
+    String br = configprop.getProperty("browser");
+    String hubURL = configprop.getProperty("hubURL"); // e.g. http://localhost:4444/wd/hub
+
+    switch (br.toLowerCase()) {
+        case "chrome":
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--headless=new"); // Use --headless for older versions
+            chromeOptions.addArguments("--no-sandbox");
+            chromeOptions.addArguments("--disable-dev-shm-usage");
+            chromeOptions.addArguments("--disable-gpu");
+            chromeOptions.addArguments("--remote-allow-origins=*");
+
+            driver = new RemoteWebDriver(new URL(hubURL), chromeOptions);
+            break;
+
+        case "firefox":
+            FirefoxOptions firefoxOptions = new FirefoxOptions();
+            firefoxOptions.addArguments("--headless");
+            firefoxOptions.addArguments("--no-sandbox");
+            firefoxOptions.addArguments("--disable-dev-shm-usage");
+
+            driver = new RemoteWebDriver(new URL(hubURL), firefoxOptions);
+            break;
+
+        case "edge":
+            EdgeOptions edgeOptions = new EdgeOptions();
+            edgeOptions.addArguments("--headless=new");
+            edgeOptions.addArguments("--no-sandbox");
+            edgeOptions.addArguments("--disable-dev-shm-usage");
+            edgeOptions.addArguments("--disable-gpu");
+
+            driver = new RemoteWebDriver(new URL(hubURL), edgeOptions);
+            break;
+
+        default:
+            throw new RuntimeException("Browser not supported: " + br);
     }
+
+    logger.info("************* Remote WebDriver Launched in Headless Mode *****************");
+    driver.manage().window().maximize();
+}
+
+
+
+
 
 
 }

@@ -779,3 +779,9 @@
 2025-06-30 09:43:08,290 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
 2025-06-30 09:43:12,556 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
 2025-06-30 09:43:12,992 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-30 11:00:34,654 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-06-30 11:00:35,808 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-30 11:00:39,179 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-30 11:00:39,707 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-30 11:00:43,981 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-30 11:00:44,265 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
