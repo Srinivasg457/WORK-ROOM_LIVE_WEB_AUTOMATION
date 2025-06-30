@@ -254,12 +254,23 @@ public class WorkroomEmployeesModulePage {
         HideRadioButton.click();
     }
 
-    public void uploadEmployeeImage(){
-        WebElement image= waithelper.WaitForElement1(EmployeeImage,10);
-        String filePath = System.getProperty("user.dir") + "/src/test/java/images/pexels-justin-shaifer-501272-1222271.jpg";
-        image.sendKeys(filePath);
+//    public void uploadEmployeeImage(){
+//        WebElement image= waithelper.WaitForElement1(EmployeeImage,10);
+//        String filePath = System.getProperty("user.dir") + "/src/test/java/images/pexels-justin-shaifer-501272-1222271.jpg";
+//        image.sendKeys(filePath);
+//
+//    }
 
+    public void uploadEmployeeImage(){
+        WebElement image = waithelper.WaitForElement1(EmployeeImage, 10);
+
+        // Path as seen INSIDE the Docker container
+        String filePathInContainer = "/home/seluser/uploads/pexels-justin-shaifer-501272-1222271.jpg";
+
+        image.sendKeys(filePathInContainer);
     }
+
+
 
     public void saveButton(){
         WebElement Save= waithelper.WaitForElement1(SaveButton,10);

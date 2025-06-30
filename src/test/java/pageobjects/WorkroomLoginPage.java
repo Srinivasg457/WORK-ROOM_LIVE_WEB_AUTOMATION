@@ -13,9 +13,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.ExcelUtil;
 import utilities.WaitHelper;
 
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -314,6 +315,56 @@ public class WorkroomLoginPage {
         sideMenu_Employees.click();
         System.out.println("Clicked sideMenu_Employees");
         System.out.println(ldriver.getCurrentUrl());
+        System.out.println(ldriver.getPageSource());
+
+
+
+        //to save the page source into file
+
+        try {
+            // Get current URL and page source
+            String currentUrl = ldriver.getCurrentUrl();
+            String pageSource = ldriver.getPageSource();
+
+            System.out.println("Current URL: " + currentUrl);
+
+            // Get project directory and create 'pagesource' subfolder
+            String projectDir = System.getProperty("user.dir");
+            String folderPath = projectDir + File.separator + "pagesource"; // Use platform-independent separator
+            File directory = new File(folderPath);
+            if (!directory.exists()) {
+                boolean created = directory.mkdirs();
+                if (!created) {
+                    System.err.println("❌ Could not create folder: " + folderPath);
+                    return;
+                }
+            }
+
+            // Create file path with timestamp
+            String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+            String filePath = folderPath + File.separator + "page_source_" + timestamp + ".txt";
+
+            // Write content to file
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
+                writer.write("URL: " + currentUrl + "\n\n");
+                writer.write(pageSource);
+                System.out.println("✅ Page source saved to: " + filePath);
+            } catch (IOException e) {
+                System.err.println("❌ Failed to write file: " + e.getMessage());
+            }
+
+        } catch (Exception ex) {
+            System.err.println("❌ Exception while saving page source: " + ex.getMessage());
+            ex.printStackTrace();
+        }
+
+
+
+
+
+
+
+
 
         WebElement table = dg_table;
 

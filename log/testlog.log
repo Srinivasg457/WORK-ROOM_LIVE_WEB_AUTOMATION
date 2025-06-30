@@ -517,3 +517,265 @@
 2025-06-25 09:31:57,263 - WorkRoomWebApplication -INFO - ************* Browser Launched and Maximized *****************
 2025-06-25 09:31:58,881 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
 2025-06-25 09:31:59,329 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 12:17:13,930 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 12:17:14,668 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 12:17:19,368 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 12:17:19,721 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 12:17:23,965 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 12:17:24,234 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-25 12:17:39,523 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 12:17:39,629 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-25 12:18:55,264 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 12:18:56,120 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 12:19:00,521 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 12:19:00,972 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 12:19:05,244 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 12:19:05,530 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-25 12:19:20,782 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 12:19:20,879 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-25 12:20:38,034 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 12:20:38,825 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 12:20:42,687 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 12:20:43,167 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 12:20:47,437 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 12:20:47,854 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
+2025-06-25 12:21:02,343 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 12:21:02,469 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-25 12:22:36,624 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 12:22:37,774 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 12:22:42,435 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 12:22:42,868 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 12:22:47,180 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 12:22:47,396 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
+2025-06-25 12:23:03,513 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 12:23:03,647 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-25 12:32:46,046 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 12:32:46,869 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 12:32:51,467 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 12:32:52,043 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 12:32:56,360 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 12:32:56,548 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
+2025-06-25 12:33:13,094 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 12:33:13,200 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-25 12:34:30,194 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 12:34:31,081 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 12:34:36,146 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 12:34:36,694 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 12:34:41,027 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 12:34:41,397 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
+2025-06-25 12:34:56,184 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 12:34:56,319 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-25 12:35:16,462 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 12:35:17,284 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 12:47:54,013 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 12:47:54,917 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 12:47:58,753 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 12:47:59,439 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 12:48:03,803 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 12:48:04,200 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
+2025-06-25 12:48:20,069 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 12:48:20,236 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-25 12:56:54,363 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 12:56:55,727 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 12:57:01,311 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 12:57:01,790 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 12:57:06,114 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 12:57:06,504 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
+2025-06-25 12:57:22,878 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 12:57:23,026 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-25 13:01:45,204 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 13:01:46,583 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 13:01:51,289 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 13:01:51,842 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 13:01:56,158 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 13:01:56,341 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
+2025-06-25 13:02:12,047 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 13:02:12,218 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-25 13:04:38,966 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-25 13:04:39,894 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-25 13:04:43,682 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-25 13:04:44,147 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-25 13:04:48,524 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-25 13:04:48,917 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
+2025-06-25 13:05:04,784 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-25 13:05:04,938 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 15:26:13,132 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 15:26:15,063 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 15:28:55,977 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 15:28:56,145 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 15:29:35,360 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 15:29:36,879 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 15:29:44,387 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 15:29:44,553 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 15:30:48,922 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 15:30:50,617 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 15:30:58,515 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 15:30:58,759 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 15:33:39,863 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 15:33:41,524 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 15:33:50,307 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 15:33:50,502 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 16:23:09,389 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 16:23:10,587 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 16:23:14,144 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 16:23:14,704 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 16:23:19,047 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 16:23:19,207 - WorkRoomWebApplication -INFO - ************* Check The Application Status Message *****************
+2025-06-26 16:23:33,727 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 16:23:33,888 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 16:24:05,516 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 16:24:06,942 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 16:24:12,439 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 16:24:13,024 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 16:24:17,356 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 16:24:17,514 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-26 16:24:32,821 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 16:24:32,969 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 16:28:35,011 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 16:28:36,720 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 16:28:39,768 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 16:28:40,560 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 16:28:45,059 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 16:28:45,505 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-26 16:28:52,534 - WorkRoomWebApplication -INFO - *** Clicked Add Employee Button ***
+2025-06-26 16:28:53,171 - WorkRoomWebApplication -INFO - *** Filling up employee name ***
+2025-06-26 16:28:53,820 - WorkRoomWebApplication -INFO - *** Filling up employee email ***
+2025-06-26 16:28:54,503 - WorkRoomWebApplication -INFO - *** Filling up employee phonenumber ***
+2025-06-26 16:28:55,048 - WorkRoomWebApplication -INFO - *** Filling up employee Address ***
+2025-06-26 16:28:55,607 - WorkRoomWebApplication -INFO - *** Filling up employee City ***
+2025-06-26 16:28:56,104 - WorkRoomWebApplication -INFO - *** Selecting the Employee country ***
+2025-06-26 16:29:00,764 - WorkRoomWebApplication -INFO - *** Clicked show radio button ***
+2025-06-26 16:29:01,149 - WorkRoomWebApplication -INFO - *** Upload employee image ***
+2025-06-26 16:29:01,796 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 16:29:01,992 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 16:31:06,313 - WorkRoomWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-06-26 16:31:08,074 - WorkRoomWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-06-26 16:31:10,111 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 16:31:13,006 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 16:31:13,402 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 16:31:17,661 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 16:31:17,771 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-26 16:31:24,012 - WorkRoomWebApplication -INFO - *** Clicked Add Employee Button ***
+2025-06-26 16:31:24,357 - WorkRoomWebApplication -INFO - *** Filling up employee name ***
+2025-06-26 16:31:24,643 - WorkRoomWebApplication -INFO - *** Filling up employee email ***
+2025-06-26 16:31:24,931 - WorkRoomWebApplication -INFO - *** Filling up employee phonenumber ***
+2025-06-26 16:31:25,175 - WorkRoomWebApplication -INFO - *** Filling up employee Address ***
+2025-06-26 16:31:25,444 - WorkRoomWebApplication -INFO - *** Filling up employee City ***
+2025-06-26 16:31:25,679 - WorkRoomWebApplication -INFO - *** Selecting the Employee country ***
+2025-06-26 16:31:27,507 - WorkRoomWebApplication -INFO - *** Clicked show radio button ***
+2025-06-26 16:31:27,649 - WorkRoomWebApplication -INFO - *** Upload employee image ***
+2025-06-26 16:31:27,739 - WorkRoomWebApplication -INFO - *** Clicked on save button***
+2025-06-26 16:31:35,934 - WorkRoomWebApplication -INFO - *** Check for the Toast Message ***
+2025-06-26 16:31:46,181 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 16:31:46,422 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 16:32:05,824 - WorkRoomWebApplication -INFO - ************* Launching CHROME Browser *****************
+2025-06-26 16:32:08,239 - WorkRoomWebApplication -INFO - ************* Browser Launched and Maximized *****************
+2025-06-26 16:32:10,339 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 16:32:13,222 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 16:32:13,666 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 16:32:17,973 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 16:32:18,111 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-26 16:32:25,189 - WorkRoomWebApplication -INFO - *** Clicked Add Employee Button ***
+2025-06-26 16:32:25,539 - WorkRoomWebApplication -INFO - *** Filling up employee name ***
+2025-06-26 16:32:25,981 - WorkRoomWebApplication -INFO - *** Filling up employee email ***
+2025-06-26 16:32:26,393 - WorkRoomWebApplication -INFO - *** Filling up employee phonenumber ***
+2025-06-26 16:32:26,719 - WorkRoomWebApplication -INFO - *** Filling up employee Address ***
+2025-06-26 16:32:27,059 - WorkRoomWebApplication -INFO - *** Filling up employee City ***
+2025-06-26 16:32:27,401 - WorkRoomWebApplication -INFO - *** Selecting the Employee country ***
+2025-06-26 16:32:29,828 - WorkRoomWebApplication -INFO - *** Clicked show radio button ***
+2025-06-26 16:32:30,018 - WorkRoomWebApplication -INFO - *** Upload employee image ***
+2025-06-26 16:32:30,124 - WorkRoomWebApplication -INFO - *** Clicked on save button***
+2025-06-26 16:32:43,696 - WorkRoomWebApplication -INFO - *** Check for the Toast Message ***
+2025-06-26 16:32:52,699 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 16:32:52,731 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 17:12:07,070 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 17:12:08,799 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 17:12:12,979 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 17:12:13,455 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 17:12:17,749 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 17:12:17,928 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-26 17:12:24,342 - WorkRoomWebApplication -INFO - *** Clicked Add Employee Button ***
+2025-06-26 17:12:24,705 - WorkRoomWebApplication -INFO - *** Filling up employee name ***
+2025-06-26 17:12:25,160 - WorkRoomWebApplication -INFO - *** Filling up employee email ***
+2025-06-26 17:12:25,603 - WorkRoomWebApplication -INFO - *** Filling up employee phonenumber ***
+2025-06-26 17:12:25,941 - WorkRoomWebApplication -INFO - *** Filling up employee Address ***
+2025-06-26 17:12:26,298 - WorkRoomWebApplication -INFO - *** Filling up employee City ***
+2025-06-26 17:12:26,618 - WorkRoomWebApplication -INFO - *** Selecting the Employee country ***
+2025-06-26 17:12:29,497 - WorkRoomWebApplication -INFO - *** Clicked show radio button ***
+2025-06-26 17:12:29,720 - WorkRoomWebApplication -INFO - *** Upload employee image ***
+2025-06-26 17:12:30,293 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 17:12:30,480 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 17:13:02,285 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 17:13:03,326 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 17:13:06,347 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 17:13:06,965 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 17:13:11,296 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 17:13:11,565 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-26 17:13:18,116 - WorkRoomWebApplication -INFO - *** Clicked Add Employee Button ***
+2025-06-26 17:13:18,526 - WorkRoomWebApplication -INFO - *** Filling up employee name ***
+2025-06-26 17:13:19,055 - WorkRoomWebApplication -INFO - *** Filling up employee email ***
+2025-06-26 17:13:19,594 - WorkRoomWebApplication -INFO - *** Filling up employee phonenumber ***
+2025-06-26 17:13:20,019 - WorkRoomWebApplication -INFO - *** Filling up employee Address ***
+2025-06-26 17:13:20,470 - WorkRoomWebApplication -INFO - *** Filling up employee City ***
+2025-06-26 17:13:20,872 - WorkRoomWebApplication -INFO - *** Selecting the Employee country ***
+2025-06-26 17:13:24,988 - WorkRoomWebApplication -INFO - *** Clicked show radio button ***
+2025-06-26 17:13:25,295 - WorkRoomWebApplication -INFO - *** Upload employee image ***
+2025-06-26 17:13:25,799 - WorkRoomWebApplication -INFO - ************* Quitting Browser *****************
+2025-06-26 17:13:25,960 - WorkRoomWebApplication -INFO - ************* Browser Closed Successfully *****************
+2025-06-26 17:29:43,559 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 17:29:45,184 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 17:29:48,286 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 17:29:49,057 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 17:29:53,798 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 17:29:54,317 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-26 17:30:01,280 - WorkRoomWebApplication -INFO - *** Clicked Add Employee Button ***
+2025-06-26 17:30:01,729 - WorkRoomWebApplication -INFO - *** Filling up employee name ***
+2025-06-26 17:30:02,616 - WorkRoomWebApplication -INFO - *** Filling up employee email ***
+2025-06-26 17:30:03,791 - WorkRoomWebApplication -INFO - *** Filling up employee phonenumber ***
+2025-06-26 17:30:04,367 - WorkRoomWebApplication -INFO - *** Filling up employee Address ***
+2025-06-26 17:30:04,960 - WorkRoomWebApplication -INFO - *** Filling up employee City ***
+2025-06-26 17:30:05,545 - WorkRoomWebApplication -INFO - *** Selecting the Employee country ***
+2025-06-26 17:30:11,431 - WorkRoomWebApplication -INFO - *** Clicked show radio button ***
+2025-06-26 17:30:11,775 - WorkRoomWebApplication -INFO - *** Upload employee image ***
+2025-06-26 17:35:54,898 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 17:35:56,502 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 17:35:59,981 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 17:36:00,720 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 17:36:05,362 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 17:36:05,779 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-26 17:36:12,766 - WorkRoomWebApplication -INFO - *** Clicked Add Employee Button ***
+2025-06-26 17:36:13,221 - WorkRoomWebApplication -INFO - *** Filling up employee name ***
+2025-06-26 17:36:13,933 - WorkRoomWebApplication -INFO - *** Filling up employee email ***
+2025-06-26 17:36:14,652 - WorkRoomWebApplication -INFO - *** Filling up employee phonenumber ***
+2025-06-26 17:36:15,310 - WorkRoomWebApplication -INFO - *** Filling up employee Address ***
+2025-06-26 17:36:15,975 - WorkRoomWebApplication -INFO - *** Filling up employee City ***
+2025-06-26 17:36:16,690 - WorkRoomWebApplication -INFO - *** Selecting the Employee country ***
+2025-06-26 17:36:22,170 - WorkRoomWebApplication -INFO - *** Clicked show radio button ***
+2025-06-26 17:36:22,582 - WorkRoomWebApplication -INFO - *** Upload employee image ***
+2025-06-26 17:39:55,460 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-26 17:39:57,082 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-26 17:40:00,298 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-26 17:40:01,142 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-26 17:40:05,664 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-26 17:40:06,265 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
+2025-06-26 17:40:13,316 - WorkRoomWebApplication -INFO - *** Clicked Add Employee Button ***
+2025-06-26 17:40:13,754 - WorkRoomWebApplication -INFO - *** Filling up employee name ***
+2025-06-26 17:40:14,514 - WorkRoomWebApplication -INFO - *** Filling up employee email ***
+2025-06-26 17:40:15,256 - WorkRoomWebApplication -INFO - *** Filling up employee phonenumber ***
+2025-06-26 17:40:15,756 - WorkRoomWebApplication -INFO - *** Filling up employee Address ***
+2025-06-26 17:40:16,320 - WorkRoomWebApplication -INFO - *** Filling up employee City ***
+2025-06-26 17:40:16,802 - WorkRoomWebApplication -INFO - *** Selecting the Employee country ***
+2025-06-26 17:40:22,390 - WorkRoomWebApplication -INFO - *** Clicked show radio button ***
+2025-06-26 17:40:22,693 - WorkRoomWebApplication -INFO - *** Upload employee image ***
+2025-06-26 17:40:22,892 - WorkRoomWebApplication -INFO - *** Clicked on save button***
+2025-06-26 17:40:36,087 - WorkRoomWebApplication -INFO - *** Check for the Toast Message ***
+2025-06-30 09:35:50,748 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-30 09:35:51,523 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-30 09:39:14,971 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-30 09:39:15,826 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-30 09:43:02,883 - WorkRoomWebApplication -INFO - ************* Remote WebDriver Launched *****************
+2025-06-30 09:43:03,648 - WorkRoomWebApplication -INFO - ************* Get The Application URL  *****************
+2025-06-30 09:43:07,905 - WorkRoomWebApplication -INFO - ************* Enter the Email *****************
+2025-06-30 09:43:08,290 - WorkRoomWebApplication -INFO - ************* Enter the Password *****************
+2025-06-30 09:43:12,556 - WorkRoomWebApplication -INFO - ************* Click on the Login Button *****************
+2025-06-30 09:43:12,992 - WorkRoomWebApplication -INFO - *** Moving to employee page ***
