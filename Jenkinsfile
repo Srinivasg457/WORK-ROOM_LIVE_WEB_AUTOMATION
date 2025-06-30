@@ -12,7 +12,8 @@ pipeline {
             steps {
                 script {
                     sh 'docker pull selenium/standalone-chrome:latest'
-                    sh 'docker run --rm -v $PWD:/tests -w /tests selenium/standalone-chrome:latest ./run-tests.sh'
+                    sh 'sh 'docker run --rm -v $PWD:/tests -w /tests maven:3.9.6-eclipse-temurin-17 bash ./run-tests.sh'
+'
                 }
             }
         }
