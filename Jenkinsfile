@@ -11,11 +11,18 @@ pipeline {
         stage('Run in Docker') {
             steps {
                 script {
-                    sh 'docker pull selenium/standalone-chrome:latest'
-                    sh 'sh 'docker run --rm -v $PWD:/tests -w /tests maven:3.9.6-eclipse-temurin-17 bash ./run-tests.sh'
-'
+                    sh 'docker pull maven:3.9.6-eclipse-temurin-17'
+                    sh '''
+                        docker run --rm -v $PWD:/tests -w /tests maven:3.9.6-eclipse-temurin-17 ./run-tests.sh
+                    '''
                 }
             }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: '**/target/*.xml', allowEmptyArchive: true
         }
     }
 }
