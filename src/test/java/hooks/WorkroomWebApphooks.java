@@ -195,7 +195,7 @@ public void setup() throws IOException, MalformedURLException {
             chromeOptions.addArguments("--disable-dev-shm-usage");
             chromeOptions.addArguments("--disable-gpu");
             chromeOptions.addArguments("--remote-allow-origins=*");
-
+            logger.info("************* Remote WebDriver Launched in Headless Mode *****************");
             driver = new RemoteWebDriver(new URL(hubURL), chromeOptions);
             break;
 
