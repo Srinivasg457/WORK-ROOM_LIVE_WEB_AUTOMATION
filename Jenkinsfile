@@ -169,7 +169,7 @@ pipeline {
 
         success {
             emailext(
-                to: 'srinivas.g@limitscale.io',
+                to: 'srinivasg457@gmail.com',
                 subject: "✅ SUCCESS: Job '${env.JOB_NAME} [#${env.BUILD_NUMBER}]'",
                 body: """<p>The Jenkins job has succeeded.</p>
                          <p>Project: ${env.JOB_NAME}</p>
@@ -181,7 +181,7 @@ pipeline {
 
         failure {
             emailext(
-                to: 'srinivas.g@limitscale.io',
+                to: 'srinivasg457@gmail.com',
                 subject: "❌ FAILURE: Job '${env.JOB_NAME} [#${env.BUILD_NUMBER}]'",
                 body: """<p>The Jenkins job has failed.</p>
                          <p>Project: ${env.JOB_NAME}</p>
