@@ -194,16 +194,14 @@
 // }
 
 
+
 pipeline {
     agent any
 
     environment {
-        // Credentials and SMTP configuration
         GMAIL_APP_PASSWORD = credentials('gmail-app-password')
         SMTP_SERVER = 'smtp.gmail.com'
         SMTP_PORT = '465'
-        SELENIUM_HOST = 'selenium-chrome'
-        SELENIUM_URL = "http://${SELENIUM_HOST}:4444/wd/hub"
     }
 
     stages {
@@ -214,39 +212,33 @@ pipeline {
             }
         }
 
-        stage('Setup Selenium Grid') {
+        stage('Setup Selenium') {
             steps {
                 script {
-                    // Cleanup existing containers and network
+                    // Cleanup any existing containers
                     sh '''
                         docker rm -f selenium-chrome || true
-                        docker network rm test-network || true
-                        docker network create test-network
                     '''
 
-                    // Start Selenium with proper configuration
-                    sh """
-                        docker run -d \
-                          --name ${SELENIUM_HOST} \
-                          --network test-network \
-                          -p 4444:4444 \
-                          -e SE_NODE_GRID_URL="http://${SELENIUM_HOST}:4444" \
-                          -e SE_NODE_MAX_SESSIONS=5 \
-                          -e SE_NODE_OVERRIDE_MAX_SESSIONS=true \
-                          -v /dev/shm:/dev/shm \
-                          --shm-size="2g" \
-                          selenium/standalone-chrome:4.11.0
-                    """
-
-                    // Enhanced readiness check
+                    // Start Selenium with host networking (simpler configuration)
                     sh '''
-                        for i in {1..15}; do
-                            if curl -s http://localhost:4444/wd/hub/status | jq -e '.value.ready' >/dev/null; then
-                                echo "Selenium Grid is ready"
+                        docker run -d \
+                          --name selenium-chrome \
+                          --network host \
+                          -p 4444:4444 \
+                          selenium/standalone-chrome:latest
+                    '''
+
+                    // Wait for Selenium to be ready
+                    sh '''
+                        for i in {1..10}; do
+                            if curl -s http://localhost:4444/status | grep -q "ready"; then
+                                echo "Selenium is ready."
                                 break
+                            else
+                                echo "Waiting..."
+                                sleep 5
                             fi
-                            echo "Waiting for Selenium to start (attempt ${i}/15)..."
-                            sleep 5
                         done
                     '''
                 }
@@ -256,47 +248,14 @@ pipeline {
         stage('Run Tests') {
             steps {
                 script {
-                    // Run tests with comprehensive configuration
-                    try {
-                        sh """
-                            docker run --rm \
-                              -v $PWD:/tests \
-                              -w /tests \
-                              --network test-network \
-                              -e SELENIUM_REMOTE_URL="${SELENIUM_URL}" \
-                              -e SELENIUM_BROWSER=chrome \
-                              -e MAVEN_OPTS="-Xmx1024m -Dsurefire.rerunFailingTestsCount=2" \
-                              maven:3.9.6-eclipse-temurin-17 \
-                              mvn clean test \
-                              -Dselenium.remote.url="${SELENIUM_URL}" \
-                              -Dselenium.browser=chrome \
-                              -Dheadless=true \
-                              -Dmaven.test.failure.ignore=true \
-                              -Dsurefire.skipAfterFailureCount=3 \
-                              -Dretry.count=2 \
-                              -Dbrowser.timeout=30
-                        """
-                    } catch (Exception e) {
-                        echo "Test execution failed: ${e.toString()}"
-                        currentBuild.result = 'UNSTABLE'
-                    }
-                }
-            }
-        }
-
-        stage('Diagnostics') {
-            when { expression { currentBuild.result == 'UNSTABLE' || currentBuild.result == 'FAILURE' } }
-            steps {
-                script {
-                    // Capture Selenium logs for debugging
-                    sh 'docker logs selenium-chrome > selenium.log 2>&1 || true'
-                    archiveArtifacts artifacts: 'selenium.log', allowEmptyArchive: true
-
-                    // Network diagnostics
+                    // Run tests with host networking to match Selenium
                     sh '''
-                        echo "=== Network Diagnostics ==="
-                        docker run --rm --network test-network curlimages/curl \
-                          curl -v http://selenium-chrome:4444/wd/hub/status
+                        docker run --rm \
+                          -v $PWD:/tests \
+                          -w /tests \
+                          --network host \
+                          maven:3.9.6-eclipse-temurin-17 \
+                          mvn clean test
                     '''
                 }
             }
@@ -306,76 +265,53 @@ pipeline {
     post {
         always {
             script {
-                // Test reports and cleanup
+                sh '''
+                    echo "Final cleanup..."
+                    docker rm -f selenium-chrome || true
+                '''
+                archiveArtifacts artifacts: '**/target/surefire-reports/*.xml', allowEmptyArchive: true
                 junit '**/target/surefire-reports/*.xml'
-                archiveArtifacts artifacts: '**/target/surefire-reports/*.*,**/screenshots/*.png', allowEmptyArchive: true
-                sh 'docker rm -f selenium-chrome || true'
-                sh 'docker network rm test-network || true'
             }
         }
 
         success {
-            script {
-                // Enhanced success notification
-                emailext(
-                    to: 'srinivasg457@gmail.com',
-                    subject: "✅ SUCCESS: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
-                    body: """<html>
-                        <body>
-                        <h2>Build Success</h2>
-                        <p>Job: ${env.JOB_NAME}</p>
-                        <p>Build: ${env.BUILD_NUMBER}</p>
-                        <p>Duration: ${currentBuild.durationString}</p>
-                        <p><a href="${env.BUILD_URL}">View Build</a></p>
-                        <p><a href="${env.BUILD_URL}testReport">Test Results</a></p>
-                        </body>
-                        </html>""",
-                    mimeType: 'text/html',
-                    replyTo: 'no-reply@yourdomain.com',
-                    smtp: [
-                        host: env.SMTP_SERVER,
-                        port: env.SMTP_PORT,
-                        auth: true,
-                        user: 'your.email@gmail.com',
-                        password: env.GMAIL_APP_PASSWORD,
-                        ssl: true
-                    ]
-                )
-            }
+            emailext(
+                to: 'srinivasg457@gmail.com',
+                subject: "✅ SUCCESS: Job '${env.JOB_NAME} [#${env.BUILD_NUMBER}]'",
+                body: """<p>The Jenkins job has succeeded.</p>
+                         <p>Project: ${env.JOB_NAME}</p>
+                         <p>Build Number: ${env.BUILD_NUMBER}</p>
+                         <p><a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>""",
+                mimeType: 'text/html',
+                smtp: [
+                    host: env.SMTP_SERVER,
+                    port: env.SMTP_PORT,
+                    auth: true,
+                    user: 'your.email@gmail.com',
+                    password: env.GMAIL_APP_PASSWORD,
+                    ssl: true
+                ]
+            )
         }
 
-        unsuccessful {
-            script {
-                // Enhanced failure notification with diagnostics
-                def testReport = readFile('target/surefire-reports/emailable-report.html')
-                emailext(
-                    to: 'shreelimitscale@gmail.com',
-                    subject: "❌ FAILURE: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
-                    body: """<html>
-                        <body>
-                        <h2>Build Failed</h2>
-                        <p>Job: ${env.JOB_NAME}</p>
-                        <p>Build: ${env.BUILD_NUMBER}</p>
-                        <p>Duration: ${currentBuild.durationString}</p>
-                        <p><a href="${env.BUILD_URL}">View Build</a></p>
-                        <p><a href="${env.BUILD_URL}testReport">Test Results</a></p>
-                        <h3>Failure Details:</h3>
-                        ${testReport}
-                        </body>
-                        </html>""",
-                    mimeType: 'text/html',
-                    attachLog: true,
-                    smtp: [
-                        host: env.SMTP_SERVER,
-                        port: env.SMTP_PORT,
-                        auth: true,
-                        user: 'your.email@gmail.com',
-                        password: env.GMAIL_APP_PASSWORD,
-                        ssl: true,
-                        timeout: 30000
-                    ]
-                )
-            }
+        failure {
+            emailext(
+                to: 'shreelimitscale@gmail.com',
+                subject: "❌ FAILURE: Job '${env.JOB_NAME} [#${env.BUILD_NUMBER}]'",
+                body: """<p>The Jenkins job has failed.</p>
+                         <p>Project: ${env.JOB_NAME}</p>
+                         <p>Build Number: ${env.BUILD_NUMBER}</p>
+                         <p><a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>""",
+                mimeType: 'text/html',
+                smtp: [
+                    host: env.SMTP_SERVER,
+                    port: env.SMTP_PORT,
+                    auth: true,
+                    user: 'your.email@gmail.com',
+                    password: env.GMAIL_APP_PASSWORD,
+                    ssl: true
+                ]
+            )
         }
     }
 }
