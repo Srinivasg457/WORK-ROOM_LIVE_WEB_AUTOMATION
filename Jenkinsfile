@@ -194,15 +194,16 @@
 // }
 
 
-
 pipeline {
     agent any
 
     environment {
-        // Store sensitive credentials in Jenkins credentials store
+        // Credentials and SMTP configuration
         GMAIL_APP_PASSWORD = credentials('gmail-app-password')
         SMTP_SERVER = 'smtp.gmail.com'
         SMTP_PORT = '465'
+        SELENIUM_HOST = 'selenium-chrome'
+        SELENIUM_URL = "http://${SELENIUM_HOST}:4444/wd/hub"
     }
 
     stages {
@@ -213,31 +214,38 @@ pipeline {
             }
         }
 
-        stage('Setup Selenium') {
+        stage('Setup Selenium Grid') {
             steps {
                 script {
-                    // Cleanup any existing containers
+                    // Cleanup existing containers and network
                     sh '''
                         docker rm -f selenium-chrome || true
-                        docker network create test-network || true
+                        docker network rm test-network || true
+                        docker network create test-network
                     '''
 
-                    // Start Selenium in a dedicated network
-                    sh '''
+                    // Start Selenium with proper configuration
+                    sh """
                         docker run -d \
-                          --name selenium-chrome \
+                          --name ${SELENIUM_HOST} \
                           --network test-network \
                           -p 4444:4444 \
-                          selenium/standalone-chrome:latest
-                    '''
+                          -e SE_NODE_GRID_URL="http://${SELENIUM_HOST}:4444" \
+                          -e SE_NODE_MAX_SESSIONS=5 \
+                          -e SE_NODE_OVERRIDE_MAX_SESSIONS=true \
+                          -v /dev/shm:/dev/shm \
+                          --shm-size="2g" \
+                          selenium/standalone-chrome:4.11.0
+                    """
 
-                    // Wait for Selenium to be ready
+                    // Enhanced readiness check
                     sh '''
-                        for i in {1..10}; do
-                            if curl -s http://localhost:4444/status | grep -q "ready"; then
-                                echo "Selenium ready"
+                        for i in {1..15}; do
+                            if curl -s http://localhost:4444/wd/hub/status | jq -e '.value.ready' >/dev/null; then
+                                echo "Selenium Grid is ready"
                                 break
                             fi
+                            echo "Waiting for Selenium to start (attempt ${i}/15)..."
                             sleep 5
                         done
                     '''
@@ -248,25 +256,48 @@ pipeline {
         stage('Run Tests') {
             steps {
                 script {
-                    // Run tests with improved error handling
+                    // Run tests with comprehensive configuration
                     try {
-                        sh '''
+                        sh """
                             docker run --rm \
                               -v $PWD:/tests \
                               -w /tests \
                               --network test-network \
-                              -e "MAVEN_OPTS=-Dsurefire.rerunFailingTestsCount=2" \
+                              -e SELENIUM_REMOTE_URL="${SELENIUM_URL}" \
+                              -e SELENIUM_BROWSER=chrome \
+                              -e MAVEN_OPTS="-Xmx1024m -Dsurefire.rerunFailingTestsCount=2" \
                               maven:3.9.6-eclipse-temurin-17 \
                               mvn clean test \
-                              -DskipTests=false \
+                              -Dselenium.remote.url="${SELENIUM_URL}" \
+                              -Dselenium.browser=chrome \
+                              -Dheadless=true \
                               -Dmaven.test.failure.ignore=true \
-                              -Dsurefire.skipAfterFailureCount=3
-                        '''
+                              -Dsurefire.skipAfterFailureCount=3 \
+                              -Dretry.count=2 \
+                              -Dbrowser.timeout=30
+                        """
                     } catch (Exception e) {
-                        echo "Tests failed: ${e.toString()}"
-                        // Continue pipeline even if tests fail
+                        echo "Test execution failed: ${e.toString()}"
                         currentBuild.result = 'UNSTABLE'
                     }
+                }
+            }
+        }
+
+        stage('Diagnostics') {
+            when { expression { currentBuild.result == 'UNSTABLE' || currentBuild.result == 'FAILURE' } }
+            steps {
+                script {
+                    // Capture Selenium logs for debugging
+                    sh 'docker logs selenium-chrome > selenium.log 2>&1 || true'
+                    archiveArtifacts artifacts: 'selenium.log', allowEmptyArchive: true
+
+                    // Network diagnostics
+                    sh '''
+                        echo "=== Network Diagnostics ==="
+                        docker run --rm --network test-network curlimages/curl \
+                          curl -v http://selenium-chrome:4444/wd/hub/status
+                    '''
                 }
             }
         }
@@ -275,22 +306,30 @@ pipeline {
     post {
         always {
             script {
-                // Capture test results
+                // Test reports and cleanup
                 junit '**/target/surefire-reports/*.xml'
-                archiveArtifacts artifacts: '**/target/surefire-reports/*.*', allowEmptyArchive: true
-
-                // Cleanup containers
+                archiveArtifacts artifacts: '**/target/surefire-reports/*.*,**/screenshots/*.png', allowEmptyArchive: true
                 sh 'docker rm -f selenium-chrome || true'
+                sh 'docker network rm test-network || true'
             }
         }
 
         success {
             script {
-                // Success email with SMTP explicit configuration
+                // Enhanced success notification
                 emailext(
                     to: 'srinivasg457@gmail.com',
-                    subject: "SUCCESS: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
-                    body: readTrusted('email-success.html'),
+                    subject: "✅ SUCCESS: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+                    body: """<html>
+                        <body>
+                        <h2>Build Success</h2>
+                        <p>Job: ${env.JOB_NAME}</p>
+                        <p>Build: ${env.BUILD_NUMBER}</p>
+                        <p>Duration: ${currentBuild.durationString}</p>
+                        <p><a href="${env.BUILD_URL}">View Build</a></p>
+                        <p><a href="${env.BUILD_URL}testReport">Test Results</a></p>
+                        </body>
+                        </html>""",
                     mimeType: 'text/html',
                     replyTo: 'no-reply@yourdomain.com',
                     smtp: [
@@ -305,39 +344,37 @@ pipeline {
             }
         }
 
-        failure {
+        unsuccessful {
             script {
-                // Failure email with multiple fallback methods
-                try {
-                    emailext(
-                        to: 'shreelimitscale@gmail.com',
-                        subject: "FAILURE: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
-                        body: readTrusted('email-failure.html'),
-                        mimeType: 'text/html',
-                        smtp: [
-                            host: env.SMTP_SERVER,
-                            port: env.SMTP_PORT,
-                            auth: true,
-                            user: 'your.email@gmail.com',
-                            password: env.GMAIL_APP_PASSWORD,
-                            ssl: true
-                        ]
-                    )
-                } catch (Exception e) {
-                    echo "Primary email failed, trying fallback method"
-                    // Fallback using mailx
-                    sh """
-                        echo "Build Failed: ${env.BUILD_URL}" | \
-                        mailx -s "FAILURE: ${env.JOB_NAME}" \
-                        -S smtp="${env.SMTP_SERVER}:${env.SMTP_PORT}" \
-                        -S smtp-use-starttls \
-                        -S smtp-auth=login \
-                        -S smtp-auth-user="your.email@gmail.com" \
-                        -S smtp-auth-password="${env.GMAIL_APP_PASSWORD}" \
-                        -S ssl-verify=ignore \
-                        shreelimitscale@gmail.com
-                    """
-                }
+                // Enhanced failure notification with diagnostics
+                def testReport = readFile('target/surefire-reports/emailable-report.html')
+                emailext(
+                    to: 'shreelimitscale@gmail.com',
+                    subject: "❌ FAILURE: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+                    body: """<html>
+                        <body>
+                        <h2>Build Failed</h2>
+                        <p>Job: ${env.JOB_NAME}</p>
+                        <p>Build: ${env.BUILD_NUMBER}</p>
+                        <p>Duration: ${currentBuild.durationString}</p>
+                        <p><a href="${env.BUILD_URL}">View Build</a></p>
+                        <p><a href="${env.BUILD_URL}testReport">Test Results</a></p>
+                        <h3>Failure Details:</h3>
+                        ${testReport}
+                        </body>
+                        </html>""",
+                    mimeType: 'text/html',
+                    attachLog: true,
+                    smtp: [
+                        host: env.SMTP_SERVER,
+                        port: env.SMTP_PORT,
+                        auth: true,
+                        user: 'your.email@gmail.com',
+                        password: env.GMAIL_APP_PASSWORD,
+                        ssl: true,
+                        timeout: 30000
+                    ]
+                )
             }
         }
     }
