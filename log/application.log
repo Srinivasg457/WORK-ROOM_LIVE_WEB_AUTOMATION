@@ -807,3 +807,80 @@
 2025-07-04 15:42:37,792 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
 2025-07-04 15:42:38,380 [main] INFO WorkRoomWebApplication - *** Moving to employee page ***
 2025-07-04 15:49:27,329 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 11:28:46,119 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 11:29:54,837 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 11:29:55,964 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 11:29:56,784 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 11:30:01,988 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 11:30:02,410 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 11:30:06,680 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 11:30:06,844 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-08-04 11:55:32,017 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 11:55:32,890 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 11:55:33,579 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 11:55:37,278 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 11:55:37,627 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 11:55:41,882 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 11:55:42,209 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-08-04 11:58:16,143 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 11:59:08,295 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 11:59:51,946 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 11:59:52,714 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 11:59:59,749 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 12:00:00,154 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 12:00:04,441 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 12:00:12,938 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 12:00:13,781 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 12:00:14,524 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 12:00:18,588 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 12:00:19,011 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 12:00:23,250 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 12:00:23,494 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-08-04 12:04:06,032 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 12:04:10,630 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 12:04:11,708 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 12:04:16,237 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 12:04:16,652 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 12:04:20,905 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 12:04:27,694 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 12:04:28,480 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 12:04:29,211 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 12:04:34,160 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 12:04:34,519 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 12:04:38,727 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 12:04:38,865 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-08-04 12:06:58,599 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 12:06:59,346 [main] INFO WorkRoomWebApplication - ************* Remote WebDriver Launched in Headless Mode *****************
+2025-08-04 12:07:00,204 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 12:07:05,596 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 12:07:06,008 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 12:07:10,253 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 12:07:10,446 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-08-04 12:10:43,809 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-08-04 12:10:45,049 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-08-04 12:10:46,132 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 12:10:51,052 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 12:10:51,273 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 12:10:55,422 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 12:10:55,518 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-08-04 12:14:46,009 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-08-04 12:14:47,356 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-08-04 12:14:48,670 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 12:15:06,670 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 12:15:06,902 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 12:15:11,078 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 12:15:11,220 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-08-04 12:16:58,269 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-08-04 12:16:59,444 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-08-04 12:17:00,360 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 12:17:04,047 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 12:17:04,241 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 12:17:08,391 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 12:17:08,638 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************
+2025-08-04 12:20:57,507 [main] INFO WorkRoomWebApplication - ************* Launching CHROME Browser *****************
+2025-08-04 12:20:58,787 [main] INFO WorkRoomWebApplication - ************* Browser Launched and Maximized *****************
+2025-08-04 12:20:59,808 [main] INFO WorkRoomWebApplication - ************* Get The Application URL  *****************
+2025-08-04 12:21:03,808 [main] INFO WorkRoomWebApplication - ************* Enter the Email *****************
+2025-08-04 12:21:04,031 [main] INFO WorkRoomWebApplication - ************* Enter the Password *****************
+2025-08-04 12:21:08,190 [main] INFO WorkRoomWebApplication - ************* Click on the Login Button *****************
+2025-08-04 12:21:08,360 [main] INFO WorkRoomWebApplication - ************* Check The Application Status Message *****************

@@ -6,7 +6,7 @@ Feature: workroom login
     And the user navigates to the login page with the URL "https://work-room.io/auth/login"
 @sanity
   Scenario: Login with the valid Email and password
-    When the user enters their email "Limitscale@gmail.com" and password "1234"
+    When the user enters their email "szigony@gmail.com" and password "1234"
     And the user clicks the Login button
     Then the user should see the status message
 

@@ -61,7 +61,7 @@ public class WorkroomLoginPage {
 
 
 
-    @FindBy(xpath="//span[normalize-space()='Employees']")
+    @FindBy(xpath="//span[normalize-space()='Employee Metrics']")
    @CacheLookup
     WebElement sideMenu_Employees;
 

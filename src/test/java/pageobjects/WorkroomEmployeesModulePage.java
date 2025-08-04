@@ -85,7 +85,7 @@ public class WorkroomEmployeesModulePage {
 
     //Locators
 //
-    By EmploeesModuleSideMenu = By.xpath(configprop.getProperty("EmploeesModuleSideMenu"));
+    By EmploeesModuleSideMenu = By.xpath(configprop.getProperty("EmploeesModuleSideMenu1"));
     By AddNewEmployeeButton = By.xpath(configprop.getProperty("AddNewEmployee_Button"));
     By DepartmentDropDown = By.xpath(configprop.getProperty("EmploeeDepartmentDropDown"));
     By dropdownoptions = By.cssSelector(configprop.getProperty("dropdownoptions"));
